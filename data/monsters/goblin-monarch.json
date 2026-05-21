@@ -161,7 +161,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -174,7 +174,7 @@
       "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
-          "value": "<p>The monarch doesnÃƒ¢ââ€š¬ââ€ž¢t provoke opportunity attacks by moving.</p>",
+          "value": "<p>The monarch doesnÃ¢ââ€š¬ââ€ž¢t provoke opportunity attacks by moving.</p>",
           "chat": ""
         },
         "source": {
@@ -199,7 +199,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -211,7 +211,7 @@
       "img": "systems/draw-steel/assets/roles/solo.webp",
       "system": {
         "description": {
-          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage canÃƒ¢ââ€š¬ââ€ž¢t be reduced in any way.</p>",
+          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage canÃ¢ââ€š¬ââ€ž¢t be reduced in any way.</p>",
           "chat": ""
         },
         "source": {
@@ -236,7 +236,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -355,7 +355,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -415,7 +415,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -452,7 +452,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -512,7 +512,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -549,7 +549,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -586,7 +586,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -623,7 +623,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -635,7 +635,7 @@
       "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
         "description": {
-          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canÃƒ¢ââ€š¬ââ€ž¢t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
+          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canÃ¢ââ€š¬ââ€ž¢t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
           "chat": ""
         },
         "source": {
@@ -660,7 +660,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388738263,
+        "createdTime": 1779388838733,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -689,7 +689,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388738263,
+    "createdTime": 1779388838734,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

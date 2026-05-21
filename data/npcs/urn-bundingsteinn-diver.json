@@ -1,6 +1,6 @@
 {
   "_id": "SYzdye8wxrD6PU5Z",
-  "name": "Ãšrn (Bundingsteinn Diver Guide)",
+  "name": "Úrn (Bundingsteinn Diver Guide)",
   "type": "npc",
   "img": "modules/sveilheim-5e/assets/icons/npc-images/urn.png",
   "system": {
@@ -50,7 +50,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Ãšrn is a Bundingsteinn diver &mdash; one of the coastal kinship specialists who navigate the flooded reef-caves and drowned passages beneath the Singing Islands shelf. He is compact and strong-necked, with calluses on both palms from years of pulling through current. He smells of brine regardless of how long he has been ashore.</p><p>He hires out as a guide to the drowned sections. He knows the tides better than the moons do, he says. This is almost true.</p>",
+        "value": "<p>Úrn is a Bundingsteinn diver &mdash; one of the coastal kinship specialists who navigate the flooded reef-caves and drowned passages beneath the Singing Islands shelf. He is compact and strong-necked, with calluses on both palms from years of pulling through current. He smells of brine regardless of how long he has been ashore.</p><p>He hires out as a guide to the drowned sections. He knows the tides better than the moons do, he says. This is almost true.</p>",
         "public": ""
       },
       "alignment": "",
@@ -115,7 +115,7 @@
     "default": 0
   },
   "prototypeToken": {
-    "name": "Ãšrn (Bundingsteinn Diver Guide)",
+    "name": "Úrn (Bundingsteinn Diver Guide)",
     "displayName": 20,
     "actorLink": true,
     "disposition": 0,
@@ -129,7 +129,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388738321,
+    "createdTime": 1779388838790,
     "modifiedTime": null,
     "lastModifiedBy": null
   }
