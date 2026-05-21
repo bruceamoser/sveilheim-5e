@@ -1,0 +1,407 @@
+{
+  "_id": "1CsZhDnwkYCu2YZa",
+  "name": "Drowned Wolf",
+  "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 22,
+        "max": 22,
+        "formula": "4d8 + 4"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 35
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Drowned wolves are risen undead wolves, product of the Rot's spread through Svellheim's bone-fields and frozen waterways. Waterlogged fur clings to skeletal frames, and bioluminescent ichor seeps from wounds, leaving faint trails in darkness. They navigate entirely by sound and scent — Blind Hunting makes them immune to blindness and sight-based concealment. In water or soggy ground they gain enhanced speed, and their sharp Bite slows targets while their Lunge can knock prey prone.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "oqyxA2EGyNGigfYr",
+      "name": "Death Frenzy",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Whenever a non-minion ally within 7 feet of the marauder is reduced to 0 Hit Points, the marauder moves up to their speed and can make a melee Opportunity Attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Fury Flail",
+      "type": "weapon",
+      "img": "icons/weapons/melee/flail-studded-grey.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>This ability targets one additional target for each 2 Malice spent.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1on4zpG5n5de8QB8"
+    },
+    {
+      "name": "Marauder's Cackletongue",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 10-foot burst must make a DC 11 Constitution saving throw.</p><p><p>Each target shifts up to their speed. If any target hasn't used their own Cackletongue bonus action on this turn, they can use it immediately at no cost.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "9IAetLbGyR2lzrpD"
+    },
+    {
+      "name": "Bloodpool",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>One gnoll minion suddenly explodes into a pool of blood, splattering the area within 3 feet of them. Any gnoll who starts their turn in this area deals an extra  damage on their next strike before the end of their turn. Once per round, an abyssal hyena who starts their turn in the area turns into a @UUID[Compendium.draw-steel.monsters.Actor.NWOCoxzsguUP85Bk]{drowned wolf} with 7 hit points.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1VfQldtK0g2cyleN"
+    },
+    {
+      "name": "Echoes of Laughter",
+      "type": "feat",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a disadvantage on the first ability check they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "XHnFM4FxxhJ9M0ka"
+    },
+    {
+      "name": "Iron Jaws",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an <strong>Agility test</strong>. If they were unaware of the snare, the test takes a disadvantage.</p></p><p><em>Ranged Weapon Attack:</em> +3 to hit, range 5/10 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>While an enemy is bleeding this way, each gnoll in the encounter gains an advantage on strikes made against them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 10,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858483,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "d26tHss71APBttAL"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Drowned Wolf",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858484,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

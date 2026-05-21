@@ -1,0 +1,446 @@
+{
+  "_id": "1c3mVZ0KgzqpI69C",
+  "name": "Wight Commander",
+  "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 78,
+        "max": 78,
+        "formula": "12d8 + 24"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Wight-Commander is a necromancer of considerable power — a fallen commander who died unfinished and rose with military genius intact. It wears corrupted plate and commands the undead assault on Hrafnborg with cold tactical intelligence. Its Command Strike coordinates undead allies to strike in its wake, and its Coordinating Howl grants a temporary surge of effectiveness across the entire undead host. If the Wight-Commander falls, the assault's coordination collapses.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 9,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 5000
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "st2vWYzGADcKDuCP",
+      "name": "Battle Ready",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any hidden creature who makes a strike against the death captain or any ally within 2 feet of the death captain takes a disadvantage on the strike.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1164aovh82kr1K6R",
+      "name": "Infernal Ichor",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the death captain is reduced to 0 Hit Points, they spray burning blood. Each creature adjacent to the death captain takes  damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Blightblade",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>The next strike made against the target has a double advantage.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1dcrYYA0l2xDyJu5"
+    },
+    {
+      "name": "On My Mark!",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The target moves up to their speed and can make a Opportunity Attack.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 25,
+          "long": 50,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "hF4j5nkV7GjVwvUa"
+    },
+    {
+      "name": "Operation Earth Sear",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Until the end of the round, the ground throughout the encounter map becomes blazing hot. Any enemy takes  damage for each feet (5 ft.) of the ground they enter. Any enemy who ends their turn on the ground has fire weakness 2 until the start of their next turn.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "JKMUriIOWEvN07tE"
+    },
+    {
+      "name": "Operation Dark March",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>each undead creature in the encounter gains a +3 bonus to speed until the end of the round.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -50000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "dRaKgReMwIAGLL5i"
+    },
+    {
+      "name": "Operation Tactical Swarm",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each hobgoblin in the encounter shifts up to their speed and can take the Defend main action.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -25000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858504,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "JyEUiIoLqKpymO1A"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Wight Commander",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858504,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

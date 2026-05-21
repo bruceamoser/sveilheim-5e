@@ -1,0 +1,330 @@
+{
+  "_id": "19F33LkjknWSeEIp",
+  "name": "Pale Maw Zealot",
+  "type": "npc",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 52,
+        "max": 52,
+        "formula": "8d8 + 16"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 40
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 11
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Pale Maw zealots are the passionate new converts of the Entropy cult â€” less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw's ends.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Blade",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858497,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "186YDjB9L6EQ65ZP"
+    },
+    {
+      "name": "Blade",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858497,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "186YDjB9L6EQ65ZP"
+    },
+    {
+      "name": "Zealous Cry",
+      "type": "feat",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each enemy within burst 2 takes 2 psychic damage. Each enemy that fails a Presence ability check against the zealot is frightened (save ends). Pale Maw allies within the burst may immediately make a Opportunity Attack.</p></p><p>Each creature in a 10-foot burst must make a DC 13 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858497,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "y6raJH9XHdVhAlz4"
+    },
+    {
+      "_id": "cF6nKW4jGPsSElYZ",
+      "name": "True Believer",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The zealot is immune to the frightened and charmed conditions.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858497,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Pale Maw Zealot",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858497,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

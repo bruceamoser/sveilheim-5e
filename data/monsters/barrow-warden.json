@@ -1,0 +1,333 @@
+{
+  "_id": "iuIQfWu5YmNcMIrB",
+  "name": "Barrow Warden",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/barrow-warden.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 82,
+        "max": 82,
+        "formula": "11d10 + 22"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Ancient guardians of the barrow-mounds, barrow-wardens were once honored dead — warriors and priests interred with purpose. Now twisted by the spreading Rot, they serve as sergeants of the undead host. Their rune-blades deal biting cold damage, and their deep barrow-call can summon lesser thralls from the earth. The Law of the Grave binds them to their buried duty until the runes are shattered.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 2
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "12zAzbfVHqw8Yy0Z",
+      "name": "The Commander’s Watching",
+      "type": "feat",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any ally who has line of effect to the commander can end one condition on themself at the start of each of their turns.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858476,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Inspiring Swordplay",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>One ally within 5 feet of the commander gains an advantage on their next strike until the start of the commander’s next turn.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858476,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1REBNfJRYGb22kCJ"
+    },
+    {
+      "name": "You Next!",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The target moves up to their speed and uses a signature ability.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 40,
+          "long": 80,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858476,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "12ga0c38Rh1Wo9G2"
+    },
+    {
+      "name": "Fall Back!",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each target shifts up to their speed, then can use the Throw bonus action.</p></p><p>Each creature in a 25-foot burst must make a DC 13 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858476,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "12FttZbCezTASZkV"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Barrow Warden",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858477,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "_id": "r3k477XDhXwC8rVG",
+  "name": "Barrow Wight",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/barrow-wight.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 112,
+        "max": 112,
+        "formula": "15d10 + 30"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 30
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The barrow-wight is a barrow-warden who has undergone a second, terrible transformation — its connection to the Rot deepening until ancient barrow-magic fuses with corruption, creating something more powerful and far more willful than the common draugr. Barrow-wights retain the commanding presence of their former role but now exert it through fear and corruption rather than martial authority. Their very gaze can wither resolve, and they draw strength from the despair of their enemies.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 2
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "44RqWCRwxr4AdsB1",
+      "name": "Endless Knight",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The first time the barrow-wight is reduced to 0 Hit Points by damage that isn’t holy damage or fire damage and their body isn’t destroyed, they instead have  and fall prone.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "gzLzVtwqK3poUxd6",
+      "name": "Death Grip",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Creatures grabbed by the barrow-wight take a disadvantage on the Escape Grab bonus action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Haymaker",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>The ability takes the Area keyword and loses the Strike keyword, its distance becomes a 1 burst, and it targets each enemy in the area.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "U93JLt2dmgOoVcm0"
+    },
+    {
+      "name": "Leaping Fury",
+      "type": "weapon",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>The wight can jump up to 5 feet to an unoccupied space within distance of the target before making this strike.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "QdY8Xm16Ka9SZ138"
+    },
+    {
+      "name": "Drag Through Hell",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p><strong>Special:</strong> The target must be grabbed by the wight.</p></p><p><p>The wight moves up to their speed across the ground, dragging the target with them. The target takes 2 damage for each feet (5 ft.) they were dragged through. When this movement ends, the target is no longer grabbed and falls prone. Each feet (5 ft.) the target was dragged through is difficult terrain for enemies.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1ZaPVNTHj5UbDtDR"
+    },
+    {
+      "name": "Flying Sawblade",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The wight uses Haymaker against a creature or object at any point during the forced movement, or after falling as a result of it.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858477,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "AcLry0EfIR5WckSz"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Barrow Wight",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858477,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

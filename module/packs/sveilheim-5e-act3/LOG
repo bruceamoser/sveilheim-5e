@@ -1,0 +1,5 @@
+2026/05/21-13:50:58.916658 70e3d1fef6c0 Delete type=3 #1
+2026/05/21-13:50:58.920464 70e3c37fe6c0 Level-0 table #5: started
+2026/05/21-13:50:58.922631 70e3c37fe6c0 Level-0 table #5: 116574 bytes OK
+2026/05/21-13:50:58.923916 70e3c37fe6c0 Delete type=0 #3
+2026/05/21-13:50:58.923999 70e3c37fe6c0 Manual compaction at level-0 from '\x00' @ 72057594037927935 : 1 .. '\xc3\xbf' @ 0 : 0; will stop at (end)

@@ -1,0 +1,405 @@
+{
+  "_id": "1ADKz6RBWxm2vwW1",
+  "name": "Rootgnaw Queen",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/rootgnaw-queen.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 78,
+        "max": 78,
+        "formula": "12d10 + 12"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25,
+        "burrow": 25
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Rootgnaw Queen is the grotesque mother of the rootgnaw grub swarms — a massive root-and-chitin horror that commands the battlefield through brood coordination and a corrupting presence. She does not move quickly but she does not need to; her grub-children swarm at her command and her corruption aura erodes the resolve of nearby heroes. When threatened, she accelerates her brood-spawning, flooding the encounter with fresh minions from the earth beneath her.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Tile Slide",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 10-foot cube must make a DC 12 Constitution saving throw.</p><p><p>A target restrained by a dwarf can be force moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "WV69tAWSyaSpfXpW"
+    },
+    {
+      "name": "Stone Wave",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 15-foot cube must make a DC 12 Constitution saving throw.</p><p><p>The area is difficult terrain for enemies. A target restrained by a dwarf can be force moved by this ability. This forced movement doesn’t end the restrained condition unless the Director determines otherwise.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 15,
+          "long": 30,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "x9AzCOXGhPORoVGB"
+    },
+    {
+      "_id": "LWGnui9usIbGsEHk",
+      "name": "Stone Walker",
+      "type": "feat",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the stone whisperer willingly moves, they can phase through up to 2 feet of stone as part of that movement. If they end their movement inside stone, they are shunted out into the space from which they entered it.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Rappelling Barrage",
+      "type": "feat",
+      "img": "icons/skills/ranged/projectile-spiral-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each dwarf acting this turn can automatically climb at full speed while moving. At any point during this movement, they can make a Opportunity Attack.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1MnymBc9S56ksd16"
+    },
+    {
+      "name": "Breaching Charge",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A dwarf can destroy one adjacent object or feet (5 ft.) of wall for each 3 Malice spent. Each enemy adjacent to the destroyed object or feet (5 ft.) takes the object’s Hit Points in damage ( for wood,  for stone, or  for metal).</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "8B6IljM4jItmIVQe"
+    },
+    {
+      "name": "Snaring Line",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each target makes an Agility Test.</p></p><p>Each creature in a 50-foot line must make a DC 12 Constitution saving throw.</p><p><p>The snaring line remains until the end of the encounter. Any enemy who moves into the area for the first time in a round or starts their turn there must make the test.</p><p><strong>Special:</strong> This ability canʼt be used by a minion.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 100,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858498,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1CRmNGUk4Mxn7aS1"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rootgnaw Queen",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858498,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

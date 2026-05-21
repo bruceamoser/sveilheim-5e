@@ -1,0 +1,696 @@
+{
+  "_id": "BhKntcg5m7z8HiCu",
+  "name": "Goblin Monarch",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/goblin-monarch.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 82,
+        "max": 82,
+        "formula": "15d6 + 30"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 30,
+        "climb": 30
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Goblin Monarch is the absolute ruler of a goblin warband Ã¢â‚¬â€ a calculating, self-serving leader who uses every available tool to preserve their own skin while sending others to die. They carry a handaxe with deceptive effectiveness and can call in reinforcements with a shout of u201cGet in Here!u201d Ã¢â‚¬â€ producing a fresh wave of goblin runners from anywhere at hand. Their Meat Shield ability keeps them alive by throwing followers into the path of incoming attacks. Three villain actions per encounter make them genuinely dangerous.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "sm",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 2
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Handaxe",
+      "type": "weapon",
+      "img": "icons/weapons/axes/axe-broad-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858485,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1OtbxpTtgAHkL9IO"
+    },
+    {
+      "_id": "Fw6xW5PplWUjKjof",
+      "name": "Crafty",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The monarch doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t provoke opportunity attacks by moving.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1LzbJ4oXilpjBJkG",
+      "name": "End Effect",
+      "type": "feat",
+      "img": "systems/draw-steel/assets/roles/solo.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be reduced in any way.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Handaxe",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>One ally within 10 feet of the monarch can make a {Opportunity Attack}.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1OtbxpTtgAHkL9IO"
+    },
+    {
+      "name": "Get in Here!",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Two @UUID[Compendium.draw-steel.monsters.Actor.Xw0gZCS09gdMjaw8]{goblin runners} appear in unoccupied spaces within distance.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 100,
+          "long": 200,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "LpVUaZUWhiv408Sw"
+    },
+    {
+      "name": "Meat Shield",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The ally is the target of the triggering strike instead.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "3Jq8I5tlmUycCjqr"
+    },
+    {
+      "name": "What Are You Waiting For?",
+      "type": "feat",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each target can move up to their speed or make a Opportunity Attack.</p></p><p>Each creature in a 50-foot burst must make a DC 13 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "iLLlURVpLUbdrRk4"
+    },
+    {
+      "name": "Focus Fire",
+      "type": "feat",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each ally within 10 feet of the target can move up to their speed toward the target.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 100,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ZrZrWQ1oy6EH4nqY"
+    },
+    {
+      "name": "Kill!",
+      "type": "feat",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each enemy in the encounter takes {2 damage} for each goblin adjacent to them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1Mcii0bUpsQEupUZ"
+    },
+    {
+      "name": "Goblin Mode",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each goblin in the encounter gains a +2 bonus to speed until the end of the round.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "DecSdQzNhOBBmcII"
+    },
+    {
+      "name": "Tiny Stabs",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each enemy in the encounter takes 1 damage for each goblin adjacent to them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "EUDHGdxKEOrU1Hij"
+    },
+    {
+      "name": "Swamp Stink",
+      "type": "feat",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858486,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1c2IEzDSHETCHN93"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Goblin Monarch",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858486,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,1605 @@
+{
+  "_id": "y4mQehBHtEofYIlr",
+  "name": "Yrsa Frostbane (Pale Maw Strike Leader)",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/npc-images/yrsa.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 13,
+        "max": 13,
+        "formula": "2d8 + 4"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Yrsa Frostbane leads the Pale Maw Strike Team that attacks Surtâ€™s Forge in Beat 18, but only if ThrÃ¡inn Ashward was killed in Beat 16. She is battle-worn and grief-hardened, carrying the weight of absolute conviction. She takes command without hesitation and prosecutes the assault with cold efficiency.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2,
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "beinmarksmal, voll"
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "JaQaHcJLBUWNFNOd",
+      "name": "Oracle Judgement Benefit",
+      "type": "feat",
+      "img": "icons/magic/perception/third-eye-blue-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>The first time on a turn that you use your @UUID[Compendium.draw-steel.abilities.Item.EhPpL42VZWxqeSEj]{Judgement} ability to judge a creature, you can deal  to the judged creature.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "7fK60kQe1fPH20iD",
+      "name": "It was Foretold",
+      "type": "feat",
+      "img": "icons/skills/trades/academics-book-study-runes.webp",
+      "system": {
+        "description": {
+          "value": "<p>Your order has trained you to understand fragments of the visions granted to you by your deity, giving you a momentary advantage in challenging situations. At the start of an encounter, you can take one main action before any other creature and before your first turn. Addi tionally, whenever the Director calls for a montage test, you can make one free test before the montage begins, which counts as an earned success or failure as usual</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "GyLPqg34uQ9eeFzQ",
+      "name": "Judge of Character",
+      "type": "feat",
+      "img": "icons/creatures/eyes/human-single-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Your focus on your fragmentary visions grants divine insight into the world and its creatures beyond your usual senses. Whenever you would make an Intuition test, you can make a Presence test instead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "With My Blessing",
+      "type": "feat",
+      "img": "icons/magic/life/ankh-gold-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The target can use a free triggered action to use a strike signature ability or a strike heroic ability, and has a double advantage on that ability. If a heroic ability is chosen, reduce its Heroic Resource cost by 3 (to a minimum cost of 0).</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 100,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1dU5yhG5RTpfDPq7"
+    },
+    {
+      "_id": "1EiU4vttlAYgVHFK",
+      "name": "Life",
+      "type": "feat",
+      "img": "icons/magic/life/ankh-gold-blue.webp",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "djvRmc4GV1gBzOqS",
+      "name": "Revitalizing Ritual",
+      "type": "feat",
+      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each time you finish a long rest, you can choose yourself or one ally who is also finishing a long rest to gain the benefit of a divine ritual. The chosen character gains a bonus to their recovery value equal to [[lookup @level]]{your level} that lasts until you finish another long rest.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "A24hIQ34ML9pOQO8",
+      "name": "Blessing of Life",
+      "type": "feat",
+      "img": "icons/magic/life/cross-yellow-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>Your divine presence causes those you deem worthy to recover quickly from a fight. Whenever an ally within distance of your My Life for Yours ability regains Hit Points, they regain additional {Hit Points} equal to your Presence score.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Judgement",
+      "type": "feat",
+      "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The target is {judged} by you until the end of the encounter, you use this ability again, you willingly end this effect (no action required), or another censor judges the target.</p><p>Whenever a creature judged by you uses a main action and is within your line of effect, you can use a free triggered action to deal {holy damage} equal to twice your Presence score to them.</p><p>When a creature judged by you is reduced to 0 Hit Points, you can use a free triggered action to use this ability against a new target. Additionally, you can spend 1 wrath to take one of the following free triggered actions:</p><ul><li><p>When an adjacent creature judged by you starts to shift, you make a melee Opportunity Attack against them and their speed becomes 0 until the end of the current turn, preventing them from shifting.</p></li><li><p>When a creature judged by you within 10 feet makes a ability check, you cause them to take a disadvantage on the roll.</p></li><li><p>When a creature judged by you within 10 feet uses an ability with a potency that targets only one creature, the potency is reduced by 1 for that creature.</p></li><li><p>If you damage a creature judged by you with a melee ability, the creature is  by you until the end of their next turn.</p></li></ul><p>You can choose only one free triggered action option at a time, even if multiple options are triggered by the same effect.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 100,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "OJCjIdvuGcRpHCs5"
+    },
+    {
+      "name": "Forward Thrust, Backward Smash",
+      "type": "weapon",
+      "img": "icons/weapons/polearms/pike-flared-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1NfK7Mbll5bOyE7Q"
+    },
+    {
+      "_id": "02lha5kwNKMJRsu3",
+      "name": "Look On My Work and Despair",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+      "system": {
+        "description": {
+          "value": "<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has [[potency P average]], they are frightened of you (saveÂ ends). Additionally, whenever a creature judged by you is reduced to 0 Hit Points and you use Judgment as a free triggered action, if the new target has [[potency P strong]], they are frightened of you (save ends). If the target is already frightened of you, they instead take {holy damage} equal to twice your Presence score.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "My Life for Yours",
+      "type": "feat",
+      "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>You spend a Hit Die and the target regains .</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 50,
+          "long": 100,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1VdA1xFqNJU9qifC"
+    },
+    {
+      "name": "Back Blasphemer!",
+      "type": "weapon",
+      "img": "icons/skills/melee/shield-block-bash-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., Each enemy in the area.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 10,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "TiQFopmxW79XCA23"
+    },
+    {
+      "_id": "dvUy6w5oMMgAQCdg",
+      "name": "Wrath",
+      "type": "feat",
+      "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The power you serve grants you a Heroic Resource called wrath, fueling your abilities as you censor those your church deems to be heretics.</p><h4>Wrath in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain wrath equal to [[lookup @hero.milestones]]{your Milestones}. At the start of each of your turns during combat, you {gain 2 wrath}.</p><p>Additionally, the first time each combat round that a creature judged by you (see @UUID[Compendium.draw-steel.abilities.Item.EhPpL42VZWxqeSEj]{Judgement}) deals damage to you, you {gain 1 wrath}. The first time each combat round that you deal damage to a creature judged by you, you {gain 1 wrath}.</p><p>You lose any remaining wrath at the end of the encounter.</p><h4>Wrath Outside of Combat</h4><p>Though you canâ€™t gain wrath outside of combat, you can use your heroic abilities and effects that cost wrath without spending it. Whenever you use an ability or effect outside of combat that costs wrath, you canâ€™t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to [[lookup @hero.milestones]]{your Milestones}. (Such abilities arenâ€™t part of the core rules for the censor, but they might appear in future products.)</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "8JmgNNjWl14QRdo7",
+      "name": "Wrath Beyond Wrath",
+      "type": "feat",
+      "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>The first time each combat round that you deal damage to a creature judged by you, you gain 2 wrath instead of 1.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "The Gods Punish and Defend",
+      "type": "weapon",
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>You can spend a Hit Die to allow yourself or one ally within 10 feet to regain .</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "n1CVDi3NYdrHYdfc"
+    },
+    {
+      "name": "Censored",
+      "type": "weapon",
+      "img": "icons/magic/symbols/star-rising-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>When a target who is not a leader or solo creature is made winded by this ability, they are reduced to 0 Hit Points.</p></p><p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1JfXoNoOFWHQ9bEb"
+    },
+    {
+      "name": "Edict of Stillness",
+      "type": "feat",
+      "img": "icons/magic/unholy/beams-impact-pink.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Until the end of the encounter or until you are dying, when ever a target moves or is force moved out of the area, they take {holy damage} equal to twice your Presence score. A target judged by you who moves willingly takes an extra 2d6 holy damage. </p></p><p>Each creature in a 10-foot aura must make a DC 13 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "CrHkxRhOro4FDctV"
+    },
+    {
+      "name": "Aid Attack",
+      "type": "feat",
+      "img": "icons/skills/social/diplomacy-handshake-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Choose an enemy adjacent to you. The next ability ability check an ally who makes against that creature before the start of your next turn has an advantage.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "egB9iQMoSt9LOuKz"
+    },
+    {
+      "name": "Catch Breath",
+      "type": "feat",
+      "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "12sbn4sGrhYucJLy"
+    },
+    {
+      "name": "Charge",
+      "type": "weapon",
+      "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ZNb0nVioe00JTKWX"
+    },
+    {
+      "name": "Defend",
+      "type": "feat",
+      "img": "icons/skills/melee/shield-block-fire-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "HC24SYMYdAmAp6jZ"
+    },
+    {
+      "name": "Escape Grab",
+      "type": "feat",
+      "img": "icons/magic/unholy/hand-claw-fog-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature who is grabbed by another creature, an object, or an effect (see Grab below) can attempt to escape by using the following ability.</p></p><p><p>You take a disadvantage on this bonus action if your size is smaller than the size of the creature, object, or effect that has you grabbed.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "9IQHyBxVcHy6K8b4"
+    },
+    {
+      "name": "Grab",
+      "type": "weapon",
+      "img": "icons/magic/control/debuff-chains-shackle-movement-red.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature seeking to keep a foe close and locked down can attempt to grab a creature using the following ability</p></p><p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "AfUXWETya1kvBvEJ"
+    },
+    {
+      "name": "Heal",
+      "type": "feat",
+      "img": "icons/magic/life/cross-beam-green.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature who uses the Heal main action employs medicine or inspiring words to make an adjacent creature feel better and stay in the fight. The target creature can spend a Hit Die to regain Hit Points, or can make a saving throw against one effect they are suffering that is ended by a saving throw.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 700000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1AMHFxBTQiylmmTD"
+    },
+    {
+      "name": "Knockback",
+      "type": "weapon",
+      "img": "icons/skills/melee/shield-block-bash-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>You can usually target only creatures of your size or smaller. If your Might score is 2 or higher, you can target any creature with a size equal to or less than your Might score.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 900000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "Q6uByagi0dqNXipm"
+    },
+    {
+      "name": "Melee Free Strike",
+      "type": "weapon",
+      "img": "icons/skills/melee/hand-grip-sword-strike-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "13fcuRwNMzhfvNl8"
+    },
+    {
+      "name": "Ranged Free Strike",
+      "type": "weapon",
+      "img": "icons/skills/ranged/arrow-barbed-flying-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Ranged Weapon Attack:</em> +3 to hit, range 25/50 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 25,
+          "long": 50,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 1200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1YnSlHrZ14hlzqtN"
+    },
+    {
+      "name": "Stand Up",
+      "type": "feat",
+      "img": "icons/skills/movement/figure-running-gray.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature can use the Stand Up bonus action to stand up if they are prone, ending that condition. Alternatively, they can use this bonus action to make a willing adjacent prone creature stand up.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 125000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "LpTEfeychA7RXOIq"
+    },
+    {
+      "name": "Advance",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>When a creature takes the Advance move action, they move a number of feet up to their speed. They can break up this movement with their bonus action and main action however they wish.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "19nsuKzWIldhtjtb"
+    },
+    {
+      "name": "Disengage",
+      "type": "feat",
+      "img": "icons/skills/movement/feet-spurred-boots-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>When a creature takes the Disengage move action, they can shift [[lookup @movement.disengage]]{1} feet (5 ft.)(s). Certain class features, kits, and other rules allow a creature to shift more than 1 feet (5 ft.) when they disengage. A creature who does so can break up their shift with their bonus action and main action however they wish.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "LhtloqPfpYgbLPBJ"
+    },
+    {
+      "name": "Ride",
+      "type": "feat",
+      "img": "icons/environment/people/cavalry.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mountâ€™s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the riderâ€™s bonus action and main action however they wish.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858550,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1Rq3t1YMqw7EjKYa"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Yrsa Frostbane (Pale Maw Strike Leader)",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858551,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

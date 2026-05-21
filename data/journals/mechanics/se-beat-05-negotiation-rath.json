@@ -1,0 +1,52 @@
+{
+  "_id": "1UcBFeL4urZ1AMxb",
+  "name": "Social Encounter: The Debt Collector — Negotiating with Rath",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858650,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "sLDrIzK8PJm64UOx",
+      "name": "The Debt Collector — Negotiating with Rath",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Social Encounter: The Debt Collector — Negotiating with Rath</h1>\n<p><strong>Act:</strong> Act 1</p>\n<hr><h2>Setup</h2><h2>The Debt Collector — Rath</h2><p><strong>Level:</strong> 1 | <strong>Beat:</strong> 5 (Optional Task) | <strong>Location:</strong> Stairwatch</p><p>A man named Rath has arrived in Stairwatch claiming Lew owes him a significant debt from a previous contract. Rath is technically correct — Lew took payment for a finding-job and didn't deliver, because the “lost thing” turned out to be a person hiding for good reason. Lew needs the PCs to negotiate with Rath on his behalf.</p><p>This is a secondary negotiation within Beat 5's local task resolution. It can be resolved through persuasion (<em>negotiation</em>) or investigation (exposing Rath's true employer, connecting him to the Pale Maw).</p><hr><h3>GM Notes: Rath's True Purpose</h3><p>Rath isn't just a debt collector — he's working for someone who wants the hidden person found. If the PCs investigate (Intuition DC 14, or social digging), they discover his employer has connections to the Pale Maw. This makes the negotiation a moral choice:</p><ul><li><strong>Pay the debt:</strong> Lew's name is cleared, but funds flow to Pale Maw-adjacent interests.</li><li><strong>Expose Rath:</strong> Rath's employer is stripped of leverage, but Lew's reputation takes a short-term hit as “the man whose debt led to a scene.”</li></ul><p>Rath plays it straight — he doesn't know his employer's full allegiances. He's just a hired collector doing a job.</p>\n<hr><h2>Rath (Debt Collector)</h2>\n<p><em>Hired Collector</em></p>\n<p>Hired debt collector, technically in the right on the original claim. Not malicious — just professional. Does not know his employer has Pale Maw connections. Will back down if the argument for justice or mutual respect is made clearly, but is immune to evasion or outright lies.</p>\n<h3>Social Stats</h3>\n<ul>\n<li><strong>Starting Attitude:</strong> Unfriendly</li>\n<li><strong>Persuasion DC:</strong> 15</li>\n<li><strong>Insight DC:</strong> 13 (to read motivations/pitfalls)</li>\n</ul>\n<h3>Motivations (Appeal to These)</h3><ul>\n<li><strong>Justice:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n<li><strong>Respect:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n</ul>\n<h3>Pitfalls (Avoid These)</h3><ul>\n<li><strong>Lies:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n<li><strong>Evasion:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n</ul>\n<hr><h2>Running the Social Encounter</h2>\n<p>This social encounter uses a simple attitude track. The NPC starts at a given attitude. The PCs make Charisma checks (Persuasion, Deception, or Intimidation) against the listed DC to shift the NPC's attitude one step toward Helpful. Three shifts to Helpful = success. Dropping to Hostile = failure.</p>\n<p><strong>Key Skills:</strong> Persuasion, Deception, Intimidation, Insight (to discover motivations/pitfalls)</p>\n<p><strong>Each PC can attempt one check per round.</strong> A round represents roughly 1-2 minutes of in-character conversation.</p>\n<hr><h2>Outcomes</h2>\n<h3>Success</h3><p>Rath accepts alternative payment or forgives the debt entirely. He's satisfied: honor has been observed, the math is settled. He leaves Stairwatch on the morning coach. Lew owes the PCs a small additional favor beyond the original deal.</p>\n<h3>Partial Success</h3><p>Rath accepts partial settlement — Lew pays a portion of the debt in Word (a public acknowledgment of the obligation) and the PCs cover the remainder in Heat or Weight. Rath is not satisfied, but he's mollified. He'll be back eventually.</p>\n<h3>Failure</h3><p>Rath escalates. He files a formal complaint with the Chainwarden Post (Sergeant Tormund, who is sympathetic but rule-bound). Lew is technically detained pending investigation. The PCs must complete the other local task first and then find a way to clear his name through either evidence or bribery before they can leave Stairwatch.</p>",
+        "format": 1
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858650,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

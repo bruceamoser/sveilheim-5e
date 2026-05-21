@@ -1,0 +1,47 @@
+{
+  "_id": "nYB8uhXoD3pET5a4",
+  "name": "Iron Lantern of the Keeper",
+  "type": "loot",
+  "img": "icons/sundries/lights/lantern-bullseye-signal-copper.webp",
+  "system": {
+    "description": {
+      "value": "<p>A lantern of black iron, warm to the touch, its lens thick with crystallized flame. Inside burns an Ever-Ember fragment — a piece of the original flame that the Keepers tended before Grafvitnir's corruption began. The light is golden and steady, radiating not just illumination but a deep, patient warmth that has burned continuously for four hundred years in the Heitfolk deep storage.</p><p>The lantern illuminates a 30-foot radius with warm golden light that dispels magical darkness. Within its light, cold-based conditions are suppressed, and navigation through darkness or disorienting terrain gains clarity. It burns without fuel and responds to its bearer's need.</p>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>ACQUISITION:</strong> Conditional on Hard Success in the Beat 20 White Waste Crossing montage. If the party arrives early at the Steam-Oasis, Hildvarð has time to access the deep vault and retrieve the lantern. If not achieved, the lantern may be delivered later at Director's discretion (Heitfolk runner, or at Hrafnborg in Beat 25).</p><p><strong>MECHANICS:</strong></p><ul><li><strong>Cold Resistance 2</strong> for the bearer while carried.</li><li><strong>Darkness Navigation +2:</strong> Advantage on all navigation, pathfinding, and Intuition tests made in darkness or poor visibility while the lantern is lit.</li><li><strong>Navigation Anchor:</strong> The lantern's light intensifies when pointed toward the Green Heart or any major root-line convergence. It serves as a compass for the campaign's destination.</li><li><strong>Brilliant Blaze (1/day):</strong> As a bonus action, the bearer can cause the lantern to flare with searing golden light. All undead within Close Burst 3 take 5 holy damage and are Dazed until end of their next turn. The flare also dispels any magical darkness within 60 feet.</li></ul><p><strong>NARRATIVE:</strong> The lantern goes dark the moment Grafvitnir is sealed in Beat 26. The flame inside simply stops — not extinguished, but completed. It served its purpose. The lantern becomes an empty iron shell, warm to the touch for one last hour, then cold. Keep it as a memorial.</p><p><strong>FICTION:</strong> A prayer is carved into the stone beside where this lantern rested for four centuries: <em>\"May the warmth guide those who come after.\"</em> It was made by an early Keeper and left in the Heitfolk vault as a gift of trust.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858584,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

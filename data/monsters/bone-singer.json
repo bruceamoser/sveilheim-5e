@@ -1,0 +1,349 @@
+{
+  "_id": "18F4zFRQ3XGPJrmF",
+  "name": "Bone Singer",
+  "type": "npc",
+  "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 8
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 25,
+        "max": 25,
+        "formula": "3d10 + 9"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 30
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Bone-Singer is a towering skeletal form wrapped in chains of bone and ancient cloth — a large undead conjurer whose voice resonates like wind through a tomb, beautiful and deeply wrong. It commands the barrow-draugr through song, raising new minions from the earth with its Arise ability and draining life from the living with Drain Life. When its Hit Points drops dangerously low, its Choir of Death unleashes a devastating psychic scream. Its Dread Aura suppresses the will of all living creatures nearby.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 4.5,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 1100
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "1GyGhvGcYhYXbt61",
+      "name": "Lethe",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>While the bone-singer is winded, they gain an advantage on strikes, and any strike made against them gains an advantage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858478,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "19YOPV0xq4ZyWHGb",
+      "name": "Soulsight",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any creature within 2 feet of the bone-singer can't be hidden from them.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858478,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Bilious Expulsion",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Note: range is <strong>1 burst, or 3 cube within 5</strong></p></p><p><em>Ranged Weapon Attack:</em> +4 to hit, range 5/10 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>The ground and any surfaces in the area pool with slime. The slime is difficult terrain for enemies, and any enemy is bleeding while in the area.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 10,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858478,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "I4HugETZBbZ2ARF8"
+    },
+    {
+      "name": "Spew Slide",
+      "type": "feat",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The bone-singer vomits with great corruption, letting them shift up to their speed and ignore any additional effects from the strike. The space the bone-singer occupied before the shift is covered in slime that is difficult terrain for enemies. Additionally, any enemy is bleeding while in the slime.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858478,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1Jglbv5C8a32i1jb"
+    },
+    {
+      "name": "Abyssal Jaunt",
+      "type": "feat",
+      "img": "icons/magic/unholy/orb-swirling-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>One demon acting this turn folds space around them, temporarily slipping in and out of the Abyssal Wasteland. Until the start of the demon’s next turn, they ignore difficult terrain, can move through solid matter, and don’t provoke opportunity attacks by moving. If the demon ends their turn inside solid matter, they are shunted out into the space from which they entered it.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858478,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "KrVA4XtZwkzRZ3yW"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Bone Singer",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858478,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "_id": "1Qk1wNDO1MNKkw6H",
+  "name": "Grave Construct",
+  "type": "npc",
+  "img": "systems/draw-steel/assets/roles/brute.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16
+      },
+      "dex": {
+        "value": 8
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 10
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 9,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 16,
+        "max": 16,
+        "formula": "3d8 + 3"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 30
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 11
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Grave-Construct is an abomination assembled from grave-stones and bones, held together by dark Rot magic — humanoid but terribly wrong, partially incorporeal, phasing in and out of visibility. It stands as the final guardian of the Emberwell's seed chamber, animated by Grafvitnir's command and programmed with a single purpose: protect the seed. Its Grave Smash and Rot Pulse are formidable, and its Root-Bound nature means it cannot be lured from its ward. When its Hit Points drops, its Undying Purpose only makes it more dangerous.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2.75,
+      "type": {
+        "value": "construct",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "charmed",
+          "exhaustion",
+          "frightened"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "zlN61oHHOL9pAlc8",
+      "name": "Swarm",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The mob can move through spaces as if they were a size 1L creature, and can occupy other creatures' spaces. At the start of each of the mob's turns, they can make a Opportunity Attack against each creature whose space they share.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858489,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Mug and Tear",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., One creature or object per minion.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If the target is pulled into the mob, that forced movement deals damage only at the Director's determination.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858489,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "rL4lEQ0gGe6duni7"
+    },
+    {
+      "name": "Bone Shrapnel",
+      "type": "feat",
+      "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The grave-construct detonates bone fragments from its body, showering nearby enemies.</p></p><p>Each creature in a 15-foot burst must make a DC 13 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858489,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1QZe1tZxKBbhA1LK"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Grave Construct",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858489,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

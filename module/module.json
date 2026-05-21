@@ -1,0 +1,94 @@
+{
+  "id": "sveilheim-5e",
+  "title": "Sveilheim: Era of Embers (D&D 5e)",
+  "description": "The complete Era of Embers campaign for D&D 5e. Includes monsters, NPCs, magic items, beat journals, world lore, skill challenges, social encounters, and encounter tables — converted from the Draw Steel Svellheim campaign.",
+  "url": "https://github.com/bruceamoser/sveilheim-5e",
+  "manifest": "https://github.com/bruceamoser/sveilheim-5e/releases/latest/download/module.json",
+  "download": "https://github.com/bruceamoser/sveilheim-5e/releases/download/v0.1.1/sveilheim-5e-v0.1.1.zip",
+  "version": "0.1.1",
+  "authors": [
+    {
+      "name": "Bruce A. Moser"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.361"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "sveilheim-5e-monsters",
+      "label": "Sveilheim Monsters",
+      "path": "packs/sveilheim-5e-monsters",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-npcs",
+      "label": "Sveilheim NPCs",
+      "path": "packs/sveilheim-5e-npcs",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-items",
+      "label": "Sveilheim Magic Items",
+      "path": "packs/sveilheim-5e-items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-world-lore",
+      "label": "Sveilheim World Lore",
+      "path": "packs/sveilheim-5e-world-lore",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-act1",
+      "label": "Sveilheim Act 1: The Gathering",
+      "path": "packs/sveilheim-5e-act1",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-act2",
+      "label": "Sveilheim Act 2: The Northern Road",
+      "path": "packs/sveilheim-5e-act2",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-act3",
+      "label": "Sveilheim Act 3: The Burning",
+      "path": "packs/sveilheim-5e-act3",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-mechanics",
+      "label": "Sveilheim Skill Challenges & Social Encounters",
+      "path": "packs/sveilheim-5e-mechanics",
+      "type": "JournalEntry",
+      "system": "dnd5e"
+    },
+    {
+      "name": "sveilheim-5e-tables",
+      "label": "Sveilheim Encounter Tables",
+      "path": "packs/sveilheim-5e-tables",
+      "type": "RollTable",
+      "system": "dnd5e"
+    }
+  ]
+}

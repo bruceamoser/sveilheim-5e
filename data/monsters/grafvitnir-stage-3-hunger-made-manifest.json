@@ -1,0 +1,576 @@
+{
+  "_id": "7sB2za9FR3J9dbEY",
+  "name": "Grafvitnir Stage 3 Hunger Made Manifest",
+  "type": "npc",
+  "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 310,
+        "max": 310,
+        "formula": "23d20 + 69"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 35,
+        "burrow": 35
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Stage 3 of Grafvitnir's manifestation — the Rot-hunger is no longer constrained by physical shape. It is a formless, reality-bending void of hunger that can only be defeated by Kaelen's willing presence at the Green Heart and a 4-round counter mechanism while the party survives. World-Ending Swipe reaches across the entire battlefield, Despair Made Flesh corrodes will and Hit Points alike, and Root Storm fills the air with corruption-laced debris. 150 Hit Points, Titanic. Two turns per round. This is the end of everything, or the beginning of restoration.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 18,
+      "type": {
+        "value": "plant",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 20000
+      }
+    },
+    "traits": {
+      "size": "grg",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 2
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "GOegYpes574rw5S2",
+      "name": "Stonebreaker Flesh",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>Whenever an enemy obtains a tier 1 outcome on a melee ability used against the grafvitnir stage 3 hunger made manifest, they take a disadvantage on that ability until the end of the encounter.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "jAsj6tAseO2EFWG9",
+      "name": "Stone Steps",
+      "type": "feat",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The grafvitnir stage 3 hunger made manifest ignores difficult terrain</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "gJmvkodGPacihbag",
+      "name": "Stone Swim",
+      "type": "feat",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>The grafvitnir stage 3 hunger made manifest can burrow through stone, but can't drag other creatures underground when they do so.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Rune-Signed Blade",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-guard-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 15 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If a target was already slowed, that condition continues but their speed is 0 until the end of their next turn.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 15,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "15rFc2PuB4pL8QJN"
+    },
+    {
+      "name": "Forked Knife",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 15 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>The knife lands in the target's feet (5 ft.), and has 30 Hit Points and damage immunity 5. Whenever the knife takes damage, it deals  corruption damage to each enemy within 3 feet. The knife lasts until the end of the encounter, and can't be picked up or manipulated.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 15,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "PmcC9lY7CjSqXOWP"
+    },
+    {
+      "name": "Cobblestone Shape",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The grafvitnir stage 3 hunger made manifest moves up to their speed. Each feet (5 ft.) that they leave during this move is difficult terrain for enemies Giants ignore this difficult terrain.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1VlVuPDwRLn2E8wU"
+    },
+    {
+      "name": "Resonate Rune",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The target is pushed up to 3 feet, or if they have [[potency A 3]], they are pushed up to 6 feet and knocked .</p></p><p>Each creature in a 10-foot burst must make a DC 18 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1LnTRO0hTVOlu1Yb"
+    },
+    {
+      "name": "Bellow",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Each giant in the encounter takes a deep breath and yells, pushing each creature within 3 feet of them up to 10 feet. A creature giant of your choice.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "VKDcmFyELDjs7JUp"
+    },
+    {
+      "name": "Hurl Landscape",
+      "type": "weapon",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A giant unearths a structure, hazard, or chunk of the encounter map and launches it to fill the area. Each target makes an <strong>Agility test</strong>.</p></p><p><em>Ranged Weapon Attack:</em> +8 to hit, range 20/40 ft., Each enemy in the area.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 20,
+          "long": 40,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858488,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "LDeWQvVtw6mKu4Rz"
+    },
+    {
+      "name": "Titanic Tear",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A giant creates a fissure along the ground, either in a 15 × 2 line within 1 or a 10 × 3 line within 2, and that opens up to a depth of 6 feet. Each giant in the area can shift into the nearest unoccupied space outside the fissure. Each non-giant in the area makes an <strong>Agility test</strong>.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858489,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "OQRwkmx4zRk3knmG"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Grafvitnir Stage 3 Hunger Made Manifest",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 4,
+    "height": 4
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858489,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "_id": "SLw1m8dQeZVFbqiN",
+  "name": "Jarðvættr",
+  "type": "npc",
+  "img": "systems/draw-steel/assets/roles/solo.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18
+      },
+      "dex": {
+        "value": 8
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 6
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 351,
+        "max": 351,
+        "formula": "54d8 + 108"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 40,
+        "burrow": 40
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The earth-wight of the Singing Islands, an ancient geothermal spirit corrupted by the Rot. Once a guardian that tended the volcanic vents warming the island gardens, now a territorial destroyer that cannot distinguish pilgrim from threat. Its stone-and-root body leaves craters with every step. Deep within, the original spirit screams -- trapped, unable to stop or die cleanly until freed or defeated.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 14,
+      "type": {
+        "value": "elemental",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 11500
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "radiant"
+        ],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Earth Slam",
+      "type": "weapon",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ZY4n4Wzl5iMQh5vY"
+    },
+    {
+      "_id": "12trs1nqPiuGg5wM",
+      "name": "Solo Monster",
+      "type": "feat",
+      "img": "systems/draw-steel/assets/roles/solo.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the end of each of their turns, the Jar&eth;v&aelig;ttr can take  damage to end one effect on them that can be ended by a saving throw. This damage can't be reduced in any way.</p><p>The Jar&eth;v&aelig;ttr can take two turns each round. They can't take turns consecutively.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "mcSqssD90bmbblTk",
+      "name": "Rot-Bound Earth",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>The Jar&eth;v&aelig;ttr cannot be forcibly moved more than 2 feet by any single effect. It ignores difficult terrain from stone or earth. When below 175 Hit Points (Phase 2), its speed increases by 1 and all damage it deals increases by 3.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "6vEZkRmuf0owNOkY",
+      "name": "Vent-Step",
+      "type": "feat",
+      "img": "icons/creatures/abilities/paw-print-pair-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Once per round as a free bonus action, the Jar&eth;v&aelig;ttr can sink into any adjacent geothermal vent and emerge from any other visible vent within 12 feet without provoking opportunity attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Earthshaker Slam",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 15 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>On a tier 2 or 3 result, the ground in a burst 1 around the target becomes difficult terrain until the end of the encounter.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 15,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1EJTDqKLzxv1Q5VE"
+    },
+    {
+      "name": "Vent Eruption",
+      "type": "feat",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A geothermal vent erupts at a point within 10 feet. Each creature within burst 2 of that point takes  fire damage and is pushed 2 feet. The eruption zone becomes difficult terrain until the end of the encounter.</p></p><p>Each creature in a 10-foot burst must make a DC 17 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1INfI3TJd3YEeSxe"
+    },
+    {
+      "name": "Reactive Tremor",
+      "type": "feat",
+      "img": "icons/magic/earth/stone-fist-strike-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 10-foot burst must make a DC 17 Constitution saving throw.</p><p><p>Creatures that fail are knocked prone.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "oULczpnyMvK0cfnN"
+    },
+    {
+      "name": "Crumbling Advance",
+      "type": "feat",
+      "img": "icons/magic/earth/projectile-stone-boulder.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The Jar\\u00f0v\\u00e6ttr moves up to its speed. This movement does not provoke opportunity attacks. Each feet (5 ft.) it moves through becomes difficult terrain. Each creature in a feet (5 ft.) it passes adjacent to takes  damage.</p></p><p>Each creature in a 15-foot self must make a DC 17 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1WRXIh9E7C3vzOCQ"
+    },
+    {
+      "name": "Magma Surge",
+      "type": "feat",
+      "img": "icons/magic/fire/projectile-fireball-smoke-large.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 15-foot burst must make a DC 17 Constitution saving throw.</p><p><p>On a tier 3 result, targets are also on fire (save ends). Ground in the affected area counts as difficult terrain until the encounter ends.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1C80FiGwwG9hCmjl"
+    },
+    {
+      "name": "Cataclysmic Upheaval",
+      "type": "feat",
+      "img": "icons/magic/earth/spike-protrusion-mountain-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The Jar\\u00f0v\\u00e6ttr slams both fists into the earth, triggering a cataclysmic upheaval. Each creature in burst 5 takes  damage and is knocked prone. Stone pillars erupt from the ground in up to 6 unoccupied feet within the burst, creating blocking terrain. The entire affected area becomes difficult terrain until the end of the encounter. Creatures that fail a Might ability check are also slowed (save ends).</p></p><p>Each creature in a 25-foot burst must make a DC 17 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858491,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "w0uZGyDeVg7f3fKN"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Jarðvættr",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858491,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

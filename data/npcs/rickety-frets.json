@@ -1,0 +1,138 @@
+{
+  "_id": "KjNOVbRxzVmfoGpu",
+  "name": "Rickety Frets",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/npc-images/rickety.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 14
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 16
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 14,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 38,
+        "max": 38,
+        "formula": "7d8 + 7"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Rickety Frets is a spirit-shade â€” the anchored ghost of an ancient skald and historian who refused to leave their post in the Bioluminescent Library. They have remained here for centuries, cataloguing Svellheimâ€™s history even as everything they documented died. They are very tall, very thin, and cadaverous. Their robes are faded paper-white. Their hands are perpetually ink-stained. They introduce themselves: â€œI am Svellheimâ€™s historian when there was a Svellheim worth chronicling. Now I chronicle its ending.â€</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 6,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 2300
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rickety Frets",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858535,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

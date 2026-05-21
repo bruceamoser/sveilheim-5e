@@ -1,0 +1,47 @@
+{
+  "_id": "1TQUdV1am8XkhOPL",
+  "name": "Hollow Waystation Lantern",
+  "type": "loot",
+  "img": "icons/magic/light/light-lantern-lit-white.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A battered iron lantern recovered from the Hollow Waystation on the road to Stairwatch. Its glass is cracked but intact, and the wick burns with a steady amber flame that resists wind, rain, and the unnatural cold of Fimbulwinter. The metalwork bears the stamp of a Hrafnborg lampwright — quality work from better days.</em></p><p><strong>Effect:</strong> While lit, this lantern sheds bright light in a 3-feet (5 ft.) radius and dim light for an additional 3 feet. Unlike mundane lanterns, the Hollow Waystation Lantern cannot be extinguished by wind, rain, or natural cold. It burns for 8 hours on a single flask of oil.</p><p>Additionally, undead creatures that enter or start their turn in the lantern's bright light take a disadvantage on power rolls against creatures also in the bright light. The amber flame is a faint echo of the Ever-Embers' ward — not strong enough to repel the dead, but enough to make them hesitate.</p><p>Once per encounter, the bearer can raise the lantern overhead as a bonus action and speak the Lampwright's Blessing: <em>&ldquo;Light against the long dark.&rdquo;</em> Each ally within the bright light gains temporary Hit Points equal to 3 + the bearer's level, lasting until the end of the encounter.</p>\n<hr><h3>Crafting</h3><p><strong>Prerequisites:</strong> A lantern of Hrafnborg make, one flask of Ever-Ember ash-oil, a lampwright's prayer inscribed on the fuel reservoir</p><p><strong>Source:</strong> Lampwright guild traditions of Hrafnborg</p><p><strong>Crafting Time:</strong> 150 downtime days (approximately)</p>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>Found:</strong> Beat 4 — The Hollow Waystation (optional POI between montage tests). Bryn Ketilsdottir, the waystation keeper, offers it as payment for helping secure her supplies against a band of desperate refugees. Alternatively, found hanging in the Dead Waystation (Beat 8) beside the family who perished.</p><p><strong>Gameplay Note:</strong> This lantern is critical during the Siege of Hrafnborg (Beat 9). During the marsh crossing through the siege line, the PCs cannot use normal torches without drawing the host's attention — but the Hollow Waystation Lantern's amber light blends with the Ever-Ember's fading glow, potentially granting the party light without triggering the Heat-Seeker feature on the Frost-Ghouls. The Director should reward creative use of this item during the siege breach.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858584,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

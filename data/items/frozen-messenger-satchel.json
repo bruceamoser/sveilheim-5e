@@ -1,0 +1,47 @@
+{
+  "_id": "1VbAZEheNhfQzbbR",
+  "name": "Frozen Messenger's Satchel",
+  "type": "loot",
+  "img": "icons/containers/bags/sack-leather-blue-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p>A leather courier's satchel, frozen stiff with cold. Inside:</p><ul><li><strong>A sealed letter</strong> addressed to 'The Watch-Commander, Stairwatch' — the King's cipher, but not Harald's personal seal</li><li><strong>2 days' rations</strong> (frozen solid, edible once thawed)</li><li><strong>A Chainwarden map</strong> of Titan's Stair annotated with hazard marks (+1 advantage on one navigation test in the next montage test)</li></ul>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>Found:</strong> Hanging from the hand of a frozen Chainwarden courier on the mountain road (Beat 4b, Part 2). The courier has been dead approximately four days — snow has drifted against one shoulder. A Chainwarden runner by the badge.</p><p><strong>Contents:</strong> The Sealed Letter from V.A. (addressed to Watch-Commander, Stairwatch), 2 days' frozen rations, and a small Chainwarden map of Titan's Stair with hazard annotations. Award each piece as a separate item or bundle as a single find.</p><p><strong>Significance:</strong> The letter confirms the leak in Hrafnborg — someone besides Harald knows the PCs left. Whether this is Dreyfus's Wyrd-channel reporting through a mortal official, or an independent traitor, cannot be determined from the letter alone. Let the PCs feel the web tightening.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858583,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

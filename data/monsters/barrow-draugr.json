@@ -1,0 +1,407 @@
+{
+  "_id": "10ngCYxUwDHsD3Ax",
+  "name": "Barrow Draugr",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/barrow-draugr.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 4
+      },
+      "wis": {
+        "value": 10
+      },
+      "cha": {
+        "value": 6
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 6,
+        "max": 6,
+        "formula": "1d8 + 2"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 40
+      },
+      "senses": {
+        "darkvision": 60,
+        "passivePerception": 10
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Barrow-draugr are ancient undead disinterred from Svellheim's cairns — skeletal forms of rusted metal and tattered leather, their eye sockets burning with pale cold light. They move with jerking, unnatural gaits and emanate bitter cold. Their rune-blade strikes carry cursed frost that lingers in wounds, and their calcified grasps can restrain even powerful warriors. They are the backbone of the undead host's assault formations.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 1,
+      "type": {
+        "value": "undead",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 200
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned",
+          "exhaustion"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "1UCkfVYAEmzMAdZk",
+      "name": "With Captain",
+      "type": "feat",
+      "img": "icons/skills/social/intimidation-impressing.webp",
+      "system": {
+        "description": {
+          "value": "<p><strong>With Captain:</strong> +2 bonus to speed</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": -100000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858474,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1S11DCvDiWqMZJ1W",
+      "name": "Death Snap",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the barrow-draugr is reduced to 0 Hit Points, they can make a melee  before dying.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858475,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Snapjaw",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-glowing-white.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., One creature or object per minion.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858475,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "IMQc1msQOHfCxKk1"
+    },
+    {
+      "name": "Bloodpool",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>One gnoll minion suddenly explodes into a pool of blood, splattering the area within 3 feet of them. Any gnoll who starts their turn in this area deals an extra  damage on their next strike before the end of their turn. Once per round, an barrow-draugr who starts their turn in the area turns into a @UUID[Compendium.draw-steel.monsters.Actor.NWOCoxzsguUP85Bk]{gnoll marauder} with 7 hit points.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858475,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "wRL7f1sKr6wqiAKQ"
+    },
+    {
+      "name": "Echoes of Laughter",
+      "type": "feat",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Until the end of the encounter, the encounter map is encased in a soundscape of laughter and howling. Each enemy takes a disadvantage on the first ability check they make each round. Whenever a gnoll is killed, this effect is suppressed until the start of the next round.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858475,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ZS5adhcCvCAZKbts"
+    },
+    {
+      "name": "Iron Jaws",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>A gnoll acting this turn drops an iron-jawed snare into the area. The first time any enemy moves into the area, they make an <strong>Agility test</strong>. If they were unaware of the snare, the test takes a disadvantage.</p></p><p><em>Ranged Weapon Attack:</em> +3 to hit, range 5/10 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>While an enemy is bleeding this way, each gnoll in the encounter gains an advantage on strikes made against them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 5,
+          "long": 10,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858475,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1Mv26hBrktJDfwdk"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Barrow Draugr",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858475,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

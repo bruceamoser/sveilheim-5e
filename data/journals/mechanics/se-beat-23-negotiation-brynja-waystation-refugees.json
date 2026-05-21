@@ -1,0 +1,52 @@
+{
+  "_id": "12iqGtqQo4RnLWYc",
+  "name": "Social Encounter: Beat 23 — Brynja Steinsdóttir / Waystation Refugees",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858654,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "1ZeS50obfvkXdTZb",
+      "name": "Beat 23 — Brynja Steinsdóttir / Waystation Refugees",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Social Encounter: Beat 23 — Brynja Steinsdóttir / Waystation Refugees</h1>\n<p><strong>Act:</strong> Act 3</p>\n<hr><h2>Setup</h2><p>On the edge of the interior lowlands, the party encounters a barn converted into a makeshift camp. Forty refugees — families, children, elderly, traders — led by Brynja Steinsdóttir, a former trade-caravan warden. An old man recognizes the party from earlier kindnesses (tie to a specific Act 1 or 2 event).</p><p>This is a <strong>light negotiation</strong> — prose-structured rather than fully mechanical. Brynja does the deciding; the old man vouches for the party. The key question: Will the refugees trust the party? Will they travel with them to Hrafnborg?</p><p><strong>Difficulty:</strong> Moderate. This is a social encounter with real consequences — refugees who travel with the party slow movement by 1 day and add 40+ people to the group entering a besieged city.</p><p><strong>Consequence on Success:</strong> If Brynja is fully convinced (Interest 4+), the refugees' organized logistics grant <strong>+1 to one Beat 25 Three-Crisis test</strong> of the party's choice.</p><p><strong>Oath Interactions:</strong> If the party swore Vigmund's Advocacy Oath (Beat 13), these refugees are the living embodiment of that promise. If they also swore the Silence Oath (Beat 17), the conflict sharpens — they know about a warm refuge and cannot speak of it.</p>\n<hr><h2>Brynja Steinsdóttir (Refugee Leader)</h2>\n<p>Former trade-caravan warden. Broad-shouldered, calloused hands, steady voice. Hasn't slept in days. Patience for empty reassurance is zero. She is the decider — the old man vouches for the party but she makes the call.</p>\n<h3>Social Stats</h3>\n<ul>\n<li><strong>Starting Attitude:</strong> Unfriendly</li>\n<li><strong>Persuasion DC:</strong> 15</li>\n<li><strong>Insight DC:</strong> 13 (to read motivations/pitfalls)</li>\n</ul>\n<h3>Motivations (Appeal to These)</h3><ul>\n<li><strong>Truth about what's happening at Hrafnborg — honest assessment, not reassurance:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n<li><strong>Safety for the children — concrete plan, not vague promises:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n<li><strong>Confirmation that the northern lights (Green Heart glow) mean what they hope — that the Ever-Ember is renewed:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n</ul>\n<h3>Pitfalls (Avoid These)</h3><ul>\n<li><strong>Empty reassurance — 'It'll be fine' (she has heard too many promises from people who fled):</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n<li><strong>Dismissiveness of their fear — minimizing what 40 people have survived for two weeks:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n<li><strong>Urgency that tramples their need to be sure — rushing them into a decision they aren't ready for:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n</ul>\n<hr><h2>Running the Social Encounter</h2>\n<p>This social encounter uses a simple attitude track. The NPC starts at a given attitude. The PCs make Charisma checks (Persuasion, Deception, or Intimidation) against the listed DC to shift the NPC's attitude one step toward Helpful. Three shifts to Helpful = success. Dropping to Hostile = failure.</p>\n<p><strong>Key Skills:</strong> Persuasion, Deception, Intimidation, Insight (to discover motivations/pitfalls)</p>\n<p><strong>Each PC can attempt one check per round.</strong> A round represents roughly 1-2 minutes of in-character conversation.</p>\n<hr><h2>Outcomes</h2>\n<p><strong>Full Success (Interest reaches 4+):</strong> Brynja commits the refugees to the party's guidance. Forty people — organized, disciplined under Brynja's logistics — join the march to Hrafnborg. They slow the party by 1 day but their skills and organized morale grant <strong>+1 to one Beat 25 Three-Crisis test</strong>. Brynja becomes a named ally at Hrafnborg.</p>\n<p><strong>Partial Success (Interest reaches 3):</strong> Brynja agrees to travel in the same direction but does not commit to the party's leadership. The refugees follow at a distance, arriving at Hrafnborg independently. No mechanical bonus, but the refugees are present in the siege — adding emotional weight and future hit die potential.</p>\n<p><strong>Failure (Interest stays at 2 or lower):</strong> Brynja declines. The refugees continue on their own path — slower, more cautious, avoiding the siege ring entirely. They may arrive at Hrafnborg eventually, but not in time for the siege. No mechanical consequence, but the party has missed an opportunity to build their coalition before the walls.</p>",
+        "format": 1
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858654,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

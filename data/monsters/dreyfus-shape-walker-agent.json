@@ -1,0 +1,541 @@
+{
+  "_id": "1cdvo05Fud6zA840",
+  "name": "Dreyfus Shape Walker Agent",
+  "type": "npc",
+  "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 16
+      },
+      "con": {
+        "value": 16
+      },
+      "int": {
+        "value": 8
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 120,
+        "max": 120,
+        "formula": "16d8 + 48"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 45,
+        "fly": 45
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 11
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>A shape-walker agent of the Pale Maw — a spy trained in the art of wyrd-bound transformation to assume the forms of others. This agent is less powerful than Dreyfus himself, deployed on reconnaissance and infiltration missions where plausible deniability matters. Their wyrd-claw strikes leave psychic echoes that cloud memory, and their Hollowing Gaze can read surface thoughts. When cornered, they shift form and flee — the Escape Protocol is their signature.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 11,
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 7200
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "acid"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 2,
+        "max": 2
+      },
+      "legres": {
+        "value": 1,
+        "max": 1
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "TtMPfmSxEQvqXumS",
+      "name": "Ruthless Rage",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>While within 10 feet of another wyvern, the lurker deals an extra  damage with strikes.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "1RQVzGUG13blJDLs",
+      "name": "Tenacious Hunter",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Any creature affected by a condition imposed by a wyvern can't be hidden from the lurker.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Agonizing Stinger",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-curved-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., up to 2 targets.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 10,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "YwBx3ojemwhSLPYS"
+    },
+    {
+      "name": "Acidic Anguish",
+      "type": "weapon",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>A target weakened this way takes  damage at the start of each of their turns.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 10,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "aLrhU2RufsjWt67Y"
+    },
+    {
+      "name": "Swooping Torment",
+      "type": "feat",
+      "img": "icons/skills/melee/strike-polearm-light-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The lurker flies up to their speed, then can attempt to hide. Each enemy the lurker moves adjacent to during this movement can choose to take  damage or fall .</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1QjHwcExCH6rkgmC"
+    },
+    {
+      "name": "Retaliatory Dive",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>The lurker flies adjacent to the target and can make a Opportunity Attack against them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": 25,
+          "long": 50,
+          "units": "ft"
+        },
+        "reach": {
+          "value": null,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "reaction",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "67lAfvCLJ6DBebaR"
+    },
+    {
+      "name": "Simmering Anger",
+      "type": "feat",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>One wyvern in the encounter can make a Opportunity Attack against each enemy adjacent to them.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "16zIhnztKtKdFzQE"
+    },
+    {
+      "name": "Boiling Fury",
+      "type": "feat",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Until the end of the round, each wyvern in the encounter has a double advantage on strikes and can use their signature ability instead of a Opportunity Attack when making opportunity attacks.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1KCkifWnR2FouY7j"
+    },
+    {
+      "name": "Overflowing Rage",
+      "type": "feat",
+      "img": "icons/magic/fire/flame-burning-evocation-circle.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Every wyvern’s anger fills the encounter map with a thick miasma of hatred. Each enemy in the encounter makes an <strong>Intuition test</strong>.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858482,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "1HapDMJoUr4U2ipF"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Dreyfus Shape Walker Agent",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858483,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

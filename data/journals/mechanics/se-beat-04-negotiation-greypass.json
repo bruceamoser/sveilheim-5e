@@ -1,0 +1,52 @@
+{
+  "_id": "MdM6rKSrzVe7j1Cd",
+  "name": "Social Encounter: Beat 4b — The Greypass Toll",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858649,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "i04j4eYzNft6Lnz5",
+      "name": "Beat 4b — The Greypass Toll",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Social Encounter: Beat 4b — The Greypass Toll</h1>\n<p><strong>Act:</strong> Act 1</p>\n<hr><h2>Setup</h2><p>The road narrows between two bluffs of dark stone. A wall of stacked timber and iron bars blocks the path — a gate, a guardhouse, a flag bearing the Chainwarden sigil: a broken chain, re-forged. Two wardens stand at the gate, wrapped in furs over mail. One holds a ledger. The other holds a spear.</p><p>\"Papers,\" says the one with the ledger. It is not a request.</p><p>This is a <strong>Moderate Negotiation</strong> with Warden-Sergeant Eirik Greyhand, toll commander at the Greypass checkpoint. He is not corrupt — he is exhausted. The toll is underfunded, understaffed, and overwhelmed. He wants travellers to follow procedure so he can maintain the fiction that the system works.</p>\n<hr><h2>Warden-Sergeant Eirik Greyhand</h2>\n<h3>Social Stats</h3>\n<ul>\n<li><strong>Starting Attitude:</strong> Unfriendly</li>\n<li><strong>Persuasion DC:</strong> 15</li>\n<li><strong>Insight DC:</strong> 13 (to read motivations/pitfalls)</li>\n</ul>\n<h3>Motivations (Appeal to These)</h3><ul>\n<li><strong>order and proper procedure:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n<li><strong>supplies (fuel, rations worth more than coin):</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n<li><strong>news from Hrafnborg (family he hasn't heard from in a month):</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>\n</ul>\n<h3>Pitfalls (Avoid These)</h3><ul>\n<li><strong>threats or intimidation (8 wardens, fortified position -- catastrophic):</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n<li><strong>demanding free passage without justification:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n<li><strong>bluffing military rank without a Tier 3 roll:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>\n</ul>\n<hr><h2>Running the Social Encounter</h2>\n<p>This social encounter uses a simple attitude track. The NPC starts at a given attitude. The PCs make Charisma checks (Persuasion, Deception, or Intimidation) against the listed DC to shift the NPC's attitude one step toward Helpful. Three shifts to Helpful = success. Dropping to Hostile = failure.</p>\n<p><strong>Key Skills:</strong> Persuasion, Deception, Intimidation, Insight (to discover motivations/pitfalls)</p>\n<p><strong>Each PC can attempt one check per round.</strong> A round represents roughly 1-2 minutes of in-character conversation.</p>\n<hr><h2>Outcomes</h2>\n<p>The PCs pass freely. Eirik provides road intelligence:</p><p>\"The mountain road is passable but ugly. Two rockfalls in the last week — you'll need to detour around the second one, near Kross-stead. And watch the gorge bridge — the western footing has shifted. It'll hold, probably, but don't linger on it.\"</p><p>He pauses. \"There's also... something else. The patrols up in the high country have been finding tracks. Big ones. Not bear, not wolf. Something that walks on two legs but drags something behind it. We don't go looking. I'd suggest you don't either.\"</p>\n<p>The PCs are treated with suspicion. Patience has run out. Choose one consequence:</p><ul><li><strong>Heat cost:</strong> Forced to surrender 2 days' rations as \"toll payment.\"</li><li><strong>Word cost:</strong> Their descriptions are logged in the ledger. Grafvitnir's network may access this (+1 to all future Grafvitnir Pressure Checks).</li><li><strong>Time cost:</strong> Delayed half a day while paperwork is \"processed.\"</li></ul>\n<p>Patience exhausted entirely. All three consequences apply:</p><ul><li>Forced to surrender rations.</li><li>Descriptions logged in the ledger.</li><li>Delayed a full day.</li></ul><p>If intimidation was used, the garrison of 8 wardens is now actively hostile. The PCs may need to retreat, find another route, or fight their way through — costing significant time and alerting the entire Greypass district to their presence.</p>",
+        "format": 1
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858649,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

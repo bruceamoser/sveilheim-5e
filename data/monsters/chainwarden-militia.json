@@ -1,0 +1,421 @@
+{
+  "_id": "cXPBxTh9aTSS553w",
+  "name": "Chainwarden Militia",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/monster-images/chainwarden-militia.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 14
+      },
+      "int": {
+        "value": 1
+      },
+      "wis": {
+        "value": 6
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 19,
+        "max": 19,
+        "formula": "3d8 + 6"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 8
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>Chainwarden militia are the rank-and-file of the Warden companies â€” poorly paid levies given billhooks and minimal training. What they lack in skill they make up for in numbers and sheer stubbornness. Their Warden's Resolve makes them difficult to route even when outmatched, and a wall of billhook-armed militia tightly packed into a chokepoint can be deceptively effective. They are deployed in hordes to overwhelm with mass and reach.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 1,
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 200
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "necrotic",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Clobber and Clutch",
+      "type": "weapon",
+      "img": "icons/weapons/clubs/greatclub-simple.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "type": {
+          "value": "natural"
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "damage": {
+          "parts": [
+            [
+              "0",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft"
+        },
+        "reach": {
+          "value": 5,
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "182OI8MGnTi0W2GF"
+    },
+    {
+      "name": "Chainwarden Militia Dust",
+      "type": "feat",
+      "img": "icons/magic/air/air-pressure-shield-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each creature in a 10-foot burst must make a DC 12 Constitution saving throw.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "tTNe2w63wztDUTFL"
+    },
+    {
+      "_id": "HbPjcKggXi47dsyj",
+      "name": "Endless Knight",
+      "type": "feat",
+      "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>The first time the chainwarden militia is reduced to 0 Hit Points by damage that isnâ€™t fire damage or holy damage and their body isnâ€™t destroyed, they instead have 10 Hit Points and fall prone.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "",
+          "cost": null
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Dread March",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Up to four undead in the encounter move up to their speed and can make a Opportunity Attack. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Hit Points during this dread march, they donâ€™t die until the march is resolved.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "5fj3q9QZKhmydtHA"
+    },
+    {
+      "name": "Paranormal Fling",
+      "type": "feat",
+      "img": "icons/skills/movement/arrow-upward-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Up to three unattended objects on the encounter map rise to f loat 1 feet (5 ft.) off the ground. Each object is then pulled 5 feet toward the nearest enemy within 3 feet of the object.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "ii1ArOuS0lplPJrn"
+    },
+    {
+      "name": "Ravenous Horde",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>At the end of this round, each hero not already adjacent to one or more undead is beset by two @UUID[Compendium.draw-steel.monsters.Actor.2KiVCGcov7SmCkWU]{Rotting Chainwarden Militias} who burst up from the ground to appear in adjacent unoccupied spaces. Each chainwarden militia is winded. This feature canâ€™t be used two rounds in a row.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "RxcZuo3q3ixLdXzw"
+    },
+    {
+      "name": "The Grasping, the Hungry",
+      "type": "feat",
+      "img": "icons/creatures/abilities/dragon-breath-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p><p>Ravenous and rotting undead arms burst forth from 9 connected feet of a vertical or horizontal surface. Any creature who ends their turn adjacent to an affected feet (5 ft.) makes an <strong>Agility test.</strong></p></p><p><p>While restrained this way, a creature takes 1d6 damage at the start of each of their turns.</p></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Era of Embers Campaign"
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1
+        },
+        "requirements": ""
+      },
+      "effects": [],
+      "flags": {},
+      "sort": 250000,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858480,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_id": "rSyMxY51ZCul2qmS"
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Chainwarden Militia",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858480,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

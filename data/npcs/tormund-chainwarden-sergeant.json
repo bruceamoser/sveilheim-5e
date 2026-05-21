@@ -1,0 +1,135 @@
+{
+  "_id": "AvVhNcqhYB93d3qY",
+  "name": "Sergeant Tormund (Chainwarden)",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/npc-images/tormund.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 12
+      },
+      "dex": {
+        "value": 10
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 12
+      },
+      "wis": {
+        "value": 12
+      },
+      "cha": {
+        "value": 12
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 11,
+        "max": 11,
+        "formula": "2d8 + 2"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 25
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 11
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Sergeant Tormund</strong> is the senior Chainwarden at Stairwatch's small stone post near the Ever-Ember. Broad-shouldered, grey-bearded, and unmistakably bored. He has been stationed in Stairwatch long enough that he knows every face, every regular lie, and exactly how watered the ale at the Broken Stair really is.</p><p>Tormund is competent in the way that men become competent when given nothing dangerous to do for years: thorough, unhurried, and faintly disappointed that nothing ever needs a firm hand. He drinks steadily — not drunkenly — and is far more useful after the first cup than before it.</p><p>He knows Lew Tosferd. <em>\"He’s useful. Keeps to himself. Doesn’t cause trouble I have to write up.\"</em></p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2,
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "myrmal, theFirstLanguage"
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Sergeant Tormund (Chainwarden)",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858545,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "8EHXLU0kHphINM2a",
+  "name": "Frost-Etched Barrow-Blade",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-runed-glowing.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A longsword sheathed in perpetual frost, its blade etched with burial runes that glow faint blue in darkness. The hilt is wrapped in frozen leather that never thaws. Taken from a Barrow-Warden — it remembered the old laws, even in death.</em></p><p><strong>Effect:</strong> Any weapon ability that deals rolled damage using this weapon deals an extra 1 cold damage. Once per turn, when you hit a creature with a strike using this weapon, you can choose to impose slowed (save ends) on the target as frost crawls up from the wound. While you wield this blade in dim light or darkness, it sheds pale blue light in a 1-feet (5 ft.) radius.</p>\n<hr><h3>Crafting</h3><p><strong>Prerequisites:</strong> A broken burial sword from a barrow of honour, frost-iron ingot quenched in glacier meltwater</p><p><strong>Source:</strong> Barrow-rune inscriptions in Old NorrÅ“nt</p><p><strong>Crafting Time:</strong> 450 downtime days (approximately)</p>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>Found:</strong> Beat 2 — The Graveyard. Taken from the Barrow-Warden after the ambush outside Hrafnborg. The runes are Old NorrÅ“nt and reference 'the law of the grave.' Gragnir may comment on this weapon in Beat 6 or 8.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "type": {
+      "value": "simpleM",
+      "baseItem": "longsword"
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d8 + @mod",
+          "slashing"
+        ],
+        [
+          "1d6",
+          "cold"
+        ]
+      ],
+      "versatile": "1d10 + @mod"
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "ability": "str",
+    "actionType": "mwak",
+    "proficient": true,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858583,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_id": "sy1Osv1lDH5QhqDn",
+  "name": "Forged Merchants' Papers",
+  "type": "loot",
+  "img": "icons/sundries/documents/document-letter-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A set of travel documents presenting the party as a merchants' retinue. The seal is official-looking — almost. It uses a non-standard merchant cipher, the kind only a king's personal secretary would know how to forge.</em></p><p>Good enough to pass a half-asleep Chainwarden. Less convincing under close scrutiny.</p><p><strong>Effect:</strong> When presented to a Chainwarden checkpoint guard, the bearer makes a Presence test. moderate roll+: the papers are accepted without question. low roll: the reviewing officer notices the seal is irregular and becomes suspicious (+1 Interest toward questioning), but does not immediately refuse passage.</p>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>Received:</strong> Beat 3 (The Quiet Summons) — King Harald provides these papers to help the party slip out of Hrafnborg and avoid Chainwarden scrutiny. At the Hrafnborg departure checkpoint, the guard is half-asleep and waves them through. Save the tension for the Greypass Toll, where Eirik Greyhand examines them more carefully (Beat 4a).</p><p><strong>Using the papers:</strong> When presented at a checkpoint, the bearer makes a Presence test (moderate difficulty). moderate roll+: accepted without question. low roll: the officer notes the irregular seal ('This isn't the standard merchant cipher. Where did you get these?') and gains +1 suspicion, but does not refuse passage yet. Once a Chainwarden has noted the irregular seal, word may spread to subsequent checkpoints.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858583,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

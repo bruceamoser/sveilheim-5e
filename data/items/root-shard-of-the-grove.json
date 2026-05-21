@@ -1,0 +1,47 @@
+{
+  "_id": "UqnUCXfH7lfUzJmo",
+  "name": "Root-Shard of the Grove",
+  "type": "loot",
+  "img": "icons/commodities/gems/gem-rough-oval-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>A fragment of the Green Heart's root-network, crystallized with Kaelen's warmth-light during her transformation. The shard is warm to the touch, humming very slightly — a subsonic resonance. The surface is polished by age and attention. Inside, faint golden light moves like slow flame.</p><p><em>\"The root remembers everything it has touched. She has touched us before. Now you carry a piece of that memory.\"</em></p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "rare",
+    "identified": true
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858586,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

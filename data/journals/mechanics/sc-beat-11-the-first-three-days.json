@@ -1,0 +1,52 @@
+{
+  "_id": "J093rPOHN9wdkK8K",
+  "name": "Skill Challenge: Beat 11 — The First Three Days",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858618,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "2OCm80MCCUES0OmL",
+      "name": "Beat 11 — The First Three Days",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h1>Skill Challenge: Beat 11 — The First Three Days</h1>\n<p><strong>Act:</strong> Act 2 | <strong>Difficulty:</strong> Hard (DC 15)</p>\n<p><strong>Successes Needed:</strong> 6 | <strong>Failures Allowed:</strong> 3</p>\n<hr><h2>Overview</h2><p>The first three days of the Drowned Road are a punishing descent through flooded cave passages. The party moves through narrow channeled paths, bioluminescent chambers, and carved Root-Rune corridors. Navigation is challenging; the deeper passages are older and stranger. This montage covers exploration, survival, and the first encounter with evidence that something is organizing the dead.</p>\n<hr><h2>Running the Skill Challenge</h2>\n<p>Each character takes a turn attempting one skill check. On their turn, a player describes how they're helping the party and rolls the appropriate skill against <strong>DC 15</strong>. A success adds to the group's total; a failure adds to the failure count. If the party reaches <strong>6 successes</strong> before <strong>3 failures</strong>, they succeed overall.</p>\n<p><strong>Suggested Skills:</strong></p><ul>\n<li>Athletics</li>\n<li>Acrobatics or Stealth</li>\n<li>Arcana or Investigation</li>\n<li>Perception, Survival, or Insight</li>\n<li>Persuasion, Intimidation, or Deception</li>\n</ul>\n<p>Players may also suggest creative skill uses — reward good roleplaying with advantage or a lower DC.</p>\n<hr><h2>Complications</h2>\n<p>The flooded passages require careful navigation. Water levels shift with underground currents. Kaelen reads Root-Runes on the walls as they descend — the older the Runes, the more information she can extract, but they slow progress.</p><ul><li><strong>Reason:</strong> Map the passage network and mark safe routes vs. flooded dead-ends (the passages branch frequently).</li><li><strong>Agility:</strong> Move through chest-deep flood sections without losing footing or equipment.</li><li><strong>Intuition:</strong> Sense which passages lead deeper into the root-network and which loop back upward.</li><li><strong>Might:</strong> Clear a collapsed section blocking the route, or stabilize a crumbling pillar before it falls on Kaelen.</li></ul>\n<h3>Later Rounds</h3>\n<p>The bioluminescent grotto: 100ft across, every inch carved with Root-Runes. Kaelen is overwhelmed — she needs time to process what she's reading. Meanwhile, the party hears movement in the eastern passage: a column of draugr, 30-40 strong, marching in organized formation. The party must stay hidden or be detected.</p><ul><li><strong>Agility:</strong> Find concealment positions in the grotto before the draugr column enters (the passage is narrow — they come through one side).</li><li><strong>Intuition:</strong> Assess the draugr column: not wandering, not hunting. Organized. Marching east. Determine purpose and direction without alerting them.</li><li><strong>Presence:</strong> Keep the group calm and silent while the column passes — 30 draugr, organized formation, 4-minute crossing.</li><li><strong>Reason:</strong> Help Kaelen process what she's discovered quickly enough to share before the draugr are close.</li></ul>\n<hr><h2>Outcomes</h2>\n<p><strong>Total Success:</strong> The party maps three safe routes and reaches the bioluminescent grotto on schedule. Kaelen has time to read additional Root-Runes and discovers: \"These markings are older than the Keeper Order. Someone was here before the Keepers.\"<br><strong>Partial Success:</strong> Progress is made but the party takes one wrong turn, costing four hours and one Hit Die's worth of endurance from relentless cold and wet.<br><strong>Failure:</strong> The party gets disoriented in flooded chambers. They emerge into the bioluminescent grotto later than planned — exhausted. Each hero loses 1 Hit Die from fatigue.</p>\n<p><strong>Total Success:</strong> The party conceals successfully. The column passes without detecting them. Kaelen shares: \"These are Root-Runes. But this is older. Someone was here before the Keepers.\" Both revelations land: the dead are organized, and these caves predate Keeper history.<br><strong>Partial Success:</strong> The column passes, but one hero makes noise. Two draugr pause and look back — hold their breath moment. Pass check or one draugr investigates (minor combat: 2 draugr, easily handled but they've been spotted near the column route).<br><strong>Failure:</strong> Draugr detect movement. The column doesn't fully investigate (still organized, not mindless) but a scout breaks off. Combat: 4 Draugr-Thralls + 1 Barrow-Draugr. Column has been alerted to party presence in the caves.</p>",
+        "format": 1
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13",
+        "systemId": "dnd5e",
+        "systemVersion": null,
+        "createdTime": 1779385858618,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

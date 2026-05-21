@@ -1,0 +1,135 @@
+{
+  "_id": "1PwyHFTatoHMwDdY",
+  "name": "DagnÃ½ (Heitfolk Record Keeper)",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/npc-images/dagny.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6
+      },
+      "dex": {
+        "value": 6
+      },
+      "con": {
+        "value": 6
+      },
+      "int": {
+        "value": 16
+      },
+      "wis": {
+        "value": 16
+      },
+      "cha": {
+        "value": 14
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 8,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 15,
+        "max": 15,
+        "formula": "6d8 - 12"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 15
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 13
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p>DagnÃ½ is an 87-year-old Heitfolk tunnel record keeper â€” third-generation, stationed at the Steam-Oasis branch of the Heitfolk deep network. She was born into the station and has never left it for longer than a seasonal survey. The Steam-Oasis records stretch back six generations in her handwriting and her mother's handwriting and her grandmother's handwriting before that.</p><p>She moves slowly and deliberately, not from infirmity but from habit. Tunnel keepers learn to move without disturbing the air. She is not afraid of silence. She lets conversations breathe.</p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2,
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "askeskogsmal"
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "DagnÃ½ (Heitfolk Record Keeper)",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858513,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "_id": "1P0AavQ2WdBSGeP0",
+  "name": "Deputy Freja (Chainwarden)",
+  "type": "npc",
+  "img": "modules/sveilheim-5e/assets/icons/npc-images/freja.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10
+      },
+      "dex": {
+        "value": 12
+      },
+      "con": {
+        "value": 12
+      },
+      "int": {
+        "value": 14
+      },
+      "wis": {
+        "value": 14
+      },
+      "cha": {
+        "value": 10
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 11,
+        "calc": "flat"
+      },
+      "hp": {
+        "value": 11,
+        "max": 11,
+        "formula": "2d8 + 2"
+      },
+      "init": {
+        "ability": "dex",
+        "bonus": ""
+      },
+      "movement": {
+        "walk": 35
+      },
+      "senses": {
+        "darkvision": 0,
+        "passivePerception": 12
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Deputy Freja</strong> is the junior Chainwarden at Stairwatch’s post near the Ever-Ember. Young, sharp-eyed, and relentlessly suspicious. She does not drink — not on duty, not off it — and considers this a professional virtue rather than a personal preference.</p><p>Freja is by-the-book in the way people become when they have decided that rules are the only reliable thing in an unreliable world. She fills out forms meticulously, cross-references names against wanted notices, and notices when papers look a little too clean or a little too worn.</p><p>On Lew Tosferd: <em>\"He knows too many people. Nobody knows that many people honestly.\"</em></p>",
+        "public": ""
+      },
+      "alignment": "",
+      "cr": 2,
+      "type": {
+        "value": "monstrosity",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "source": {
+        "custom": "Era of Embers Campaign"
+      },
+      "xp": {
+        "value": 450
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "myrmal"
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Deputy Freja (Chainwarden)",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 1,
+    "height": 1
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858519,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

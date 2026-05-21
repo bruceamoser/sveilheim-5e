@@ -1,0 +1,55 @@
+{
+  "_id": "1UepeGfbjiygw9ri",
+  "name": "Rootgnaw Chitin Buckler",
+  "type": "equipment",
+  "img": "icons/equipment/shield/kite-bronze-boss-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A small round shield crafted from the overlapping chitin plates of a Rootgnaw Queen — the massive burrowing insect that nests in Yggdrasil's dying root network. The chitin is surprisingly light, warm to the touch, and faintly luminescent with an amber vein-pattern that mirrors the World-Tree's root structure. It smells of turned earth and resin.</em></p><p><strong>1st Level:</strong> While you wield this shield, you gain a +6 bonus to Hit Points. Additionally, when a creature adjacent to you hits you with a melee attack, the chitin's residual connection to Yggdrasil's root network flares — the attacker takes  damage as phantom roots lash at their limbs. This damage increases to  against blighted or undead creatures.</p><p><strong>5th Level:</strong> The shield's bonus to Hit Points increases to +12. Additionally, once per encounter, when you are hit by an attack that would reduce you to 0 Hit Points, you can use a triggered action to have the chitin absorb the blow — you instead drop to 1 Hit Points, and the buckler cracks audibly. Until you take a long rest, the buckler's reactive damage is disabled, but you gain {saving throws +2} as the cracked chitin braces against your arm like a splint.</p><p><strong>9th Level:</strong> The shield's bonus to Hit Points increases to +21. Additionally, the reactive damage increases to  (or  against blighted/undead), and the once-per-encounter survival ability no longer disables the reactive damage.</p>\n<hr><h3>Crafting</h3><p><strong>Prerequisites:</strong> Chitin plates from a Rootgnaw Queen, leather strapping, resin sealant from living root-sap</p><p><strong>Source:</strong> Practical field-craft (no formal texts — improvised from monster remains)</p><p><strong>Crafting Time:</strong> 450 downtime days (approximately)</p>\n<section class=\"secret\"><h3>DM Notes</h3><section class=\"secret\"><p><strong>Found:</strong> Beat 6 — After the Rootgnaw Brood combat encounter near the Green Heart boundary. The PCs can harvest chitin plates from the Rootgnaw Queen's corpse with a medium Reason test (understanding which plates are structurally sound) or an easy Might test (brute-force extraction). Lew suggests the idea: 'That shell's tougher than anything you'll find at a smith. Might want to keep some.'</p><p><strong>Crafting Note:</strong> The shield can be assembled during a long rest by a PC with appropriate skills. If the PCs protected 2+ living roots during the Rootgnaw combat, the chitin retains stronger Yggdrasil resonance — the Director may grant +1 to the reactive damage at 1st level.</p></section></section>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Era of Embers Campaign"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "type": {
+      "value": "light",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": 12,
+      "dex": null
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13",
+    "systemId": "dnd5e",
+    "systemVersion": null,
+    "createdTime": 1779385858586,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}
