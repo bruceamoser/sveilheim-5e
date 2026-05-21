@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Pale Maw acolytes are the initiates and shadow operatives of the Pale Maw cult â€” dedicated to the Entropy God and trained in the dual arts of corruption magic and covert combat. They move through shadows with practiced ease, striking from difficult terrain and unleashing corruption-touched spells that drain vitality and cloud the mind. They are true believers, fearless in the cult's service, and their presence on a battlefield signals that the Pale Maw's influence has reached deeply into the region.</p>",
+        "value": "<p>Pale Maw acolytes are the initiates and shadow operatives of the Pale Maw cult — dedicated to the Entropy God and trained in the dual arts of corruption magic and covert combat. They move through shadows with practiced ease, striking from difficult terrain and unleashing corruption-touched spells that drain vitality and cloud the mind. They are true believers, fearless in the cult's service, and their presence on a battlefield signals that the Pale Maw's influence has reached deeply into the region.</p>",
         "public": ""
       },
       "alignment": "",
@@ -163,7 +163,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838741,
+        "createdTime": 1779391003878,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -223,7 +223,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838741,
+        "createdTime": 1779391003878,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -260,7 +260,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838741,
+        "createdTime": 1779391003878,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -298,7 +298,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838741,
+        "createdTime": 1779391003878,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -326,7 +326,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838741,
+    "createdTime": 1779391003878,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

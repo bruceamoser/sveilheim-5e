@@ -50,7 +50,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The Goblin Monarch is the absolute ruler of a goblin warband ââ‚¬â€ a calculating, self-serving leader who uses every available tool to preserve their own skin while sending others to die. They carry a handaxe with deceptive effectiveness and can call in reinforcements with a shout of u201cGet in Here!u201d ââ‚¬â€ producing a fresh wave of goblin runners from anywhere at hand. Their Meat Shield ability keeps them alive by throwing followers into the path of incoming attacks. Three villain actions per encounter make them genuinely dangerous.</p>",
+        "value": "<p>The Goblin Monarch is the absolute ruler of a goblin warband ââ‚¬” a calculating, self-serving leader who uses every available tool to preserve their own skin while sending others to die. They carry a handaxe with deceptive effectiveness and can call in reinforcements with a shout of u201cGet in Here!u201d ââ‚¬” producing a fresh wave of goblin runners from anywhere at hand. Their Meat Shield ability keeps them alive by throwing followers into the path of incoming attacks. Three villain actions per encounter make them genuinely dangerous.</p>",
         "public": ""
       },
       "alignment": "",
@@ -161,7 +161,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -199,7 +199,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -236,7 +236,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -355,7 +355,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -415,7 +415,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -452,7 +452,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -512,7 +512,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -549,7 +549,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -586,7 +586,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -623,7 +623,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -660,7 +660,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838733,
+        "createdTime": 1779391003871,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -689,7 +689,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838734,
+    "createdTime": 1779391003871,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

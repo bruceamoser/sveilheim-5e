@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Pale Maw soldiers are the rank-and-file of the Entropy cult's military wing â€” warriors given purpose by absolute faith in destruction's inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.</p>",
+        "value": "<p>Pale Maw soldiers are the rank-and-file of the Entropy cult's military wing — warriors given purpose by absolute faith in destruction's inevitability. They carry rune-carved weapons and chant entropy scripture even in combat, bolstering their allies with the Entropy Chant while cutting down the faithless. Their Fanatical resolve makes them difficult to frighten, and their Pack Mentality makes them significantly more dangerous when they fight alongside their brothers and sisters in entropy.</p>",
         "public": ""
       },
       "alignment": "",
@@ -160,7 +160,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838742,
+        "createdTime": 1779391003880,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -220,7 +220,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838742,
+        "createdTime": 1779391003880,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -257,7 +257,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838742,
+        "createdTime": 1779391003880,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838742,
+        "createdTime": 1779391003880,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -332,7 +332,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838742,
+        "createdTime": 1779391003880,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -360,7 +360,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838742,
+    "createdTime": 1779391003880,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

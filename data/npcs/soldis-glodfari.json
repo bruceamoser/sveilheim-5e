@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Söldís Glóðfari</strong> is the master of the Glóðfari caravan â€” a well-worn group of six wagons that have been making circuits through the failing settlements of Svellheim for many seasons. Her coat is patchwork repairs, each patch from a different place. Around her neck, on a cord close to her chest, hangs a sealed clay pot. Something glows inside â€” not quite flame, but the suggestion of something that has been burning for a very, very long time.</p><p>She reads people the way other people read maps. She notices things before she remarks on them. She is generous with what she can give, and precise about what she cannot.</p><p>She will be present during the Siege of Hrafnborg. Her caravan and its people will be there. The party is already deciding, without knowing it, whether those people survive.</p>",
+        "value": "<p><strong>Söldís Glóðfari</strong> is the master of the Glóðfari caravan — a well-worn group of six wagons that have been making circuits through the failing settlements of Svellheim for many seasons. Her coat is patchwork repairs, each patch from a different place. Around her neck, on a cord close to her chest, hangs a sealed clay pot. Something glows inside — not quite flame, but the suggestion of something that has been burning for a very, very long time.</p><p>She reads people the way other people read maps. She notices things before she remarks on them. She is generous with what she can give, and precise about what she cannot.</p><p>She will be present during the Siege of Hrafnborg. Her caravan and its people will be there. The party is already deciding, without knowing it, whether those people survive.</p>",
         "public": ""
       },
       "alignment": "",
@@ -113,7 +113,7 @@
       "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>You can give a rousing speech, invoke your inspirations, or lift your fellowsâ€™ spirits, appealing to the muses to heighten a battleâ€™s drama. However, irony is eager to hand your fortune to the villain to achieve the same end.</p><p>Before you roll to gain drama at the start of your turn, you can make your appeal (no action required). If you do, your roll gains the following additional effects:</p><ul><li><p>If the roll is a 1, you { gain 1 additional drama}. The Director gains  Malice.</p></li><li><p>If the roll is a 2, you , which you can keep or give to an ally within the distance of your active performance. The Director gains 1 Malice.</p></li><li><p>If the roll is a 3, you , which you can distribute among yourself and any allies within the distance of your active performance.</p></li></ul>",
+          "value": "<p>You can give a rousing speech, invoke your inspirations, or lift your fellows’ spirits, appealing to the muses to heighten a battle’s drama. However, irony is eager to hand your fortune to the villain to achieve the same end.</p><p>Before you roll to gain drama at the start of your turn, you can make your appeal (no action required). If you do, your roll gains the following additional effects:</p><ul><li><p>If the roll is a 1, you { gain 1 additional drama}. The Director gains  Malice.</p></li><li><p>If the roll is a 2, you , which you can keep or give to an ally within the distance of your active performance. The Director gains 1 Malice.</p></li><li><p>If the roll is a 3, you , which you can distribute among yourself and any allies within the distance of your active performance.</p></li></ul>",
           "chat": ""
         },
         "source": {
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838780,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -150,7 +150,7 @@
       "img": "icons/skills/ranged/arrow-strike-apple-orange.webp",
       "system": {
         "description": {
-          "value": "<p>During battles, you are fueled by the dynamic ups, downs, and upside downs of the fray, from which you derive a Heroic Resource called drama.</p><h4>Drama in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain drama equal to your Milestones. At the start of each of your turns during combat, you gain 1d3 drama. Additionally, you gain drama when certain events occur during a combat encounter:</p><ul><li><p>The first time three or more heroes use an ability on the same turn, you gain 2 drama.</p></li><li><p>The first time any hero is made winded during the encounter, you gain 2 drama.</p></li><li><p>Whenever a creature within your line of effect rolls a natural 19 or 20, you gain 3 drama.</p></li><li><p>When you or another hero dies, you gain 10 drama.</p></li></ul><p>When you are dead, you continue to gain drama during combat as long as your body is intact. If you have 30 drama during the encounter in which you died, you can come back to life with 1 Hit Points and 0 drama (no action required). If you are still dead after the encounter in which you died, you canâ€™t gain drama during future encounters.</p><p>You lose any remaining drama at the end of the encounter.</p><h4>Drama Outside of Combat</h4><p>Though you canâ€™t gain drama outside of combat, you can use your heroic abilities and effects that cost drama without spending it. Whenever you use an ability or effect outside of combat that costs drama, you canâ€™t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited drama on its effect, such as Artful Flourish, you can use it as if you had spent an amount of drama equal to your Milestones.</p>",
+          "value": "<p>During battles, you are fueled by the dynamic ups, downs, and upside downs of the fray, from which you derive a Heroic Resource called drama.</p><h4>Drama in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain drama equal to your Milestones. At the start of each of your turns during combat, you gain 1d3 drama. Additionally, you gain drama when certain events occur during a combat encounter:</p><ul><li><p>The first time three or more heroes use an ability on the same turn, you gain 2 drama.</p></li><li><p>The first time any hero is made winded during the encounter, you gain 2 drama.</p></li><li><p>Whenever a creature within your line of effect rolls a natural 19 or 20, you gain 3 drama.</p></li><li><p>When you or another hero dies, you gain 10 drama.</p></li></ul><p>When you are dead, you continue to gain drama during combat as long as your body is intact. If you have 30 drama during the encounter in which you died, you can come back to life with 1 Hit Points and 0 drama (no action required). If you are still dead after the encounter in which you died, you can’t gain drama during future encounters.</p><p>You lose any remaining drama at the end of the encounter.</p><h4>Drama Outside of Combat</h4><p>Though you can’t gain drama outside of combat, you can use your heroic abilities and effects that cost drama without spending it. Whenever you use an ability or effect outside of combat that costs drama, you can’t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited drama on its effect, such as Artful Flourish, you can use it as if you had spent an amount of drama equal to your Milestones.</p>",
           "chat": ""
         },
         "source": {
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838780,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -212,7 +212,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -248,7 +248,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -285,7 +285,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -298,7 +298,7 @@
       "img": "icons/skills/social/diplomacy-handshake.webp",
       "system": {
         "description": {
-          "value": "<p>Whenever you obtain a success on a test to interact with an NPC using a skill from the interpersonal group, you can form a bond with that NPC. When you enter into a negotiation with a bonded NPC, their patience increases by 1 (to a maximum of 5). Additionally, the first time during a negotiation that you personally make an argument that would increase a bonded NPCâ€™s interest by 1, you instead increase their interest by 2 (to a maximum of 5).</p><p>You can have a number of bonds active equal to your level. When you form a bond with a new NPC that would exceed the limit, you must choose which of your active bonds to lose.</p>",
+          "value": "<p>Whenever you obtain a success on a test to interact with an NPC using a skill from the interpersonal group, you can form a bond with that NPC. When you enter into a negotiation with a bonded NPC, their patience increases by 1 (to a maximum of 5). Additionally, the first time during a negotiation that you personally make an argument that would increase a bonded NPC’s interest by 1, you instead increase their interest by 2 (to a maximum of 5).</p><p>You can have a number of bonds active equal to your level. When you form a bond with a new NPC that would exceed the limit, you must choose which of your active bonds to lose.</p>",
           "chat": ""
         },
         "source": {
@@ -323,7 +323,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -360,7 +360,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -419,7 +419,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -479,7 +479,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -491,7 +491,7 @@
       "img": "icons/magic/control/energy-stream-link-white.webp",
       "system": {
         "description": {
-          "value": "<p><p>At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to [[lookup @P]]{your Presence score} and teleport those targets to unoccupied spaces in the area. A target canâ€™t be teleported in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect. </p></p><p>Each creature in a 10-foot aura must make a DC 11 Constitution saving throw.</p>",
+          "value": "<p><p>At the end of each of your turns while this performance is active, you can choose up to a number of targets equal to [[lookup @P]]{your Presence score} and teleport those targets to unoccupied spaces in the area. A target can’t be teleported in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect. </p></p><p>Each creature in a 10-foot aura must make a DC 11 Constitution saving throw.</p>",
           "chat": ""
         },
         "source": {
@@ -516,7 +516,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -528,7 +528,7 @@
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
-          "value": "<p><p>Choose one of the following effects:</p><ul><li><p>You orate a rousing tale of victory. One ally within distance gains an advantage on the next ability check they make before the start of your next turn.</p></li><li><p>You weave a tale of high-stakes heroics. One ally within distance .</p></li><li><p>You insult a foe where theyâ€™re most vulnerable. One enemy with in distance takes a disadvantage on the next ability check they make before the end of their next turn.</p></li></ul></p>",
+          "value": "<p><p>Choose one of the following effects:</p><ul><li><p>You orate a rousing tale of victory. One ally within distance gains an advantage on the next ability check they make before the start of your next turn.</p></li><li><p>You weave a tale of high-stakes heroics. One ally within distance .</p></li><li><p>You insult a foe where they’re most vulnerable. One enemy with in distance takes a disadvantage on the next ability check they make before the end of their next turn.</p></li></ul></p>",
           "chat": ""
         },
         "source": {
@@ -576,7 +576,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -636,7 +636,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -648,7 +648,7 @@
       "img": "icons/skills/social/diplomacy-handshake.webp",
       "system": {
         "description": {
-          "value": "<p><p>A guest star appears to help you during the encounter: either a bystander within distance uplifted by your magic, or a mysterious new hero who appears in an unoccupied space within distance.</p><p>This guest star is controlled by you, has their own turn, and shares your characteristics. Their Hit Points maximum is half yours. They have no abilities other than your melee and ranged free strikes.</p><p>At the end of the encounter, or when the guest star is reduced to 0 Hit Points, they retreat or revert to a bystander. The same bystander canâ€™t be uplifted this way more than once during an encounter.</p></p>",
+          "value": "<p><p>A guest star appears to help you during the encounter: either a bystander within distance uplifted by your magic, or a mysterious new hero who appears in an unoccupied space within distance.</p><p>This guest star is controlled by you, has their own turn, and shares your characteristics. Their Hit Points maximum is half yours. They have no abilities other than your melee and ranged free strikes.</p><p>At the end of the encounter, or when the guest star is reduced to 0 Hit Points, they retreat or revert to a bystander. The same bystander can’t be uplifted this way more than once during an encounter.</p></p>",
           "chat": ""
         },
         "source": {
@@ -696,7 +696,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -733,7 +733,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -770,7 +770,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -830,7 +830,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -842,7 +842,7 @@
       "img": "icons/magic/life/heart-hand-gold-green-light.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
+          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying can’t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
           "chat": ""
         },
         "source": {
@@ -867,7 +867,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -879,7 +879,7 @@
       "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature can’t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they can’t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
           "chat": ""
         },
         "source": {
@@ -927,7 +927,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -939,7 +939,7 @@
       "img": "icons/skills/melee/shield-block-fire-orange.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
+          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creature’s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
           "chat": ""
         },
         "source": {
@@ -964,7 +964,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1001,7 +1001,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1061,7 +1061,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1121,7 +1121,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1181,7 +1181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1241,7 +1241,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003916,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1301,7 +1301,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003917,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1338,7 +1338,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003917,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1375,7 +1375,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003917,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1412,7 +1412,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003917,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1424,7 +1424,7 @@
       "img": "icons/environment/people/cavalry.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mountâ€™s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the riderâ€™s bonus action and main action however they wish.</p></p>",
+          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mount’s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider’s bonus action and main action however they wish.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1449,7 +1449,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838781,
+        "createdTime": 1779391003917,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1478,7 +1478,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838782,
+    "createdTime": 1779391003917,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

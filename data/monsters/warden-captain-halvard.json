@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Warden-Captain Halvard is the commanding officer of Svellheim's Chainwarden toll-post on the Coastal Road. A veteran soldier whose authority comes from presence, not cruelty, he carries a chain-flail and heavy shield. He received a raven from Ashwright's network with a description of the party ââ‚¬â€ he's been told to detain them alive, if possible, but has latitude. Halvard is a pragmatist who has been bribed, not a zealot. If the fight goes badly, he'll try to retreat.</p>",
+        "value": "<p>Warden-Captain Halvard is the commanding officer of Svellheim's Chainwarden toll-post on the Coastal Road. A veteran soldier whose authority comes from presence, not cruelty, he carries a chain-flail and heavy shield. He received a raven from Ashwright's network with a description of the party ââ‚¬” he's been told to detain them alive, if possible, but has latitude. Halvard is a pragmatist who has been bribed, not a zealot. If the fight goes badly, he'll try to retreat.</p>",
         "public": ""
       },
       "alignment": "",
@@ -163,7 +163,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -201,7 +201,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -238,7 +238,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -274,7 +274,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -334,7 +334,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -394,7 +394,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -431,7 +431,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003887,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -468,7 +468,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003888,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -505,7 +505,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838751,
+        "createdTime": 1779391003888,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -534,7 +534,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838751,
+    "createdTime": 1779391003888,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

@@ -14,7 +14,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838964,
+    "createdTime": 1779391004110,
     "modifiedTime": null,
     "lastModifiedBy": null
   },
@@ -28,7 +28,7 @@
         "level": 1
       },
       "text": {
-        "content": "<p><em>The southwestern coast of Svellheim is not a shoreline. It is a wound: granite torn open into deep saltwater inlets, cliffs that drop like axe-cuts, and narrow strips of habitable ground clinging to stone.</em></p>\n\n<hr>\n\n<h2>Public Knowledge</h2>\n\n<div style=\"background:#eee8d5; color:#2a2a2a; border-left:4px solid #8b7355; padding:12px 16px; margin:12px 0; border-radius:4px;\">\n<p><strong>At a Glance</strong></p>\n<ul>\n<li><strong>Region:</strong> Coastal Belt (southwest). Fjords, cliffs, and ice-choked inlets.</li>\n<li><strong>Largest settlement:</strong> <strong>Hrafnborg</strong>, last major port where law and rations still function.</li>\n<li><strong>What people do to live:</strong> fish through ice, salvage wrecks, trade what little still reaches the coast, and swear binding contracts to survive one more week.</li>\n<li><strong>What people fear:</strong> storms that come without warning, the sea that no longer freezes cleanly, and the dead that walk in <em>organized silence</em>.</li>\n</ul>\n</div>\n\n<h3>Landscape & Weather</h3>\n<p>The fjords break the land into a maze of ridges and waterways. In fair seasons, this geography makes the coast defensible and rich in fish. In Fimbulwinter it becomes a trap: roads are narrow, bridges are few, and every detour costs <strong>Heat</strong>.</p>\n\n<ul>\n<li><strong>Cliff-coast:</strong> Sheer granite faces and wind-carved ledges. Villages (if they still exist) cling to coves and river mouths.</li>\n<li><strong>Salt in the air:</strong> Clothes crust white. Tools rust fast. Wounds sting.</li>\n<li><strong>Storm-fronts:</strong> Snow can become sleet in minutes, driven sideways by fjord winds that turn breath into needles.</li>\n<li><strong>Bad ice:</strong> Even when the inlets freeze, the ice is inconsistent—thin in places, rotten in others, and prone to sudden fractures.</li>\n</ul>\n\n<h3>People & Power</h3>\n<p>In the Splintered Fjords, authority is measured by who can keep fires lit and bellies full.</p>\n\n<table style=\"width:100%; border-collapse:collapse; margin:12px 0; color:#2a2a2a; background:#faf8f2;\">\n<thead>\n<tr style=\"background:#e8e0d0; color:#2a2a2a;\">\n<th style=\"padding:6px 10px; text-align:left; color:#2a2a2a;\">Power</th>\n<th style=\"padding:6px 10px; text-align:left; color:#2a2a2a;\">How it shows up day-to-day</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>The Crown</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">High King Harald’s writ is strongest in and around Hrafnborg: summons, ration-counters, and emergency law.</td>\n</tr>\n<tr style=\"background:#f5f0e6; color:#2a2a2a;\">\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>Chainwardens</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">Checkpoints and tolls. They tax travel in <em>Heat</em> and <em>Word</em>, and decide which caravans “deserve” to pass.</td>\n</tr>\n<tr>\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>The Thing</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">When law must be seen to be law: verdicts spoken aloud, wergild weighed, oaths recorded and remembered.</td>\n</tr>\n<tr style=\"background:#f5f0e6; color:#2a2a2a;\">\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>The Sea</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">Fishing, salvage, and the occasional southern ship. The fjords feed the coast—until they don’t.</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Travel: What Still Works</h3>\n<ul>\n<li><strong>Lantern Road:</strong> The failing highway out of Hrafnborg toward the interior. Mile-markers are buried; signs are stolen for firewood.</li>\n<li><strong>Coastal shipping:</strong> When ice permits, small boats hug the shore between settlements. Salvage crews and fishermen know the coves by memory; passage can be bought for silver or service.</li>\n</ul>\n\n<hr>\n\n<h2>Director Notes</h2>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">⚠ Director Notes: How the Fjords Should Feel</h4>\n<p>Use the Splintered Fjords as <strong>pressure geography</strong>. Every route is narrow, every bridge is a decision, every detour burns days the heroes don’t have. When you need the world to push back, the fjords push back “honestly”: wind, ice, bad luck, and systems collapsing.</p>\n<ul>\n<li><strong>Make Heat visible:</strong> describe numb fingers, oil running low, and arguments over one more log.</li>\n<li><strong>Make Word weaponized:</strong> permits, stamped papers, seals, ledgers. People survive by paperwork as much as by steel.</li>\n<li><strong>Make the dead systemic:</strong> draugr aren’t random jump-scares; they are a <em>flow</em>—columns moving toward Hrafnborg like water downhill.</li>\n</ul>\n</div>\n</section>\n</section>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">Hooks & Complications (pick 1–2)</h4>\n<ul>\n<li><strong>Rotten ice:</strong> the sea-ice “rots” instead of melting. Old ferries and causeways fail. Survivors blame witchcraft or the Vanir.</li>\n<li><strong>Checkpoint economy:</strong> a Chainwarden toll-post becomes a petty kingdom, selling passage to the desperate.</li>\n<li><strong>Salt-wind omens:</strong> ravens gather on cliff ledges and won’t leave; a skald claims they are counting the dead for a coming siege.</li>\n<li><strong>Extinguished shrines:</strong> roadside Yggdrasil-cairns are all cold. If a PC makes an offering, the rune-stone warms briefly—then goes dead.</li>\n</ul>\n</div>\n</section>\n</section>",
+        "content": "<p><em>The southwestern coast of Svellheim is not a shoreline. It is a wound: granite torn open into deep saltwater inlets, cliffs that drop like axe-cuts, and narrow strips of habitable ground clinging to stone.</em></p>\n\n<hr>\n\n<h2>Public Knowledge</h2>\n\n<div style=\"background:#eee8d5; color:#2a2a2a; border-left:4px solid #8b7355; padding:12px 16px; margin:12px 0; border-radius:4px;\">\n<p><strong>At a Glance</strong></p>\n<ul>\n<li><strong>Region:</strong> Coastal Belt (southwest). Fjords, cliffs, and ice-choked inlets.</li>\n<li><strong>Largest settlement:</strong> <strong>Hrafnborg</strong>, last major port where law and rations still function.</li>\n<li><strong>What people do to live:</strong> fish through ice, salvage wrecks, trade what little still reaches the coast, and swear binding contracts to survive one more week.</li>\n<li><strong>What people fear:</strong> storms that come without warning, the sea that no longer freezes cleanly, and the dead that walk in <em>organized silence</em>.</li>\n</ul>\n</div>\n\n<h3>Landscape & Weather</h3>\n<p>The fjords break the land into a maze of ridges and waterways. In fair seasons, this geography makes the coast defensible and rich in fish. In Fimbulwinter it becomes a trap: roads are narrow, bridges are few, and every detour costs <strong>Heat</strong>.</p>\n\n<ul>\n<li><strong>Cliff-coast:</strong> Sheer granite faces and wind-carved ledges. Villages (if they still exist) cling to coves and river mouths.</li>\n<li><strong>Salt in the air:</strong> Clothes crust white. Tools rust fast. Wounds sting.</li>\n<li><strong>Storm-fronts:</strong> Snow can become sleet in minutes, driven sideways by fjord winds that turn breath into needles.</li>\n<li><strong>Bad ice:</strong> Even when the inlets freeze, the ice is inconsistent—thin in places, rotten in others, and prone to sudden fractures.</li>\n</ul>\n\n<h3>People & Power</h3>\n<p>In the Splintered Fjords, authority is measured by who can keep fires lit and bellies full.</p>\n\n<table>\n<thead>\n<tr>\n<th>Power</th>\n<th>How it shows up day-to-day</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>The Crown</strong></td>\n<td>High King Harald’s writ is strongest in and around Hrafnborg: summons, ration-counters, and emergency law.</td>\n</tr>\n<tr>\n<td><strong>Chainwardens</strong></td>\n<td>Checkpoints and tolls. They tax travel in <em>Heat</em> and <em>Word</em>, and decide which caravans “deserve” to pass.</td>\n</tr>\n<tr>\n<td><strong>The Thing</strong></td>\n<td>When law must be seen to be law: verdicts spoken aloud, wergild weighed, oaths recorded and remembered.</td>\n</tr>\n<tr>\n<td><strong>The Sea</strong></td>\n<td>Fishing, salvage, and the occasional southern ship. The fjords feed the coast—until they don’t.</td>\n</tr>\n</tbody>\n</table>\n\n<h3>Travel: What Still Works</h3>\n<ul>\n<li><strong>Lantern Road:</strong> The failing highway out of Hrafnborg toward the interior. Mile-markers are buried; signs are stolen for firewood.</li>\n<li><strong>Coastal shipping:</strong> When ice permits, small boats hug the shore between settlements. Salvage crews and fishermen know the coves by memory; passage can be bought for silver or service.</li>\n</ul>\n\n<hr>\n\n<h2>Director Notes</h2>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">⚠ Director Notes: How the Fjords Should Feel</h4>\n<p>Use the Splintered Fjords as <strong>pressure geography</strong>. Every route is narrow, every bridge is a decision, every detour burns days the heroes don’t have. When you need the world to push back, the fjords push back “honestly”: wind, ice, bad luck, and systems collapsing.</p>\n<ul>\n<li><strong>Make Heat visible:</strong> describe numb fingers, oil running low, and arguments over one more log.</li>\n<li><strong>Make Word weaponized:</strong> permits, stamped papers, seals, ledgers. People survive by paperwork as much as by steel.</li>\n<li><strong>Make the dead systemic:</strong> draugr aren’t random jump-scares; they are a <em>flow</em>—columns moving toward Hrafnborg like water downhill.</li>\n</ul>\n</div>\n</section>\n</section>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">Hooks & Complications (pick 1–2)</h4>\n<ul>\n<li><strong>Rotten ice:</strong> the sea-ice “rots” instead of melting. Old ferries and causeways fail. Survivors blame witchcraft or the Vanir.</li>\n<li><strong>Checkpoint economy:</strong> a Chainwarden toll-post becomes a petty kingdom, selling passage to the desperate.</li>\n<li><strong>Salt-wind omens:</strong> ravens gather on cliff ledges and won’t leave; a skald claims they are counting the dead for a coming siege.</li>\n<li><strong>Extinguished shrines:</strong> roadside Yggdrasil-cairns are all cold. If a PC makes an offering, the rune-stone warms briefly—then goes dead.</li>\n</ul>\n</div>\n</section>\n</section>",
         "format": 1
       },
       "sort": 0,
@@ -43,7 +43,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -72,7 +72,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -101,7 +101,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -115,7 +115,7 @@
         "level": 1
       },
       "text": {
-        "content": "<p><em>In the Long-Market, every bargain is a small duel. Silver is weighed. Grain is counted. Promises are witnessed. Hunger makes honest people into mathematicians.</em></p>\n\n<hr>\n\n<h2>Public Knowledge</h2>\n\n<p>The Long-Market is Hrafnborg’s spine: a long, crowded lane of stalls and covered arcades where hacksilver is weighed, barter is formalized, and ration tokens are traded for survival. Even in Fimbulwinter, commerce continues—because stopping would be worse than exploitation.</p>\n\n<h3>What you can find here</h3>\n<ul>\n<li><strong>Food:</strong> dried cod, rancid whale-oil, hard bread, a handful of turnips at ruinous prices.</li>\n<li><strong>Heat:</strong> lamp oil, peat bricks, firestarters, and “legal” coal chits stamped by clerks.</li>\n<li><strong>Tools & repair:</strong> nails, rope, patched boots, sharpened edges, needles and thread.</li>\n<li><strong>Information:</strong> rumors with price tags. Names of smugglers. Which checkpoint is hungry today.</li>\n</ul>\n\n<table style=\"width:100%; border-collapse:collapse; margin:12px 0; color:#2a2a2a; background:#faf8f2;\">\n<thead>\n<tr style=\"background:#e8e0d0; color:#2a2a2a;\">\n<th style=\"padding:6px 10px; text-align:left; color:#2a2a2a;\">Market Truth</th>\n<th style=\"padding:6px 10px; text-align:left; color:#2a2a2a;\">What it means</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>Everything is weighed</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">Hacksilver, salt, grain, even favors—someone is always counting.</td>\n</tr>\n<tr style=\"background:#f5f0e6; color:#2a2a2a;\">\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>Witnesses matter</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">A bargain overheard becomes enforceable if the right ear heard it.</td>\n</tr>\n<tr>\n<td style=\"padding:6px 10px; color:#2a2a2a;\"><strong>Warmth is status</strong></td>\n<td style=\"padding:6px 10px; color:#2a2a2a;\">The closer to the Ember’s glow, the less desperate the crowd feels.</td>\n</tr>\n</tbody>\n</table>\n\n<hr>\n\n<h2>Director Notes</h2>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">⚠ Director Notes: The Market as Encounter Engine</h4>\n<p>The Long-Market is a controlled chaos space: perfect for introducing pressure without combat. Use it to make the heroes choose who to help, what to buy, and what to ignore.</p>\n<ul>\n<li><strong>Social pressure:</strong> ration tokens, permits, bribes, and public accusations.</li>\n<li><strong>Physical pressure:</strong> pickpockets, stampedes, freezing rain turning the street into a slick hazard.</li>\n<li><strong>Information pressure:</strong> every rumor is useful and weaponized—especially if the wrong faction hears it.</li>\n</ul>\n</div>\n</section>\n</section>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">Scene Seeds</h4>\n<ul>\n<li><strong>Pickpocket riot:</strong> a thief sparks a brawl under lantern-snow; a clerk’s ledger goes missing in the crush.</li>\n<li><strong>False weights:</strong> a merchant’s scale is rigged; exposing it earns an ally—or an enemy with hired blades.</li>\n<li><strong>Ration counterfeit:</strong> forged tokens circulate. If the Chainwardens panic, they tighten checkpoints and seize goods “for inspection.”</li>\n</ul>\n</div>\n</section>\n</section>",
+        "content": "<p><em>In the Long-Market, every bargain is a small duel. Silver is weighed. Grain is counted. Promises are witnessed. Hunger makes honest people into mathematicians.</em></p>\n\n<hr>\n\n<h2>Public Knowledge</h2>\n\n<p>The Long-Market is Hrafnborg’s spine: a long, crowded lane of stalls and covered arcades where hacksilver is weighed, barter is formalized, and ration tokens are traded for survival. Even in Fimbulwinter, commerce continues—because stopping would be worse than exploitation.</p>\n\n<h3>What you can find here</h3>\n<ul>\n<li><strong>Food:</strong> dried cod, rancid whale-oil, hard bread, a handful of turnips at ruinous prices.</li>\n<li><strong>Heat:</strong> lamp oil, peat bricks, firestarters, and “legal” coal chits stamped by clerks.</li>\n<li><strong>Tools & repair:</strong> nails, rope, patched boots, sharpened edges, needles and thread.</li>\n<li><strong>Information:</strong> rumors with price tags. Names of smugglers. Which checkpoint is hungry today.</li>\n</ul>\n\n<table>\n<thead>\n<tr>\n<th>Market Truth</th>\n<th>What it means</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Everything is weighed</strong></td>\n<td>Hacksilver, salt, grain, even favors—someone is always counting.</td>\n</tr>\n<tr>\n<td><strong>Witnesses matter</strong></td>\n<td>A bargain overheard becomes enforceable if the right ear heard it.</td>\n</tr>\n<tr>\n<td><strong>Warmth is status</strong></td>\n<td>The closer to the Ember’s glow, the less desperate the crowd feels.</td>\n</tr>\n</tbody>\n</table>\n\n<hr>\n\n<h2>Director Notes</h2>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">⚠ Director Notes: The Market as Encounter Engine</h4>\n<p>The Long-Market is a controlled chaos space: perfect for introducing pressure without combat. Use it to make the heroes choose who to help, what to buy, and what to ignore.</p>\n<ul>\n<li><strong>Social pressure:</strong> ration tokens, permits, bribes, and public accusations.</li>\n<li><strong>Physical pressure:</strong> pickpockets, stampedes, freezing rain turning the street into a slick hazard.</li>\n<li><strong>Information pressure:</strong> every rumor is useful and weaponized—especially if the wrong faction hears it.</li>\n</ul>\n</div>\n</section>\n</section>\n\n<section class=\"secret\">\n<section class=\"secret\">\n<div style=\"background:#3a1a1a; color:#e0d0c0; padding:12px 16px; margin:12px 0; border-radius:4px; border-left:4px solid #cc3333;\">\n<h4 style=\"margin-top:0; color:#ff6666;\">Scene Seeds</h4>\n<ul>\n<li><strong>Pickpocket riot:</strong> a thief sparks a brawl under lantern-snow; a clerk’s ledger goes missing in the crush.</li>\n<li><strong>False weights:</strong> a merchant’s scale is rigged; exposing it earns an ally—or an enemy with hired blades.</li>\n<li><strong>Ration counterfeit:</strong> forged tokens circulate. If the Chainwardens panic, they tighten checkpoints and seize goods “for inspection.”</li>\n</ul>\n</div>\n</section>\n</section>",
         "format": 1
       },
       "sort": 300000,
@@ -130,7 +130,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -159,7 +159,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -188,7 +188,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838964,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -217,7 +217,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -246,7 +246,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -275,7 +275,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004110,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -304,7 +304,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -333,7 +333,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -362,7 +362,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -391,7 +391,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -420,7 +420,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -449,7 +449,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -478,7 +478,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -507,7 +507,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -536,7 +536,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -565,7 +565,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -594,7 +594,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -623,7 +623,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -652,7 +652,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838965,
+        "createdTime": 1779391004111,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -681,7 +681,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -710,7 +710,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -739,7 +739,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -768,7 +768,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -797,7 +797,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -826,7 +826,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -855,7 +855,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -884,7 +884,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -913,7 +913,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838966,
+        "createdTime": 1779391004112,
         "modifiedTime": null,
         "lastModifiedBy": null
       }

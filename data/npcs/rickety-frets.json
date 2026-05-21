@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Rickety Frets is a spirit-shade â€” the anchored ghost of an ancient skald and historian who refused to leave their post in the Bioluminescent Library. They have remained here for centuries, cataloguing Svellheimâ€™s history even as everything they documented died. They are very tall, very thin, and cadaverous. Their robes are faded paper-white. Their hands are perpetually ink-stained. They introduce themselves: â€œI am Svellheimâ€™s historian when there was a Svellheim worth chronicling. Now I chronicle its ending.â€</p>",
+        "value": "<p>Rickety Frets is a spirit-shade — the anchored ghost of an ancient skald and historian who refused to leave their post in the Bioluminescent Library. They have remained here for centuries, cataloguing Svellheim’s history even as everything they documented died. They are very tall, very thin, and cadaverous. Their robes are faded paper-white. Their hands are perpetually ink-stained. They introduce themselves: “I am Svellheim’s historian when there was a Svellheim worth chronicling. Now I chronicle its ending.”</p>",
         "public": ""
       },
       "alignment": "",
@@ -131,7 +131,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838779,
+    "createdTime": 1779391003914,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

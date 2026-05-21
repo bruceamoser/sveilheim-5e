@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Elder Thyra is the leader of the Steam-Oasis community â€” a group of 43 survivors (including 20 children) who have kept their location secret throughout the Fimbulwinter. She is grey-haired, callused, and controlled. She keeps the Oasis alive through strict protocols and the Oath of Silence. She is not unkind. She has simply made a choice and held it.</p>",
+        "value": "<p>Elder Thyra is the leader of the Steam-Oasis community — a group of 43 survivors (including 20 children) who have kept their location secret throughout the Fimbulwinter. She is grey-haired, callused, and controlled. She keeps the Oasis alive through strict protocols and the Oath of Silence. She is not unkind. She has simply made a choice and held it.</p>",
         "public": ""
       },
       "alignment": "",
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003900,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -211,7 +211,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -224,7 +224,7 @@
       "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
       "system": {
         "description": {
-          "value": "<p>Your deity grants you a Heroic Resource called piety, letting you heal and empower your allies, and unleash holy power upon your foes.</p><h4>Piety in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain piety equal to [[lookup @hero.milestones]]{your Milestones}. At the start of each of your turns during combat, you gain 1d3 piety.</p><p>Additionally, you can gain more piety by praying to the godsâ€”but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your turn, you can pray (no action required). If you do, your roll gains the following additional effects:</p><ul><li><p>If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to {1d6 + your level}, which canâ€™t be reduced in any way.</p></li><li><p>If the roll is a 2, you {gain 1 additional piety}.</p></li><li><p>If the roll is a 3, you {gain 2 additional piety} and can activate a domain effect of your choice (see below).</p></li></ul><p>You lose any remaining piety at the end of the encounter.</p><h4>Piety Outside of Combat</h4><p>Though you canâ€™t gain piety outside of combat, you can use your heroic abilities and effects that cost piety without spending it. Whenever you use an ability or effect outside of combat that costs piety, you canâ€™t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited piety on its effect, such as Healing Grace, you can use it as if you had spent an amount of piety equal to your Milestones.</p><h4>Domain Piety and Effects</h4><p>Your choice of domains provides you with two additional ways to earn piety during combat, as triggered by specific events. You might even have a single event trigger both your piety effects. For example, the Sun domain grants piety when a nearby creature takes fire or holy damage, while the War domain grants piety when a nearby creature takes damage of 10 + your level or higher. If you have both those domains and a nearby creature takes an appropriate amount of fire damage, you gain piety from both your domains.</p><p>Additionally, whenever you activate a domain effect by praying for piety, you can choose one of your domains and have that domainâ€™s prayer effect take effect immediately.</p>",
+          "value": "<p>Your deity grants you a Heroic Resource called piety, letting you heal and empower your allies, and unleash holy power upon your foes.</p><h4>Piety in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain piety equal to [[lookup @hero.milestones]]{your Milestones}. At the start of each of your turns during combat, you gain 1d3 piety.</p><p>Additionally, you can gain more piety by praying to the gods—but beware! Doing so can easily draw their ire, as the gods hate to be annoyed. Before you roll to gain piety at the start of your turn, you can pray (no action required). If you do, your roll gains the following additional effects:</p><ul><li><p>If the roll is a 1, you gain 1 additional piety but anger the gods! You take psychic damage equal to {1d6 + your level}, which can’t be reduced in any way.</p></li><li><p>If the roll is a 2, you {gain 1 additional piety}.</p></li><li><p>If the roll is a 3, you {gain 2 additional piety} and can activate a domain effect of your choice (see below).</p></li></ul><p>You lose any remaining piety at the end of the encounter.</p><h4>Piety Outside of Combat</h4><p>Though you can’t gain piety outside of combat, you can use your heroic abilities and effects that cost piety without spending it. Whenever you use an ability or effect outside of combat that costs piety, you can’t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited piety on its effect, such as Healing Grace, you can use it as if you had spent an amount of piety equal to your Milestones.</p><h4>Domain Piety and Effects</h4><p>Your choice of domains provides you with two additional ways to earn piety during combat, as triggered by specific events. You might even have a single event trigger both your piety effects. For example, the Sun domain grants piety when a nearby creature takes fire or holy damage, while the War domain grants piety when a nearby creature takes damage of 10 + your level or higher. If you have both those domains and a nearby creature takes an appropriate amount of fire damage, you gain piety from both your domains.</p><p>Additionally, whenever you activate a domain effect by praying for piety, you can choose one of your domains and have that domain’s prayer effect take effect immediately.</p>",
           "chat": ""
         },
         "source": {
@@ -249,7 +249,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -286,7 +286,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -297,7 +297,7 @@
       "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
       "system": {
         "description": {
-          "value": "<p><p>You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creatureâ€™s memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You canâ€™t use this ability on the same creature twice.</p></p>",
+          "value": "<p><p>You can speak to the target if they are a creature who has died within the last 24 hours and who can speak a language you know, even if they are just a head. The target regards you as they would have in life, and you might need to make tests to influence them and convince them to speak with you. The trauma of dying can make a creature’s memory of that event hazy, but the target otherwise knows all they knew in life. After 1 minute, the effect ends. You can’t use this ability on the same creature twice.</p></p>",
           "chat": ""
         },
         "source": {
@@ -345,7 +345,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -405,7 +405,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -465,7 +465,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -525,7 +525,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -563,7 +563,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -600,7 +600,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -659,7 +659,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -696,7 +696,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -708,7 +708,7 @@
       "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
       "system": {
         "description": {
-          "value": "<p><p>You summon a spirit of size 2 who canâ€™t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spiritâ€™s space, but enemies canâ€™t. Any enemy who moves within 2 feet of the spirit for the first time in a combat round or starts their turn there takes {holy damage} equal to your Intuition score.</p></p>",
+          "value": "<p><p>You summon a spirit of size 2 who can’t be harmed, and who appears in an unoccupied space within distance. The spirit lasts until the end of your next turn. You and your allies can move through the spirit’s space, but enemies can’t. Any enemy who moves within 2 feet of the spirit for the first time in a combat round or starts their turn there takes {holy damage} equal to your Intuition score.</p></p>",
           "chat": ""
         },
         "source": {
@@ -756,7 +756,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -816,7 +816,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -876,7 +876,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -888,7 +888,7 @@
       "img": "icons/magic/life/heart-hand-gold-green-light.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
+          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying can’t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
           "chat": ""
         },
         "source": {
@@ -913,7 +913,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -925,7 +925,7 @@
       "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature can’t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they can’t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
           "chat": ""
         },
         "source": {
@@ -973,7 +973,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -985,7 +985,7 @@
       "img": "icons/skills/melee/shield-block-fire-orange.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
+          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creature’s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1010,7 +1010,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1047,7 +1047,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1107,7 +1107,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1167,7 +1167,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1227,7 +1227,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1287,7 +1287,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1347,7 +1347,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1384,7 +1384,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1421,7 +1421,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1458,7 +1458,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1470,7 +1470,7 @@
       "img": "icons/environment/people/cavalry.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mountâ€™s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the riderâ€™s bonus action and main action however they wish.</p></p>",
+          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mount’s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider’s bonus action and main action however they wish.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1495,7 +1495,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838765,
+        "createdTime": 1779391003901,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1524,7 +1524,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838765,
+    "createdTime": 1779391003901,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

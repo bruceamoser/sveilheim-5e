@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Brynja Steinsdóttir is a broad-shouldered woman with calloused hands and the steady voice of someone who has been making decisions for forty people and hasn't slept in days. Before the Burning worsened, she was a trade-caravan warden â€” her instinct for logistics kept the refugee column alive.</p><p>She leads approximately forty people â€” families, children, elderly, a few traders â€” southwest toward Hrafnborg. She organized them into a column when the situation deteriorated and has been the practical center of their survival since.</p><p>She watches the party carefully during any exchange. She is the one who will actually decide whether the refugees trust these strangers.</p>",
+        "value": "<p>Brynja Steinsdóttir is a broad-shouldered woman with calloused hands and the steady voice of someone who has been making decisions for forty people and hasn't slept in days. Before the Burning worsened, she was a trade-caravan warden — her instinct for logistics kept the refugee column alive.</p><p>She leads approximately forty people — families, children, elderly, a few traders — southwest toward Hrafnborg. She organized them into a column when the situation deteriorated and has been the practical center of their survival since.</p><p>She watches the party carefully during any exchange. She is the one who will actually decide whether the refugees trust these strangers.</p>",
         "public": ""
       },
       "alignment": "",
@@ -113,7 +113,7 @@
       "img": "icons/skills/melee/spear-tips-quintuple-orange.webp",
       "system": {
         "description": {
-          "value": "<p>You have drilled with a broad array of arms and armor, and have developed techniques to optimize their use. You can use and gain the benefits of two kits, including both their signature abilities. Whenever you would choose or change one kit, you can choose or change your second kit as well. See Chapter 6: Kits for more information. (<em>Quick Build:</em> Shining Armor, Sniper.)</p><p>If both kits grant you the same benefit, you take one or the other and canâ€™t change your choice until you finish a long rest. (This usually means taking the higher of two bonuses.)</p><p>For example, if you take the Shining Armor and Sniper kits, you gain the following benefits overall:</p><ul><li><p>Hit Points Bonus: +12 per echelon</p></li><li><p>Saving Throws Bonus: +1</p></li><li><p>Melee Damage Bonus: +2/+2/+2</p></li><li><p>Ranged Damage Bonus: +0/+0/+4</p></li><li><p>Speed Bonus: +1</p></li><li><p>Ranged Distance Bonus: +10</p></li><li><p>Disengage Bonus: +1</p></li><li><p>You can use the Patient Shot and Protective Attack signature abilities.</p></li></ul><p>Kit signature abilities have their kitâ€™s bonuses already applied, which might require you to adjust the bonuses of the signature abilities you gain from a kit. For example, you might take the Martial Artist kit, which gives a melee weapon damage bonus of +2/+2/+2, and the Mountain kit, which gives a melee weapon damage bonus of +0/+0/+4. If you choose to use the Mountain kitâ€™s damage bonus, then the Battle Grace signature ability from the Martial Artist kit loses the +2/+2/+2 bonus from that kit, reducing its usual 5/8/11 damage for its tier 1, tier 2, and tier 3 outcomes to 3/6/9. It then gains the +0/+0/+4 of the Mountain kit to deal 3/6/13 damage.</p>",
+          "value": "<p>You have drilled with a broad array of arms and armor, and have developed techniques to optimize their use. You can use and gain the benefits of two kits, including both their signature abilities. Whenever you would choose or change one kit, you can choose or change your second kit as well. See Chapter 6: Kits for more information. (<em>Quick Build:</em> Shining Armor, Sniper.)</p><p>If both kits grant you the same benefit, you take one or the other and can’t change your choice until you finish a long rest. (This usually means taking the higher of two bonuses.)</p><p>For example, if you take the Shining Armor and Sniper kits, you gain the following benefits overall:</p><ul><li><p>Hit Points Bonus: +12 per echelon</p></li><li><p>Saving Throws Bonus: +1</p></li><li><p>Melee Damage Bonus: +2/+2/+2</p></li><li><p>Ranged Damage Bonus: +0/+0/+4</p></li><li><p>Speed Bonus: +1</p></li><li><p>Ranged Distance Bonus: +10</p></li><li><p>Disengage Bonus: +1</p></li><li><p>You can use the Patient Shot and Protective Attack signature abilities.</p></li></ul><p>Kit signature abilities have their kit’s bonuses already applied, which might require you to adjust the bonuses of the signature abilities you gain from a kit. For example, you might take the Martial Artist kit, which gives a melee weapon damage bonus of +2/+2/+2, and the Mountain kit, which gives a melee weapon damage bonus of +0/+0/+4. If you choose to use the Mountain kit’s damage bonus, then the Battle Grace signature ability from the Martial Artist kit loses the +2/+2/+2 bonus from that kit, reducing its usual 5/8/11 damage for its tier 1, tier 2, and tier 3 outcomes to 3/6/9. It then gains the +0/+0/+4 of the Mountain kit to deal 3/6/13 damage.</p>",
           "chat": ""
         },
         "source": {
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003895,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -197,7 +197,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003895,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -257,7 +257,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003895,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -270,7 +270,7 @@
       "img": "icons/magic/perception/eye-ringed-glow-angry-red.webp",
       "system": {
         "description": {
-          "value": "<p>The ring of steel panics others but brings order to your mind, granting you a Heroic Resource called focus.</p><h4>Focus in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your Milestones. At the start of each of your turns during combat, you gain 2 focus.</p><p>Additionally, the first time each combat round that you or any ally damages a creature marked by you (see @UUID[Compendium.draw-steel.abilities.Item.zyd6C7phOZr6EAQ9]{Mark}), you gain 1 focus. The first time in a combat round that any ally within 10 feet of you uses a heroic ability, you gain 1 focus.</p><p>You lose any remaining focus at the end of the encounter.</p><h4>Focus Outside of Combat</h4><p>Though you canâ€™t gain focus outside of combat, you can use your heroic abilities and effects that cost focus without spending it. Whenever you use an ability or effect outside of combat that costs focus, you canâ€™t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited focus on its effect, you can use it as if you had spent an amount of focus equal to your Milestones.</p>",
+          "value": "<p>The ring of steel panics others but brings order to your mind, granting you a Heroic Resource called focus.</p><h4>Focus in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain focus equal to your Milestones. At the start of each of your turns during combat, you gain 2 focus.</p><p>Additionally, the first time each combat round that you or any ally damages a creature marked by you (see @UUID[Compendium.draw-steel.abilities.Item.zyd6C7phOZr6EAQ9]{Mark}), you gain 1 focus. The first time in a combat round that any ally within 10 feet of you uses a heroic ability, you gain 1 focus.</p><p>You lose any remaining focus at the end of the encounter.</p><h4>Focus Outside of Combat</h4><p>Though you can’t gain focus outside of combat, you can use your heroic abilities and effects that cost focus without spending it. Whenever you use an ability or effect outside of combat that costs focus, you can’t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited focus on its effect, you can use it as if you had spent an amount of focus equal to your Milestones.</p>",
           "chat": ""
         },
         "source": {
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003895,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -306,7 +306,7 @@
       "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
       "system": {
         "description": {
-          "value": "<p><p>The target is {marked} by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Hit Points, you can use a free triggered action to mark a new target within distance.</p><p>You can initially mark only one creature using this ability, though other tactician abilities allow you to mark additional creatures at the same time. The mastermind tactical doctrineâ€™s Anticipation feature allows you to target additional creatures with this ability starting at 5th level.</p><p>While a creature marked by you is within your line of effect, you and allies within your line of effect gain an advantage on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:</p><ul><li><p>The ability deals extra {damage} equal to twice your Reason score.</p></li><li><p>The creature dealing the damage can spend a Hit Die.</p></li><li><p>The creature dealing the damage can shift up to a number of feet equal to [[lookup @R]]{your Reason score}.</p></li><li><p>If you damage a creature marked by you with a melee ability, the creature is  by you until the end of their next turn.</p></li></ul><p>You canâ€™t gain more than one benefit from the same trigger</p></p>",
+          "value": "<p><p>The target is {marked} by you until the end of the encounter, until you are dying, or until you use this ability again. You can willingly end your mark on a creature (no action required), and if another tactician marks a creature, your mark on that creature ends. When a creature marked by you is reduced to 0 Hit Points, you can use a free triggered action to mark a new target within distance.</p><p>You can initially mark only one creature using this ability, though other tactician abilities allow you to mark additional creatures at the same time. The mastermind tactical doctrine’s Anticipation feature allows you to target additional creatures with this ability starting at 5th level.</p><p>While a creature marked by you is within your line of effect, you and allies within your line of effect gain an advantage on power rolls made against that creature. Additionally, whenever you or any ally uses an ability to deal rolled damage to a creature marked by you, you can spend 1 focus to gain one of the following benefits as a free triggered action:</p><ul><li><p>The ability deals extra {damage} equal to twice your Reason score.</p></li><li><p>The creature dealing the damage can spend a Hit Die.</p></li><li><p>The creature dealing the damage can shift up to a number of feet equal to [[lookup @R]]{your Reason score}.</p></li><li><p>If you damage a creature marked by you with a melee ability, the creature is  by you until the end of their next turn.</p></li></ul><p>You can’t gain more than one benefit from the same trigger</p></p>",
           "chat": ""
         },
         "source": {
@@ -354,7 +354,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003895,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -367,7 +367,7 @@
       "img": "icons/sundries/gaming/chess-pawn-white-pink.webp",
       "system": {
         "description": {
-          "value": "<p>Even before battle begins, your enemies struggle to keep up with your tactics. At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 feet, ignoring saving throws. The target canâ€™t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.</p>",
+          "value": "<p>Even before battle begins, your enemies struggle to keep up with your tactics. At the start of an encounter, you can use a free triggered action to use your Mark ability against one enemy you have line of effect to, even if you are surprised. You can then slide the marked target up to 3 feet, ignoring saving throws. The target can’t be moved in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.</p>",
           "chat": ""
         },
         "source": {
@@ -392,7 +392,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -451,7 +451,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -489,7 +489,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -501,7 +501,7 @@
       "img": "icons/skills/melee/hand-grip-sword-white-brown.webp",
       "system": {
         "description": {
-          "value": "<p>After constant drills, you can more accurately anticipate an enemyâ€™s plan and thwart their attempts to move across the battlefield. Whenever you make an opportunity attack, the targetâ€™s speed is reduced to 0 until the end of the current turn.</p><p><strong>Mark Benefit:</strong> When a creature marked by you attempts to move or shift within distance of your melee Opportunity Attack, you can use a free triggered action and spend 2 focus to make a melee Opportunity Attack against that creature</p>",
+          "value": "<p>After constant drills, you can more accurately anticipate an enemy’s plan and thwart their attempts to move across the battlefield. Whenever you make an opportunity attack, the target’s speed is reduced to 0 until the end of the current turn.</p><p><strong>Mark Benefit:</strong> When a creature marked by you attempts to move or shift within distance of your melee Opportunity Attack, you can use a free triggered action and spend 2 focus to make a melee Opportunity Attack against that creature</p>",
           "chat": ""
         },
         "source": {
@@ -526,7 +526,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -537,7 +537,7 @@
       "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
       "system": {
         "description": {
-          "value": "<p><p>You move up to your speed toward the triggering ally, ending this movement adjacent to them or in the nearest feet (5 ft.) if you canâ€™t reach an adjacent feet (5 ft.). The triggering ally can spend a Hit Die and gains  for each enemy you came adjacent to during the move. You then make a ability check against the target.</p></p><p><em>Ranged Weapon Attack:</em> +2 to hit, range 25/50 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "value": "<p><p>You move up to your speed toward the triggering ally, ending this movement adjacent to them or in the nearest feet (5 ft.) if you can’t reach an adjacent feet (5 ft.). The triggering ally can spend a Hit Die and gains  for each enemy you came adjacent to during the move. You then make a ability check against the target.</p></p><p><em>Ranged Weapon Attack:</em> +2 to hit, range 25/50 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
           "chat": ""
         },
         "source": {
@@ -585,7 +585,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -645,7 +645,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -705,7 +705,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -717,7 +717,7 @@
       "img": "icons/skills/trades/smithing-anvil-silver-red.webp",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If the target is reduced to 0 Hit Points and a strike granted by this ability hasnâ€™t been made, the striker can pick a different target.</p></p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If the target is reduced to 0 Hit Points and a strike granted by this ability hasn’t been made, the striker can pick a different target.</p></p>",
           "chat": ""
         },
         "source": {
@@ -765,7 +765,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -802,7 +802,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -862,7 +862,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -874,7 +874,7 @@
       "img": "icons/magic/life/heart-hand-gold-green-light.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
+          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying can’t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
           "chat": ""
         },
         "source": {
@@ -899,7 +899,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -911,7 +911,7 @@
       "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature can’t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they can’t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
           "chat": ""
         },
         "source": {
@@ -959,7 +959,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -971,7 +971,7 @@
       "img": "icons/skills/melee/shield-block-fire-orange.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
+          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creature’s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
           "chat": ""
         },
         "source": {
@@ -996,7 +996,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1033,7 +1033,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1093,7 +1093,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1153,7 +1153,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1213,7 +1213,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838759,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1273,7 +1273,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1333,7 +1333,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1370,7 +1370,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1407,7 +1407,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1444,7 +1444,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1456,7 +1456,7 @@
       "img": "icons/environment/people/cavalry.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mountâ€™s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the riderâ€™s bonus action and main action however they wish.</p></p>",
+          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mount’s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider’s bonus action and main action however they wish.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1481,7 +1481,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838760,
+        "createdTime": 1779391003896,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1510,7 +1510,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838760,
+    "createdTime": 1779391003896,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

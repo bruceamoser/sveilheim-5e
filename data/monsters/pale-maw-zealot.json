@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Pale Maw zealots are the passionate new converts of the Entropy cult â€” less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw's ends.</p>",
+        "value": "<p>Pale Maw zealots are the passionate new converts of the Entropy cult — less disciplined than operatives but burning with certainty. They throw themselves into combat screaming entropy scripture, using their Zealous Cry to terrify and disorient clustered enemies. Their True Believer immunity to fear makes them bold to the point of recklessness. They channel their faith into psychic and corruption damage, and happily die for the cause if it serves the Pale Maw's ends.</p>",
         "public": ""
       },
       "alignment": "",
@@ -160,7 +160,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838743,
+        "createdTime": 1779391003881,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -220,7 +220,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838743,
+        "createdTime": 1779391003881,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -257,7 +257,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838743,
+        "createdTime": 1779391003881,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838743,
+        "createdTime": 1779391003881,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -323,7 +323,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838743,
+    "createdTime": 1779391003881,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

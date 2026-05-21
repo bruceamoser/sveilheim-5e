@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Chainwarden militia are the rank-and-file of the Warden companies â€” poorly paid levies given billhooks and minimal training. What they lack in skill they make up for in numbers and sheer stubbornness. Their Warden's Resolve makes them difficult to route even when outmatched, and a wall of billhook-armed militia tightly packed into a chokepoint can be deceptively effective. They are deployed in hordes to overwhelm with mass and reach.</p>",
+        "value": "<p>Chainwarden militia are the rank-and-file of the Warden companies — poorly paid levies given billhooks and minimal training. What they lack in skill they make up for in numbers and sheer stubbornness. Their Warden's Resolve makes them difficult to route even when outmatched, and a wall of billhook-armed militia tightly packed into a chokepoint can be deceptively effective. They are deployed in hordes to overwhelm with mass and reach.</p>",
         "public": ""
       },
       "alignment": "",
@@ -163,7 +163,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -200,7 +200,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -213,7 +213,7 @@
       "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
-          "value": "<p>The first time the chainwarden militia is reduced to 0 Hit Points by damage that isnâ€™t fire damage or holy damage and their body isnâ€™t destroyed, they instead have 10 Hit Points and fall prone.</p>",
+          "value": "<p>The first time the chainwarden militia is reduced to 0 Hit Points by damage that isn’t fire damage or holy damage and their body isn’t destroyed, they instead have 10 Hit Points and fall prone.</p>",
           "chat": ""
         },
         "source": {
@@ -238,7 +238,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -249,7 +249,7 @@
       "img": "icons/skills/movement/arrow-upward-yellow.webp",
       "system": {
         "description": {
-          "value": "<p><p>Up to four undead in the encounter move up to their speed and can make a Opportunity Attack. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Hit Points during this dread march, they donâ€™t die until the march is resolved.</p></p>",
+          "value": "<p><p>Up to four undead in the encounter move up to their speed and can make a Opportunity Attack. The number of undead affected increases by 1 for each additional Malice spent on this feature. If an undead is reduced to 0 Hit Points during this dread march, they don’t die until the march is resolved.</p></p>",
           "chat": ""
         },
         "source": {
@@ -274,7 +274,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -311,7 +311,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -323,7 +323,7 @@
       "img": "icons/creatures/abilities/dragon-breath-purple.webp",
       "system": {
         "description": {
-          "value": "<p><p>At the end of this round, each hero not already adjacent to one or more undead is beset by two @UUID[Compendium.draw-steel.monsters.Actor.2KiVCGcov7SmCkWU]{Rotting Chainwarden Militias} who burst up from the ground to appear in adjacent unoccupied spaces. Each chainwarden militia is winded. This feature canâ€™t be used two rounds in a row.</p></p>",
+          "value": "<p><p>At the end of this round, each hero not already adjacent to one or more undead is beset by two @UUID[Compendium.draw-steel.monsters.Actor.2KiVCGcov7SmCkWU]{Rotting Chainwarden Militias} who burst up from the ground to appear in adjacent unoccupied spaces. Each chainwarden militia is winded. This feature can’t be used two rounds in a row.</p></p>",
           "chat": ""
         },
         "source": {
@@ -348,7 +348,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -385,7 +385,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838728,
+        "createdTime": 1779391003866,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -414,7 +414,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838728,
+    "createdTime": 1779391003866,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

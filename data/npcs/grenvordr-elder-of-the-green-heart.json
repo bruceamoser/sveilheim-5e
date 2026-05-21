@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Grénvörðr (meaning \"green guardian\") is the keeper of the Green Heart's threshold â€” an ancient elf-adjacent being whose skin has the color of deep bark and whose eyes are gold like the light in the central tree. She has tended the grove since before human kingdoms had names. She is not hostile but is not warm either â€” observant, waiting, assessing. She speaks with a voice like wind through leaves.</p><p>She is accompanied by Síl and Þrúðr, holders of the root-song â€” two silent elves who step forward only when the Old Compact is invoked. Together they represent the Green Heart's consent.</p>",
+        "value": "<p>Grénvörðr (meaning \"green guardian\") is the keeper of the Green Heart's threshold — an ancient elf-adjacent being whose skin has the color of deep bark and whose eyes are gold like the light in the central tree. She has tended the grove since before human kingdoms had names. She is not hostile but is not warm either — observant, waiting, assessing. She speaks with a voice like wind through leaves.</p><p>She is accompanied by Síl and Þrúðr, holders of the root-song — two silent elves who step forward only when the Old Compact is invoked. Together they represent the Green Heart's consent.</p>",
         "public": ""
       },
       "alignment": "",
@@ -128,7 +128,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838768,
+    "createdTime": 1779391003904,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

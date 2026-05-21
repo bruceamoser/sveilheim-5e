@@ -51,7 +51,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Goblin runners are the skirmishing vanguard of the Svellheim goblin clans â€” fast, nimble, and cowardly in exactly the right measure. They dart in to club a distracted hero and dart right back out before the return swing comes. Their Crafty feature lets them exploit every sightline and alley, and they excel at leading enemies into traps or out of formations. In numbers they become genuinely dangerous.</p>",
+        "value": "<p>Goblin runners are the skirmishing vanguard of the Svellheim goblin clans — fast, nimble, and cowardly in exactly the right measure. They dart in to club a distracted hero and dart right back out before the return swing comes. Their Crafty feature lets them exploit every sightline and alley, and they excel at leading enemies into traps or out of formations. In numbers they become genuinely dangerous.</p>",
         "public": ""
       },
       "alignment": "",
@@ -142,7 +142,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -153,7 +153,7 @@
       "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
       "system": {
         "description": {
-          "value": "<p><p>Until the end of the round, when an goblin moves through an inactive goblinâ€™s space, the inactive goblin can use a free triggered action to jump 3 feet.</p></p>",
+          "value": "<p><p>Until the end of the round, when an goblin moves through an inactive goblin’s space, the inactive goblin can use a free triggered action to jump 3 feet.</p></p>",
           "chat": ""
         },
         "source": {
@@ -178,7 +178,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -238,7 +238,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -251,7 +251,7 @@
       "img": "icons/creatures/abilities/dragon-fire-breath-orange.webp",
       "system": {
         "description": {
-          "value": "<p>Angulotls make use of a unique effect called â€œwet.â€ While wet, an angulotl doesnâ€™t provoke opportunity attacks by moving. At the same time, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone. Several angulotl abilities can impose this effect, but a creature in an encounter featuring angulotls can also become wet by entering water, as the Director determines.</p>",
+          "value": "<p>Angulotls make use of a unique effect called “wet.” While wet, an angulotl doesn’t provoke opportunity attacks by moving. At the same time, any non-angulotl who is wet and ends their turn with none of their movement remaining slips and falls prone. Several angulotl abilities can impose this effect, but a creature in an encounter featuring angulotls can also become wet by entering water, as the Director determines.</p>",
           "chat": ""
         },
         "source": {
@@ -276,7 +276,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -312,7 +312,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -349,7 +349,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -378,7 +378,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838734,
+    "createdTime": 1779391003872,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

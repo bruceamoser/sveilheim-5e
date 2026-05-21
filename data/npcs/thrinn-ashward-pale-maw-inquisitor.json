@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Thráinn Ashward is the commanding Inquisitor of the Pale Maw forces at Beinvaka. Tall and gaunt with a scar across one eye, he wears robes of deep purple with silver entropy symbols. His manner is clinical rather than fanatical â€” he has thought this through and is absolutely certain. He is the primary antagonist of Beats 16 and 18, commanding the forces that try to stop Kaelenâ€™s ritual.</p>",
+        "value": "<p>Thráinn Ashward is the commanding Inquisitor of the Pale Maw forces at Beinvaka. Tall and gaunt with a scar across one eye, he wears robes of deep purple with silver entropy symbols. His manner is clinical rather than fanatical — he has thought this through and is absolutely certain. He is the primary antagonist of Beats 16 and 18, commanding the forces that try to stop Kaelen’s ritual.</p>",
         "public": ""
       },
       "alignment": "",
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -187,7 +187,7 @@
       "img": "icons/skills/social/intimidation-impressing.webp",
       "system": {
         "description": {
-          "value": "<p>You exhibit a small spark of your deityâ€™s power, causing creatures to trust or fear you, depending on what you need. You gain an advantage on tests made to intimidate or persuade others.</p>",
+          "value": "<p>You exhibit a small spark of your deity’s power, causing creatures to trust or fear you, depending on what you need. You gain an advantage on tests made to intimidate or persuade others.</p>",
           "chat": ""
         },
         "source": {
@@ -212,7 +212,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -271,7 +271,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -309,7 +309,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -346,7 +346,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -382,7 +382,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -420,7 +420,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -479,7 +479,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -491,7 +491,7 @@
       "img": "icons/magic/lightning/bolt-forked-blue.webp",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>A creature or object of your choice within 2 feet of the target takes {lightning damage} equal to the characteristic score used for this abilityâ€™s ability check.</p></p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>A creature or object of your choice within 2 feet of the target takes {lightning damage} equal to the characteristic score used for this ability’s ability check.</p></p>",
           "chat": ""
         },
         "source": {
@@ -539,7 +539,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -577,7 +577,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -636,7 +636,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -696,7 +696,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -709,7 +709,7 @@
       "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
       "system": {
         "description": {
-          "value": "<p>The power you serve grants you a Heroic Resource called wrath, fueling your abilities as you censor those your church deems to be heretics.</p><h4>Wrath in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain wrath equal to [[lookup @hero.milestones]]{your Milestones}. At the start of each of your turns during combat, you {gain 2 wrath}.</p><p>Additionally, the first time each combat round that a creature judged by you (see @UUID[Compendium.draw-steel.abilities.Item.EhPpL42VZWxqeSEj]{Judgement}) deals damage to you, you {gain 1 wrath}. The first time each combat round that you deal damage to a creature judged by you, you {gain 1 wrath}.</p><p>You lose any remaining wrath at the end of the encounter.</p><h4>Wrath Outside of Combat</h4><p>Though you canâ€™t gain wrath outside of combat, you can use your heroic abilities and effects that cost wrath without spending it. Whenever you use an ability or effect outside of combat that costs wrath, you canâ€™t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to [[lookup @hero.milestones]]{your Milestones}. (Such abilities arenâ€™t part of the core rules for the censor, but they might appear in future products.)</p>",
+          "value": "<p>The power you serve grants you a Heroic Resource called wrath, fueling your abilities as you censor those your church deems to be heretics.</p><h4>Wrath in Combat</h4><p>At the start of a combat encounter or some other stressful situation tracked in combat rounds (as determined by the Director), you gain wrath equal to [[lookup @hero.milestones]]{your Milestones}. At the start of each of your turns during combat, you {gain 2 wrath}.</p><p>Additionally, the first time each combat round that a creature judged by you (see @UUID[Compendium.draw-steel.abilities.Item.EhPpL42VZWxqeSEj]{Judgement}) deals damage to you, you {gain 1 wrath}. The first time each combat round that you deal damage to a creature judged by you, you {gain 1 wrath}.</p><p>You lose any remaining wrath at the end of the encounter.</p><h4>Wrath Outside of Combat</h4><p>Though you can’t gain wrath outside of combat, you can use your heroic abilities and effects that cost wrath without spending it. Whenever you use an ability or effect outside of combat that costs wrath, you can’t use that same ability or effect outside of combat again until you earn 1 or more Milestones or finish a long rest.</p><p>When you use an ability outside of combat that lets you spend unlimited wrath on its effect, you can use it as if you had spent an amount of wrath equal to [[lookup @hero.milestones]]{your Milestones}. (Such abilities aren’t part of the core rules for the censor, but they might appear in future products.)</p>",
           "chat": ""
         },
         "source": {
@@ -734,7 +734,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -771,7 +771,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -830,7 +830,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -842,7 +842,7 @@
       "img": "icons/skills/melee/unarmed-punch-fist.webp",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal {holy damage} to them equal to your Presence score, then change the target of the strike to another target within the strikeâ€™s distance.</p></p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>If the target makes a strike against a creature while grabbed this way, you can spend 3 wrath to deal {holy damage} to them equal to your Presence score, then change the target of the strike to another target within the strike’s distance.</p></p>",
           "chat": ""
         },
         "source": {
@@ -890,7 +890,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -927,7 +927,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -987,7 +987,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1047,7 +1047,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1059,7 +1059,7 @@
       "img": "icons/magic/life/heart-hand-gold-green-light.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying canâ€™t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
+          "value": "<p><p>A creature who uses the Catch Breath bonus action spends a Hit Die and regains {Hit Points} equal to their recovery value.</p><p>A creature who is dying can’t use the Catch Breath bonus action, but other creatures can help them spend Hit Dice in other ways.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1084,7 +1084,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1096,7 +1096,7 @@
       "img": "icons/skills/movement/feet-bladed-boots-fire.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature canâ€™t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they canâ€™t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
+          "value": "<p><p>When a creature takes the Charge main action, they move up to their speed in a straight line without jumping, then make a @UUID[Compendium.draw-steel.abilities.Item.wU69Y06G9lYFrvp6]{melee Opportunity Attack} against a target when they end their move. If the creature has an ability with the Charge keyword, they can use that ability against the target instead of a Opportunity Attack.</p><p>A creature can’t move through difficult terrain or shift when they charge. They can fly or burrow as part of the Charge main action if they have that movement available to them, but they can’t climb or swim while charging unless they can automatically use that movement at full speed.</p></p><p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p>",
           "chat": ""
         },
         "source": {
@@ -1144,7 +1144,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1156,7 +1156,7 @@
       "img": "icons/skills/melee/shield-block-fire-orange.webp",
       "system": {
         "description": {
-          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creatureâ€™s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
+          "value": "<p><p>When a creature takes the {Defend main action}, ability rolls made against them have a double disadvantage until the start of their next turn. Additionally, you have a double advantage on tests when called for to resist environmental effects or a creature’s traits or abilities. A creature gains no benefit from this action while another creature is taunted by them.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1181,7 +1181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1218,7 +1218,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1278,7 +1278,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1338,7 +1338,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1398,7 +1398,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1458,7 +1458,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1518,7 +1518,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1555,7 +1555,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1592,7 +1592,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838787,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1629,7 +1629,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838788,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1641,7 +1641,7 @@
       "img": "icons/environment/people/cavalry.webp",
       "system": {
         "description": {
-          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mountâ€™s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the riderâ€™s bonus action and main action however they wish.</p></p>",
+          "value": "<p><p>A creature can take the Ride move action only while mounted on another creature. When a creature takes the Ride move action, they cause their mount to move up to the mount’s speed, taking the rider with them. Alternatively, a creature can use the Ride move action to have their mount use the Disengage move action as a free triggered action. A creature can use the Ride move action only once per round. A mounted creature can only have this move action applied to them once per round. This movement can be broken up with the rider’s bonus action and main action however they wish.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1666,7 +1666,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838788,
+        "createdTime": 1779391003922,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1695,7 +1695,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838788,
+    "createdTime": 1779391003922,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

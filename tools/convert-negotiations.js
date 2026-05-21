@@ -11,7 +11,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const {
   foundryId, slugify,
-  replaceTerms, fixMojibake, mk5eStats,
+  replaceTerms, fixMojibake, stripHeroPointRefs, mk5eStats,
 } = require('./shared');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -47,14 +47,25 @@ function convertNegotiation(dsItem, actLabel) {
   const npcStates = sys.npcStateByParticipantId || {};
 
   const parts = [];
-  parts.push(`<h1>Social Encounter: ${fixMojibake(name)}</h1>`);
-  parts.push(`<p><strong>Act:</strong> ${actLabel}</p>`);
+  parts.push(`<h1>${fixMojibake(name)}</h1>`);
+  parts.push(`<p><strong>Act:</strong> ${actLabel} | <strong>Type:</strong> Social Scene</p>`);
 
   // Overview
   const overview = replaceTerms(fixMojibake(sys.setup?.overview || ''));
   if (overview) {
-    parts.push(`<hr><h2>Setup</h2>${overview}`);
+    parts.push(`<hr><h2>The Scene</h2>${stripHeroPointRefs(overview)}`);
   }
+
+  // GM guidance
+  parts.push(`<hr><h2>Running This Scene</h2>`);
+  parts.push(`<p>This is a <strong>narrative social encounter</strong> — a dramatic conversation with stakes. Play it out as roleplay, calling for ability checks only when the outcome is uncertain.</p>`);
+  parts.push(`<h3>GM Guidance</h3>`);
+  parts.push(`<ul>`);
+  parts.push(`<li>Let the players drive the conversation. Only call for rolls at key turning points.</li>`);
+  parts.push(`<li>Use the NPC's motivations and pitfalls below to guide their reactions.</li>`);
+  parts.push(`<li>Reward clever roleplay — if a player makes a compelling argument that hits a motivation, let it succeed.</li>`);
+  parts.push(`<li>The NPC's starting attitude sets the tone, but good or bad roleplay should shift it naturally.</li>`);
+  parts.push(`</ul>`);
 
   // NPC details
   for (const participant of participants) {
@@ -67,21 +78,22 @@ function convertNegotiation(dsItem, actLabel) {
 
     parts.push(`<hr><h2>${fixMojibake(participant.displayName || participant.id)}</h2>`);
     if (participant.role) parts.push(`<p><em>${fixMojibake(participant.role)}</em></p>`);
-    if (participant.notesGM) parts.push(`<p>${replaceTerms(fixMojibake(participant.notesGM))}</p>`);
+    if (participant.notesGM) parts.push(`<p>${stripHeroPointRefs(replaceTerms(fixMojibake(participant.notesGM)))}</p>`);
 
-    parts.push(`<h3>Social Stats</h3>`);
+    parts.push(`<h3>At a Glance</h3>`);
     parts.push(`<ul>`);
     parts.push(`<li><strong>Starting Attitude:</strong> ${attitude}</li>`);
-    parts.push(`<li><strong>Persuasion DC:</strong> ${dc}</li>`);
+    parts.push(`<li><strong>Suggested DC:</strong> ${dc} (if you need a check)</li>`);
     parts.push(`<li><strong>Insight DC:</strong> ${dc - 2} (to read motivations/pitfalls)</li>`);
     parts.push(`</ul>`);
 
     // Motivations
     const motivations = state.motivations || [];
     if (motivations.length > 0) {
-      parts.push(`<h3>Motivations (Appeal to These)</h3><ul>`);
+      parts.push(`<h3>What They Want (Motivations)</h3>`);
+      parts.push(`<p>If the PCs appeal to these, the NPC warms to them. Grant advantage on a check or simply have the NPC concede the point.</p><ul>`);
       for (const m of motivations) {
-        parts.push(`<li><strong>${fixMojibake(m.label)}:</strong> If the PCs appeal to this, they gain advantage on their next Persuasion or Deception check, or the DC is reduced by 2.</li>`);
+        parts.push(`<li><strong>${fixMojibake(m.label)}</strong></li>`);
       }
       parts.push(`</ul>`);
     }
@@ -89,32 +101,28 @@ function convertNegotiation(dsItem, actLabel) {
     // Pitfalls
     const pitfalls = state.pitfalls || [];
     if (pitfalls.length > 0) {
-      parts.push(`<h3>Pitfalls (Avoid These)</h3><ul>`);
+      parts.push(`<h3>What Offends Them (Pitfalls)</h3>`);
+      parts.push(`<p>If the PCs trigger these, the NPC becomes defensive or hostile. Impose disadvantage on a check or have the NPC shut down.</p><ul>`);
       for (const p of pitfalls) {
-        parts.push(`<li><strong>${fixMojibake(p.label)}:</strong> If the PCs trigger this, they have disadvantage on their next check, or the DC increases by 2.</li>`);
+        parts.push(`<li><strong>${fixMojibake(p.label)}</strong></li>`);
       }
       parts.push(`</ul>`);
     }
   }
 
-  // Running the encounter
-  parts.push(`<hr><h2>Running the Social Encounter</h2>`);
-  parts.push(`<p>This social encounter uses a simple attitude track. The NPC starts at a given attitude. The PCs make Charisma checks (Persuasion, Deception, or Intimidation) against the listed DC to shift the NPC's attitude one step toward Helpful. Three shifts to Helpful = success. Dropping to Hostile = failure.</p>`);
-  parts.push(`<p><strong>Key Skills:</strong> Persuasion, Deception, Intimidation, Insight (to discover motivations/pitfalls)</p>`);
-  parts.push(`<p><strong>Each PC can attempt one check per round.</strong> A round represents roughly 1-2 minutes of in-character conversation.</p>`);
-
   // Outcomes
   const outcomes = sys.setup?.outcomes || {};
   if (outcomes.success || outcomes.partialSuccess || outcomes.failure) {
     parts.push(`<hr><h2>Outcomes</h2>`);
+    parts.push(`<p>Based on how the conversation goes:</p>`);
     if (outcomes.success) {
-      parts.push(replaceTerms(fixMojibake(outcomes.success)));
+      parts.push(stripHeroPointRefs(replaceTerms(fixMojibake(outcomes.success))));
     }
     if (outcomes.partialSuccess) {
-      parts.push(replaceTerms(fixMojibake(outcomes.partialSuccess)));
+      parts.push(stripHeroPointRefs(replaceTerms(fixMojibake(outcomes.partialSuccess))));
     }
     if (outcomes.failure) {
-      parts.push(replaceTerms(fixMojibake(outcomes.failure)));
+      parts.push(stripHeroPointRefs(replaceTerms(fixMojibake(outcomes.failure))));
     }
   }
 
@@ -124,7 +132,7 @@ function convertNegotiation(dsItem, actLabel) {
 
   return {
     _id: journalId,
-    name: `Social Encounter: ${fixMojibake(name)}`,
+    name: `Negotiation: ${fixMojibake(name)}`,
     folder: null,
     sort: 0,
     flags: {},

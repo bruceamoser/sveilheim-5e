@@ -11,7 +11,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const {
   foundryId, slugify,
-  replaceTerms, fixMojibake, mk5eStats,
+  replaceTerms, fixMojibake, stripTableStyles, stripHeroPointRefs, mk5eStats,
   DIFFICULTY_DC, DS_CHAR_TO_5E_SKILLS,
 } = require('./shared');
 
@@ -50,49 +50,56 @@ function convertMontage(dsItem, actLabel) {
   const slug = slugify(name);
   const difficulty = sys.difficulty || 'moderate';
   const dc = DIFFICULTY_DC[difficulty] || 13;
-  const successes = sys.successLimit || 4;
-  const failures = sys.failureLimit || 4;
 
   // Build the journal page content
   const parts = [];
 
-  parts.push(`<h1>Skill Challenge: ${fixMojibake(name)}</h1>`);
-  parts.push(`<p><strong>Act:</strong> ${actLabel} | <strong>Difficulty:</strong> ${difficulty.charAt(0).toUpperCase() + difficulty.slice(1)} (DC ${dc})</p>`);
-  parts.push(`<p><strong>Successes Needed:</strong> ${successes} | <strong>Failures Allowed:</strong> ${failures}</p>`);
+  parts.push(`<h1>${fixMojibake(name)}</h1>`);
+  parts.push(`<p><strong>Act:</strong> ${actLabel} | <strong>Type:</strong> Montage Scene</p>`);
 
   // Overview
   const overview = replaceTerms(fixMojibake(sys.description || ''));
   if (overview) {
-    parts.push(`<hr><h2>Overview</h2>${overview}`);
+    parts.push(`<hr><h2>Overview</h2>${stripHeroPointRefs(overview)}`);
   }
 
-  // Rules box
-  parts.push(`<hr><h2>Running the Skill Challenge</h2>`);
-  parts.push(`<p>Each character takes a turn attempting one skill check. On their turn, a player describes how they're helping the party and rolls the appropriate skill against <strong>DC ${dc}</strong>. A success adds to the group's total; a failure adds to the failure count. If the party reaches <strong>${successes} successes</strong> before <strong>${failures} failures</strong>, they succeed overall.</p>`);
-  parts.push(`<p><strong>Suggested Skills:</strong></p><ul>`);
+  // GM guidance
+  parts.push(`<hr><h2>Running This Scene</h2>`);
+  parts.push(`<p>This is a <strong>narrative montage</strong> — a series of challenges the party faces as a group. Rather than a single roll, play this out as a sequence of scenes where each character contributes.</p>`);
+  parts.push(`<h3>GM Guidance</h3>`);
+  parts.push(`<ul>`);
+  parts.push(`<li>Go around the table and ask each player how their character is helping.</li>`);
+  parts.push(`<li>Call for ability checks as appropriate — suggested DC ${dc} (${difficulty}).</li>`);
+  parts.push(`<li>Let creative approaches succeed with good roleplaying, even without a roll.</li>`);
+  parts.push(`<li>Use the complications below as prompts — not every one needs to come up.</li>`);
+  parts.push(`<li>The goal is collaborative storytelling, not a pass/fail test.</li>`);
+  parts.push(`</ul>`);
+  parts.push(`<p><strong>Relevant Skills:</strong></p><ul>`);
   for (const [, skillName] of Object.entries(CHAR_TO_SKILL_NAMES)) {
     parts.push(`<li>${skillName}</li>`);
   }
   parts.push(`</ul>`);
-  parts.push(`<p>Players may also suggest creative skill uses — reward good roleplaying with advantage or a lower DC.</p>`);
 
-  // Complications (round-by-round challenges)
+  // Complications
   if (sys.complications?.round1) {
-    parts.push(`<hr><h2>Complications</h2>`);
-    parts.push(convertSkillRefs(fixMojibake(sys.complications.round1), dc));
+    parts.push(`<hr><h2>Complications &amp; Challenges</h2>`);
+    parts.push(`<p>Use these as dramatic beats during the montage. Present them as situations the party must navigate together.</p>`);
+    parts.push(stripHeroPointRefs(convertSkillRefs(fixMojibake(sys.complications.round1), dc)));
   }
   if (sys.complications?.round2) {
-    parts.push(`<h3>Later Rounds</h3>`);
-    parts.push(convertSkillRefs(fixMojibake(sys.complications.round2), dc));
+    parts.push(`<h3>Escalation</h3>`);
+    parts.push(`<p>If the scene needs more tension, introduce these additional complications:</p>`);
+    parts.push(stripHeroPointRefs(convertSkillRefs(fixMojibake(sys.complications.round2), dc)));
   }
 
   // Outcomes
   if (sys.outcomes?.round1) {
     parts.push(`<hr><h2>Outcomes</h2>`);
-    parts.push(replaceTerms(fixMojibake(sys.outcomes.round1)));
+    parts.push(`<p>Based on how the party performed, use the following as a guide:</p>`);
+    parts.push(stripHeroPointRefs(replaceTerms(fixMojibake(sys.outcomes.round1))));
   }
   if (sys.outcomes?.round2) {
-    parts.push(replaceTerms(fixMojibake(sys.outcomes.round2)));
+    parts.push(stripHeroPointRefs(replaceTerms(fixMojibake(sys.outcomes.round2))));
   }
 
   // Build journal entry
@@ -101,7 +108,7 @@ function convertMontage(dsItem, actLabel) {
 
   return {
     _id: journalId,
-    name: `Skill Challenge: ${fixMojibake(name)}`,
+    name: `Montage: ${fixMojibake(name)}`,
     folder: null,
     sort: 0,
     flags: {},

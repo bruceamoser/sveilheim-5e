@@ -50,7 +50,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Goblin warriors are the spear-carriers of the goblin warbands â€” louder, bolder, and slightly less cowardly than the runners they fight alongside. They advance in loose mobs, hurling spears before closing to stab with short blades. Their Bury the Point technique exploits prone or off-balance opponents, and their Crafty movement keeps them just out of reach of retaliation. Individually a nuisance, a horde of goblin warriors is a serious threat.</p>",
+        "value": "<p>Goblin warriors are the spear-carriers of the goblin warbands — louder, bolder, and slightly less cowardly than the runners they fight alongside. They advance in loose mobs, hurling spears before closing to stab with short blades. Their Bury the Point technique exploits prone or off-balance opponents, and their Crafty movement keeps them just out of reach of retaliation. Individually a nuisance, a horde of goblin warriors is a serious threat.</p>",
         "public": ""
       },
       "alignment": "",
@@ -161,7 +161,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -221,7 +221,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838734,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -259,7 +259,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838735,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838735,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -332,7 +332,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838735,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -344,7 +344,7 @@
       "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
         "description": {
-          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canâ€™t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
+          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
           "chat": ""
         },
         "source": {
@@ -369,7 +369,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838735,
+        "createdTime": 1779391003872,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -398,7 +398,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838735,
+    "createdTime": 1779391003872,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

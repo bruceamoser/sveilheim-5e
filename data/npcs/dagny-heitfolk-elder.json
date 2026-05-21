@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Dagný is an 87-year-old Heitfolk tunnel record keeper â€” third-generation, stationed at the Steam-Oasis branch of the Heitfolk deep network. She was born into the station and has never left it for longer than a seasonal survey. The Steam-Oasis records stretch back six generations in her handwriting and her mother's handwriting and her grandmother's handwriting before that.</p><p>She moves slowly and deliberately, not from infirmity but from habit. Tunnel keepers learn to move without disturbing the air. She is not afraid of silence. She lets conversations breathe.</p>",
+        "value": "<p>Dagný is an 87-year-old Heitfolk tunnel record keeper — third-generation, stationed at the Steam-Oasis branch of the Heitfolk deep network. She was born into the station and has never left it for longer than a seasonal survey. The Steam-Oasis records stretch back six generations in her handwriting and her mother's handwriting and her grandmother's handwriting before that.</p><p>She moves slowly and deliberately, not from infirmity but from habit. Tunnel keepers learn to move without disturbing the air. She is not afraid of silence. She lets conversations breathe.</p>",
         "public": ""
       },
       "alignment": "",
@@ -128,7 +128,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838761,
+    "createdTime": 1779391003897,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

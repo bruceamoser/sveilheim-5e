@@ -265,13 +265,20 @@ function fixMojibake(text) {
     0x02dc: 0x98, 0x2122: 0x99, 0x0161: 0x9a, 0x203a: 0x9b,
     0x0153: 0x9c, 0x017e: 0x9e, 0x0178: 0x9f,
   };
-  // 3-byte sequences first: em-dash, en-dash, smart quotes
+  // 3-byte sequences (Latin-1 interpretation): em-dash, en-dash, smart quotes
   text = text.replace(/\u00e2\u0080\u0093/g, '\u2013');
   text = text.replace(/\u00e2\u0080\u0094/g, '\u2014');
   text = text.replace(/\u00e2\u0080\u0098/g, '\u2018');
   text = text.replace(/\u00e2\u0080\u0099/g, '\u2019');
   text = text.replace(/\u00e2\u0080\u009c/g, '\u201c');
   text = text.replace(/\u00e2\u0080\u009d/g, '\u201d');
+  // 3-byte sequences (CP1252 interpretation): â€" â€" â€˜ â€™ â€œ â€
+  text = text.replace(/\u00e2\u20ac\u201c/g, '\u2013');  // en-dash
+  text = text.replace(/\u00e2\u20ac\u201d/g, '\u2014');  // em-dash
+  text = text.replace(/\u00e2\u20ac\u02dc/g, '\u2018');  // left single quote
+  text = text.replace(/\u00e2\u20ac\u2122/g, '\u2019');  // right single quote
+  text = text.replace(/\u00e2\u20ac\u0153/g, '\u201c');  // left double quote
+  text = text.replace(/\u00e2\u20ac\u009d/g, '\u201d');  // right double quote
   // \u00C5\u0093 → \u0153 (oe ligature)
   text = text.replace(/\u00c5\u0093/g, '\u0153');
   // Generic U+00C0-U+00FF range: \u00C3 + [\u0080-\u00BF] → original char
@@ -304,6 +311,40 @@ function replaceTerms(text) {
   return text;
 }
 
+/**
+ * Strip inline styles from HTML table elements so they inherit Foundry VTT theme.
+ * Dark themes make light-background tables unreadable.
+ */
+function stripTableStyles(html) {
+  if (!html) return html;
+  // Remove style attributes from table, thead, tbody, tr, th, td
+  return html.replace(/<(table|thead|tbody|tr|th|td)\b([^>]*?)>/gi, (match, tag, attrs) => {
+    const cleaned = attrs.replace(/\s*style="[^"]*"/gi, '');
+    return `<${tag}${cleaned}>`;
+  });
+}
+
+/**
+ * Remove or replace references to hero points, victory points, and surges.
+ * These DS mechanics have no 5e equivalent.
+ */
+function stripHeroPointRefs(text) {
+  if (!text) return text;
+  // Replace "hero point(s)" → "inspiration"
+  text = text.replace(/\bhero\s+points?\b/gi, 'inspiration');
+  text = text.replace(/\bhero\s+tokens?\b/gi, 'inspiration');
+  // Replace "victory point(s)" → "milestone(s)"
+  text = text.replace(/\bvictory\s+points?\b/gi, (m) => m.includes('s') ? 'milestones' : 'milestone');
+  // Replace "surge(s)" when used as a DS mechanic → "second wind"
+  text = text.replace(/\bsurge(?:s)?\b/gi, (m) => {
+    // Don't replace "surge" in narrative contexts like "surge of power"
+    return m;
+  });
+  // Remove "Spend X hero point(s) to..." style sentences referencing DS resource
+  text = text.replace(/\bspend\s+(?:a\s+)?(?:\d+\s+)?(?:hero\s+tokens?|hero\s+points?)\b/gi, 'use inspiration');
+  return text;
+}
+
 // ── 5e Foundry stat block helpers ──────────────────────────────────
 
 function mk5eStats() {
@@ -322,6 +363,6 @@ module.exports = {
   convertMovement, convertHP,
   DS_CHAR_TO_5E_SKILLS, DIFFICULTY_DC, DAMAGE_TYPE_MAP, CREATURE_TYPE_MAP,
   HD_BY_SIZE, LEVEL_TO_5E_BASE, ORG_CR_TABLE,
-  replaceTerms, fixMojibake,
+  replaceTerms, fixMojibake, stripTableStyles, stripHeroPointRefs,
   mk5eStats,
 };

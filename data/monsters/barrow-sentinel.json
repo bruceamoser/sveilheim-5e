@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Barrow-Sentinels are the most ancient of the barrow-dead ââ‚¬â€ warriors interred at the foundations of Svellheim's oldest grave-complexes, their bodies half-fused with stone and ancient rune-iron over centuries of cold slumber. They do not stalk or pursue ââ‚¬â€ they <em>wait</em>, entombed upright in crypt alcoves until the living intrude. When awakened, they rise with a grinding sound like glaciers calving, wielding stone-encased mauls that shatter bone and drive foes into the ice. The runes carved into their skulls at burial blind them to fear and deaden them to cold ââ‚¬â€ they are simply obstacles, patient and immovable as the barrows themselves.</p>",
+        "value": "<p>Barrow-Sentinels are the most ancient of the barrow-dead ââ‚¬” warriors interred at the foundations of Svellheim's oldest grave-complexes, their bodies half-fused with stone and ancient rune-iron over centuries of cold slumber. They do not stalk or pursue ââ‚¬” they <em>wait</em>, entombed upright in crypt alcoves until the living intrude. When awakened, they rise with a grinding sound like glaciers calving, wielding stone-encased mauls that shatter bone and drive foes into the ice. The runes carved into their skulls at burial blind them to fear and deaden them to cold ââ‚¬” they are simply obstacles, patient and immovable as the barrows themselves.</p>",
         "public": ""
       },
       "alignment": "",
@@ -165,7 +165,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003861,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -203,7 +203,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003862,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -215,7 +215,7 @@
       "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
-          "value": "<p>The sentinel ignores difficult terrain caused by ice or stone. Enemies who start their turn within 1 feet (5 ft.) of the sentinel must succeed on a Might resistance roll (difficulty 11) or have their speed reduced by 2 until the start of their next turn ââ‚¬â€ the stone-weight of the sentinel's presence grinds movement to a halt.</p>",
+          "value": "<p>The sentinel ignores difficult terrain caused by ice or stone. Enemies who start their turn within 1 feet (5 ft.) of the sentinel must succeed on a Might resistance roll (difficulty 11) or have their speed reduced by 2 until the start of their next turn ââ‚¬” the stone-weight of the sentinel's presence grinds movement to a halt.</p>",
           "chat": ""
         },
         "source": {
@@ -240,7 +240,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003862,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -299,7 +299,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003862,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -336,7 +336,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003862,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -396,7 +396,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779388838723,
+        "createdTime": 1779391003862,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -425,7 +425,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779388838723,
+    "createdTime": 1779391003862,
     "modifiedTime": null,
     "lastModifiedBy": null
   }
