@@ -1,6 +1,6 @@
 {
   "_id": "p3CLCGYu1Oc5l5uh",
-  "name": "ThrÃ¡inn Ashward (Pale Maw Inquisitor)",
+  "name": "Thráinn Ashward (Pale Maw Inquisitor)",
   "type": "npc",
   "img": "modules/sveilheim-5e/assets/icons/npc-images/thrainn.png",
   "system": {
@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>ThrÃ¡inn Ashward is the commanding Inquisitor of the Pale Maw forces at Beinvaka. Tall and gaunt with a scar across one eye, he wears robes of deep purple with silver entropy symbols. His manner is clinical rather than fanatical â€” he has thought this through and is absolutely certain. He is the primary antagonist of Beats 16 and 18, commanding the forces that try to stop Kaelenâ€™s ritual.</p>",
+        "value": "<p>Thráinn Ashward is the commanding Inquisitor of the Pale Maw forces at Beinvaka. Tall and gaunt with a scar across one eye, he wears robes of deep purple with silver entropy symbols. His manner is clinical rather than fanatical â€” he has thought this through and is absolutely certain. He is the primary antagonist of Beats 16 and 18, commanding the forces that try to stop Kaelenâ€™s ritual.</p>",
         "public": ""
       },
       "alignment": "",
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -212,7 +212,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -271,7 +271,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -309,7 +309,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -346,7 +346,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -382,7 +382,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -420,7 +420,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -479,7 +479,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -539,7 +539,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -552,7 +552,7 @@
       "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "system": {
         "description": {
-          "value": "<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has [[potency P average]], they are frightened of you (saveÂ ends). Additionally, whenever a creature judged by you is reduced to 0 Hit Points and you use Judgment as a free triggered action, if the new target has [[potency P strong]], they are frightened of you (save ends). If the target is already frightened of you, they instead take {holy damage} equal to twice your Presence score.</p>",
+          "value": "<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has [[potency P average]], they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Hit Points and you use Judgment as a free triggered action, if the new target has [[potency P strong]], they are frightened of you (save ends). If the target is already frightened of you, they instead take {holy damage} equal to twice your Presence score.</p>",
           "chat": ""
         },
         "source": {
@@ -577,7 +577,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -636,7 +636,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -696,7 +696,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -734,7 +734,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -771,7 +771,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -830,7 +830,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -890,7 +890,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -927,7 +927,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -987,7 +987,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1047,7 +1047,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1084,7 +1084,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1144,7 +1144,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1181,7 +1181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1218,7 +1218,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1278,7 +1278,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738318,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1338,7 +1338,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1398,7 +1398,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1458,7 +1458,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1518,7 +1518,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1555,7 +1555,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1592,7 +1592,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1629,7 +1629,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1666,7 +1666,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858543,
+        "createdTime": 1779388738319,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1681,7 +1681,7 @@
     "default": 0
   },
   "prototypeToken": {
-    "name": "ThrÃ¡inn Ashward (Pale Maw Inquisitor)",
+    "name": "Thráinn Ashward (Pale Maw Inquisitor)",
     "displayName": 20,
     "actorLink": true,
     "disposition": 0,
@@ -1695,7 +1695,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858543,
+    "createdTime": 1779388738319,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

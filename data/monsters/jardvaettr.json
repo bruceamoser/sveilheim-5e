@@ -2,7 +2,7 @@
   "_id": "SLw1m8dQeZVFbqiN",
   "name": "Jarðvættr",
   "type": "npc",
-  "img": "systems/draw-steel/assets/roles/solo.webp",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -163,7 +163,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -201,7 +201,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -238,7 +238,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -275,7 +275,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -334,7 +334,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -371,7 +371,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -408,7 +408,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -445,7 +445,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -482,7 +482,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -519,7 +519,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858491,
+        "createdTime": 1779388738268,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -548,7 +548,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858491,
+    "createdTime": 1779388738268,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

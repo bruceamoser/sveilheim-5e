@@ -2,7 +2,7 @@
   "_id": "BhKntcg5m7z8HiCu",
   "name": "Goblin Monarch",
   "type": "npc",
-  "img": "modules/sveilheim-5e/assets/icons/monster-images/goblin-monarch.png",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -50,7 +50,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>The Goblin Monarch is the absolute ruler of a goblin warband Ã¢â‚¬â€ a calculating, self-serving leader who uses every available tool to preserve their own skin while sending others to die. They carry a handaxe with deceptive effectiveness and can call in reinforcements with a shout of u201cGet in Here!u201d Ã¢â‚¬â€ producing a fresh wave of goblin runners from anywhere at hand. Their Meat Shield ability keeps them alive by throwing followers into the path of incoming attacks. Three villain actions per encounter make them genuinely dangerous.</p>",
+        "value": "<p>The Goblin Monarch is the absolute ruler of a goblin warband ââ‚¬â€ a calculating, self-serving leader who uses every available tool to preserve their own skin while sending others to die. They carry a handaxe with deceptive effectiveness and can call in reinforcements with a shout of u201cGet in Here!u201d ââ‚¬â€ producing a fresh wave of goblin runners from anywhere at hand. Their Meat Shield ability keeps them alive by throwing followers into the path of incoming attacks. Three villain actions per encounter make them genuinely dangerous.</p>",
         "public": ""
       },
       "alignment": "",
@@ -161,7 +161,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858485,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -174,7 +174,7 @@
       "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
       "system": {
         "description": {
-          "value": "<p>The monarch doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t provoke opportunity attacks by moving.</p>",
+          "value": "<p>The monarch doesnÃƒ¢ââ€š¬ââ€ž¢t provoke opportunity attacks by moving.</p>",
           "chat": ""
         },
         "source": {
@@ -199,7 +199,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -211,7 +211,7 @@
       "img": "systems/draw-steel/assets/roles/solo.webp",
       "system": {
         "description": {
-          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be reduced in any way.</p>",
+          "value": "<p>At the end of each of their turns, the monarch can take 5 damage to end one effect on them that can be ended by a saving throw. This damage canÃƒ¢ââ€š¬ââ€ž¢t be reduced in any way.</p>",
           "chat": ""
         },
         "source": {
@@ -236,7 +236,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -355,7 +355,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -415,7 +415,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -452,7 +452,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -512,7 +512,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -549,7 +549,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -586,7 +586,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -623,7 +623,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -635,7 +635,7 @@
       "img": "icons/magic/air/air-pressure-shield-blue.webp",
       "system": {
         "description": {
-          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
+          "value": "<p><p>The encounter map is covered in a green mist that lasts until the end of the round, and which canÃƒ¢ââ€š¬ââ€ž¢t be dispersed by wind. All areas of the map are difficult terrain for non-goblins, and each non-goblin on the map makes a <strong>Might test.</strong></p></p>",
           "chat": ""
         },
         "source": {
@@ -660,7 +660,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858486,
+        "createdTime": 1779388738263,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -689,7 +689,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858486,
+    "createdTime": 1779388738263,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

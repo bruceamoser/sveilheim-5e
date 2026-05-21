@@ -11,7 +11,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const {
   foundryId, slugify,
-  mapDamageType, replaceTerms, mk5eStats,
+  mapDamageType, replaceTerms, fixMojibake, mk5eStats,
 } = require('./shared');
 
 // ── Paths ──────────────────────────────────────────────────────────────
@@ -43,7 +43,7 @@ function mapItemType(dsKind) {
 // ── Convert a single item ──────────────────────────────────────────
 function convertItem(dsItem) {
   const sys = dsItem.system || {};
-  const name = dsItem.name || 'Unknown Item';
+  const name = fixMojibake(dsItem.name || 'Unknown Item');
   const slug = slugify(name);
   const kind = sys.kind || '';
   const category = sys.category || 'leveled';

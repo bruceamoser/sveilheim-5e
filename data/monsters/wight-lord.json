@@ -2,7 +2,7 @@
   "_id": "wRAwoRQCV0HrQOzb",
   "name": "Wight Lord",
   "type": "npc",
-  "img": "modules/sveilheim-5e/assets/icons/monster-images/wight-lord.png",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -144,7 +144,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858504,
+        "createdTime": 1779388738284,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -181,7 +181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858504,
+        "createdTime": 1779388738284,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -240,7 +240,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858504,
+        "createdTime": 1779388738284,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -277,7 +277,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858504,
+        "createdTime": 1779388738284,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -314,7 +314,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858504,
+        "createdTime": 1779388738284,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -343,7 +343,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858504,
+    "createdTime": 1779388738284,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

@@ -245,35 +245,32 @@ const TERM_REPLACEMENTS = [
   [/\bsquares?\b/g, (m) => m === 'square' ? 'feet (5 ft.)' : 'feet'],
 ];
 
-/** Fix common mojibake from UTF-8 mishandling. */
-const MOJIBAKE_FIXES = [
-  [/\u00e2\u0080\u0093/g, '\u2013'],  // en-dash
-  [/\u00e2\u0080\u0094/g, '\u2014'],  // em-dash
-  [/\u00e2\u0080\u0098/g, '\u2018'],  // left single quote
-  [/\u00e2\u0080\u0099/g, '\u2019'],  // right single quote
-  [/\u00e2\u0080\u009c/g, '\u201c'],  // left double quote
-  [/\u00e2\u0080\u009d/g, '\u201d'],  // right double quote
-  [/\u00c3\u00b6/g, '\u00f6'],        // o-umlaut
-  [/\u00c3\u00a9/g, '\u00e9'],        // e-acute
-  [/\u00c3\u00b8/g, '\u00f8'],        // o-slash
-  [/\u00c3\u00a4/g, '\u00e4'],        // a-umlaut
-  [/\u00c3\u00bc/g, '\u00fc'],        // u-umlaut
-  [/\u00c3\u00b0/g, '\u00f0'],        // eth
-  [/\u00c3\u00ad/g, '\u00ed'],        // i-acute
-  [/\u00c3\u00b3/g, '\u00f3'],        // o-acute
-  [/\u00c3\u0096/g, '\u00d6'],        // O-umlaut
-  [/\u00c3\u0085/g, '\u00c5'],        // A-ring
-  [/\u00c3\u00a5/g, '\u00e5'],        // a-ring
-  [/\u00c3\u00a6/g, '\u00e6'],        // ae ligature
-  [/\u00c3\u0086/g, '\u00c6'],        // AE ligature
-  [/\u00c5\u0093/g, '\u0153'],        // oe ligature
-];
-
+/**
+ * Fix UTF-8 double-encoding (mojibake) generically.
+ * When UTF-8 bytes are misread as Latin-1 and re-encoded to UTF-8:
+ *   U+00C0–U+00FF → 0xC3 + second byte → displayed as \u00C3 + \u0080–\u00BF
+ *   U+0080–U+00BF → 0xC2 + byte → displayed as \u00C2 + \u0080–\u00BF
+ *   Multi-byte (dashes, quotes) → \u00E2\u0080\u00XX sequences
+ */
 function fixMojibake(text) {
   if (!text) return text;
-  for (const [pat, rep] of MOJIBAKE_FIXES) {
-    text = text.replace(pat, rep);
-  }
+  // 3-byte sequences first: em-dash, en-dash, smart quotes
+  text = text.replace(/\u00e2\u0080\u0093/g, '\u2013');
+  text = text.replace(/\u00e2\u0080\u0094/g, '\u2014');
+  text = text.replace(/\u00e2\u0080\u0098/g, '\u2018');
+  text = text.replace(/\u00e2\u0080\u0099/g, '\u2019');
+  text = text.replace(/\u00e2\u0080\u009c/g, '\u201c');
+  text = text.replace(/\u00e2\u0080\u009d/g, '\u201d');
+  // \u00C5\u0093 → \u0153 (\u0153)
+  text = text.replace(/\u00c5\u0093/g, '\u0153');
+  // Generic U+00C0–U+00FF range: \u00C3 + [\u0080-\u00BF] → original char
+  text = text.replace(/\u00c3([\u0080-\u00bf])/g, (_, c) =>
+    String.fromCharCode(0xc0 + (c.charCodeAt(0) - 0x80))
+  );
+  // Generic U+0080–U+00BF range: \u00C2 + [\u0080-\u00BF] → original char
+  text = text.replace(/\u00c2([\u0080-\u00bf])/g, (_, c) =>
+    String.fromCharCode(c.charCodeAt(0))
+  );
   return text;
 }
 

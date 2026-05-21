@@ -2,7 +2,7 @@
   "_id": "UClXPZm9Khnd3VEi",
   "name": "Rot Beast",
   "type": "npc",
-  "img": "modules/sveilheim-5e/assets/icons/monster-images/rot-beast.png",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -234,7 +234,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -271,7 +271,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -308,7 +308,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -368,7 +368,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858498,
+        "createdTime": 1779388738275,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -397,7 +397,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858499,
+    "createdTime": 1779388738275,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

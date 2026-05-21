@@ -15,7 +15,7 @@ const {
   mapDamageType, mapCreatureType, mapSize,
   calcCR, profBonusForCR,
   convertMovement, convertHP,
-  replaceTerms, mk5eStats,
+  replaceTerms, fixMojibake, mk5eStats,
 } = require('./shared');
 
 // ── Paths ──────────────────────────────────────────────────────────────
@@ -302,11 +302,26 @@ function convertActor(dsActor, category) {
 
   // Build the 5e actor
   const actorId = foundryId(`5e:${category}:${slugify(dsActor.name)}`);
+
+  // Resolve image: remap module path, fall back to default if file doesn't exist
+  let img5e = 'icons/svg/mystery-man.svg';
+  if (dsActor.img) {
+    const remapped = dsActor.img.replace(/modules\/svellheim-entities/g, `modules/${MODULE_ID}`);
+    if (remapped.startsWith('icons/')) {
+      img5e = remapped; // Core Foundry icon, always available
+    } else if (remapped.startsWith('modules/' + MODULE_ID + '/')) {
+      const rel = remapped.replace('modules/' + MODULE_ID + '/', '');
+      if (fs.existsSync(path.join(REPO_ROOT, 'module', rel))) {
+        img5e = remapped;
+      }
+    }
+  }
+
   const actor5e = {
     _id: actorId,
-    name: dsActor.name.replace(/-/g, ' '),
+    name: fixMojibake(dsActor.name).replace(/-/g, ' '),
     type: 'npc',
-    img: dsActor.img ? dsActor.img.replace(/modules\/svellheim-entities/g, `modules/${MODULE_ID}`) : 'icons/svg/mystery-man.svg',
+    img: img5e,
     system: {
       abilities: {
         str: { value: str },
@@ -353,7 +368,7 @@ function convertActor(dsActor, category) {
     sort: 0,
     ownership: { default: 0 },
     prototypeToken: {
-      name: dsActor.name.replace(/-/g, ' '),
+      name: fixMojibake(dsActor.name).replace(/-/g, ' '),
       displayName: 20,
       actorLink: category === 'npcs',
       disposition: category === 'npcs' ? 0 : -1,

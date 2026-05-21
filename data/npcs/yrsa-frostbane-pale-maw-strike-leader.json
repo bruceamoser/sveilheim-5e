@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Yrsa Frostbane leads the Pale Maw Strike Team that attacks Surtâ€™s Forge in Beat 18, but only if ThrÃ¡inn Ashward was killed in Beat 16. She is battle-worn and grief-hardened, carrying the weight of absolute conviction. She takes command without hesitation and prosecutes the assault with cold efficiency.</p>",
+        "value": "<p>Yrsa Frostbane leads the Pale Maw Strike Team that attacks Surtâ€™s Forge in Beat 18, but only if Thráinn Ashward was killed in Beat 16. She is battle-worn and grief-hardened, carrying the weight of absolute conviction. She takes command without hesitation and prosecutes the assault with cold efficiency.</p>",
         "public": ""
       },
       "alignment": "",
@@ -138,7 +138,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -175,7 +175,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -212,7 +212,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -271,7 +271,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -309,7 +309,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -346,7 +346,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -383,7 +383,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -442,7 +442,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -502,7 +502,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -515,7 +515,7 @@
       "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
       "system": {
         "description": {
-          "value": "<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has [[potency P average]], they are frightened of you (saveÂ ends). Additionally, whenever a creature judged by you is reduced to 0 Hit Points and you use Judgment as a free triggered action, if the new target has [[potency P strong]], they are frightened of you (save ends). If the target is already frightened of you, they instead take {holy damage} equal to twice your Presence score.</p>",
+          "value": "<p>Your judgment has grown in divine power, instilling fear in those you condemn. Whenever you use your Judgment ability, you can spend 1 wrath, and if the target has [[potency P average]], they are frightened of you (save ends). Additionally, whenever a creature judged by you is reduced to 0 Hit Points and you use Judgment as a free triggered action, if the new target has [[potency P strong]], they are frightened of you (save ends). If the target is already frightened of you, they instead take {holy damage} equal to twice your Presence score.</p>",
           "chat": ""
         },
         "source": {
@@ -540,7 +540,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -599,7 +599,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -659,7 +659,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -697,7 +697,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -734,7 +734,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -793,7 +793,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -853,7 +853,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -890,7 +890,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -950,7 +950,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -987,7 +987,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1047,7 +1047,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1084,7 +1084,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1121,7 +1121,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1181,7 +1181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1241,7 +1241,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1301,7 +1301,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1361,7 +1361,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1421,7 +1421,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1458,7 +1458,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1495,7 +1495,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1532,7 +1532,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1569,7 +1569,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858550,
+        "createdTime": 1779388738325,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1598,7 +1598,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858551,
+    "createdTime": 1779388738325,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

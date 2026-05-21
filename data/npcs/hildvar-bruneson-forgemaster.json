@@ -1,6 +1,6 @@
 {
   "_id": "O3U5T4MPLkrohdBO",
-  "name": "HildvarÃ° Bruneson (Forgemaster)",
+  "name": "Hildvarð Bruneson (Forgemaster)",
   "type": "npc",
   "img": "modules/sveilheim-5e/assets/icons/npc-images/hildvard.png",
   "system": {
@@ -49,7 +49,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p>Hildvarð Bruneson is the DjÃºpdvergr Forgemaster of DjÃºphól â€” a 140-year-old craftsman who has maintained his forge and his people through the Fimbulwinter through sheer stubbornness and skill. He is deeply weathered, blunt, and fair. His forge still burns. He will make a deal with anyone who can help him keep it that way.</p>",
+        "value": "<p>Hildvarð Bruneson is the Djúpdvergr Forgemaster of Djúphól â€” a 140-year-old craftsman who has maintained his forge and his people through the Fimbulwinter through sheer stubbornness and skill. He is deeply weathered, blunt, and fair. His forge still burns. He will make a deal with anyone who can help him keep it that way.</p>",
         "public": ""
       },
       "alignment": "",
@@ -160,7 +160,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -197,7 +197,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -235,7 +235,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -272,7 +272,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -331,7 +331,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -391,7 +391,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -451,7 +451,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -489,7 +489,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -526,7 +526,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -563,7 +563,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -600,7 +600,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -637,7 +637,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -674,7 +674,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -711,7 +711,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -748,7 +748,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -785,7 +785,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -844,7 +844,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -904,7 +904,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -964,7 +964,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1001,7 +1001,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1061,7 +1061,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738305,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1073,7 +1073,7 @@
       "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
       "system": {
         "description": {
-          "value": "<p><p><strong>Special:</strong> The number of creatures you target with this ability is determined by your ability check.</p></p><p><em>Ranged Weapon Attack:</em> +3 to hit, range 50/100 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>Each target begins to fade from existence (saveÂ ends). On their first turn while fading from existence, a target takes a disadvantage on power rolls. At the end of their first turn, they have a double disadvantage on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space.</p></p>",
+          "value": "<p><p><strong>Special:</strong> The number of creatures you target with this ability is determined by your ability check.</p></p><p><em>Ranged Weapon Attack:</em> +3 to hit, range 50/100 ft., one target.</p><p><em>Hit:</em> 0 (0) bludgeoning damage.</p><p><p>Each target begins to fade from existence (save ends). On their first turn while fading from existence, a target takes a disadvantage on power rolls. At the end of their first turn, they have a double disadvantage on power rolls. At the end of their second turn, they fade from existence for 1 hour, after which they reappear in their original space or the nearest unoccupied space.</p></p>",
           "chat": ""
         },
         "source": {
@@ -1121,7 +1121,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1181,7 +1181,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1241,7 +1241,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1278,7 +1278,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1338,7 +1338,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1375,7 +1375,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1412,7 +1412,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1472,7 +1472,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1532,7 +1532,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1592,7 +1592,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1652,7 +1652,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1712,7 +1712,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1749,7 +1749,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1786,7 +1786,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1823,7 +1823,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1860,7 +1860,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858527,
+        "createdTime": 1779388738306,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -1875,7 +1875,7 @@
     "default": 0
   },
   "prototypeToken": {
-    "name": "HildvarÃ° Bruneson (Forgemaster)",
+    "name": "Hildvarð Bruneson (Forgemaster)",
     "displayName": 20,
     "actorLink": true,
     "disposition": 0,
@@ -1889,7 +1889,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858528,
+    "createdTime": 1779388738306,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

@@ -2,7 +2,7 @@
   "_id": "3IsuQvOHaGAbgXYM",
   "name": "Fire Beetle",
   "type": "npc",
-  "img": "systems/draw-steel/assets/roles/brute.webp",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -160,7 +160,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -197,7 +197,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -235,7 +235,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -271,7 +271,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -308,7 +308,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -368,7 +368,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858484,
+        "createdTime": 1779388738261,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -397,7 +397,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858484,
+    "createdTime": 1779388738261,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

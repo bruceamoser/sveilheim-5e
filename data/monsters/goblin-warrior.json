@@ -2,7 +2,7 @@
   "_id": "9EeZZMovUdKezFwc",
   "name": "Goblin Warrior",
   "type": "npc",
-  "img": "modules/sveilheim-5e/assets/icons/monster-images/goblin-warrior.png",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -161,7 +161,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -221,7 +221,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -259,7 +259,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -295,7 +295,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -332,7 +332,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -369,7 +369,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858487,
+        "createdTime": 1779388738264,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -398,7 +398,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858487,
+    "createdTime": 1779388738264,
     "modifiedTime": null,
     "lastModifiedBy": null
   }

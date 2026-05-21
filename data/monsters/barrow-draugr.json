@@ -2,7 +2,7 @@
   "_id": "10ngCYxUwDHsD3Ax",
   "name": "Barrow Draugr",
   "type": "npc",
-  "img": "modules/sveilheim-5e/assets/icons/monster-images/barrow-draugr.png",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
@@ -141,7 +141,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858474,
+        "createdTime": 1779388738252,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -178,7 +178,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858475,
+        "createdTime": 1779388738252,
         "modifiedTime": null,
         "lastModifiedBy": null
       }
@@ -237,7 +237,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858475,
+        "createdTime": 1779388738252,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -274,7 +274,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858475,
+        "createdTime": 1779388738253,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -311,7 +311,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858475,
+        "createdTime": 1779388738253,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -371,7 +371,7 @@
         "coreVersion": "13",
         "systemId": "dnd5e",
         "systemVersion": null,
-        "createdTime": 1779385858475,
+        "createdTime": 1779388738253,
         "modifiedTime": null,
         "lastModifiedBy": null
       },
@@ -400,7 +400,7 @@
     "coreVersion": "13",
     "systemId": "dnd5e",
     "systemVersion": null,
-    "createdTime": 1779385858475,
+    "createdTime": 1779388738253,
     "modifiedTime": null,
     "lastModifiedBy": null
   }
